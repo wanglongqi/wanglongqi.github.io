@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="datascientist.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="535.39632"
+     inkscape:cy="-179.21222"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1832"
+     inkscape:window-height="1058"
+     inkscape:window-x="2000"
+     inkscape:window-y="111"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="bg"
+     sodipodi:insensitive="true">
+    <image
+       y="-2397.1377"
+       x="-265"
+       id="image7644"
+       xlink:href="file:///D:/NTU/Gits/GitHub/wanglongqi.github.io/public/images/How-to-become-a-data-scientist.jpg"
+       height="5859"
+       width="1280" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect7974"
+       width="678.58679"
+       height="697.94995"
+       x="-241.20601"
+       y="-1924.434"
+       rx="13.166927"
+       ry="13.166928" />
+    <g
+       id="g9089"
+       transform="translate(952.39126,-1495.0207)">
+      <path
+         id="path9087"
+         d="m -857.46427,-317.16607 c -47.621,36.85977 -78.2812,94.5576 -78.2812,159.43745 0,5.06866 0.1947,10.08778 0.5624,15.0625 23.9209,-10.00965 50.166,-15.5625 77.7188,-15.5625 27.5614,0 53.8232,5.54689 77.75,15.5625 0.3677,-4.97467 0.5312,-9.99389 0.5312,-15.0625 0,-64.87985 -30.6602,-122.57768 -78.2812,-159.43745 z"
+         style="color:#000000;fill:#e5b1a6;fill-opacity:1;fill-rule:nonzero;stroke:#e5b1a6;stroke-width:1;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path9085"
+         d="m -779.71427,-142.66612 c -4.3391,58.70273 -33.8493,110.39468 -77.75,144.37501 34.0714,26.37217 76.8304,42.09375 123.25,42.09375 27.5528,0 53.7979,-5.55285 77.7188,-15.5625 -5.7074,-77.21127 -54.924,-142.31845 -123.2188,-170.90626 z"
+         style="color:#000000;fill:#b8bfaf;fill-opacity:1;fill-rule:nonzero;stroke:#b8bfaf;stroke-width:1;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path9023"
+         d="m -857.46427,1.70889 c -43.9007,-33.98031 -73.3796,-85.67235 -77.7188,-144.37501 -68.30633,28.58294 -117.54193,93.68644 -123.24993,170.90626 23.9209,10.00965 50.1974,15.5625 77.74993,15.5625 46.4197,0 89.1474,-15.72158 123.2188,-42.09375 z"
+         style="color:#000000;fill:#b1d3c5;fill-opacity:1;fill-rule:nonzero;stroke:#b1d3c5;stroke-width:1;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path9081"
+         d="m -980.68307,-359.25987 c -111.29943,0 -201.53123,90.23183 -201.53123,201.53121 0,83.746625 51.0742,155.5444354 123.7812,185.968745 5.7079,-77.21982 54.9435,-142.323305 123.25003,-170.906245 -0.3677,-4.97472 -0.5624,-9.99384 -0.5624,-15.0625 0,-64.87985 30.6602,-122.57758 78.2812,-159.43741 -34.0714,-26.3722 -76.7992,-42.0938 -123.2188,-42.0938 z"
+         style="color:#000000;fill:#dcdbd6;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-opacity:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path9079"
+         d="m -857.46427,-317.16607 c 47.621,36.85983 78.2812,94.55757 78.2812,159.43741 0,5.06862 -0.1635,10.08784 -0.5312,15.0625 68.2948,28.58781 117.5115,93.694975 123.2188,170.906245 72.707,-30.4243096 123.8124,-102.22212 123.8124,-185.968745 0,-111.29938 -90.2318,-201.53121 -201.5312,-201.53121 -46.4196,0 -89.1786,15.7216 -123.25,42.0938 z"
+         style="color:#000000;fill:#eeb4a9;fill-opacity:1;fill-rule:nonzero;stroke:#eeb4a9;stroke-width:1;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path9077"
+         d="m -656.49547,28.240095 c -23.9208,10.00965 -50.166,15.5625 -77.7188,15.5625 -46.4196,0 -89.1786,-15.72158 -123.25,-42.0937496 -34.0714,26.3721696 -76.7992,42.0937496 -123.2188,42.0937496 -27.55273,0 -53.82923,-5.55285 -77.75003,-15.5625 -0.3677,4.97467 -0.5624,9.99389 -0.5624,15.0625 0,111.299425 90.23183,201.531255 201.53123,201.531255 111.2994,0 201.5312,-90.23183 201.5312,-201.531255 0,-5.06866 -0.1947,-10.08778 -0.5624,-15.0625 z"
+         style="color:#000000;fill:#b7d7c8;fill-opacity:1;fill-rule:nonzero;stroke:#b7d7c8;stroke-width:1;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path9071"
+         d="m -857.46427,1.7088354 c 43.9007,-33.9803304 73.4109,-85.6722804 77.75,-144.3749954 -23.9268,-10.01561 -50.1886,-15.5625 -77.75,-15.5625 -27.5528,0 -53.798,5.55285 -77.7188,15.5625 4.3392,58.702645 33.8181,110.394685 77.7188,144.3749954 z"
+         style="color:#000000;fill:#b5bdae;fill-opacity:1;fill-rule:nonzero;stroke:#b5bdae;stroke-width:1;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       ry="13.166928"
+       rx="13.166927"
+       y="444.32608"
+       x="473.83762"
+       height="30.31181"
+       width="157.31319"
+       id="rect8139"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect8141"
+       width="157.31319"
+       height="30.31181"
+       x="732.43665"
+       y="440.28546"
+       rx="13.166927"
+       ry="13.166928" />
+    <path
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       d="m 657.96644,-580.66161 0.0693,9.48809 2.32143,0 3.24678,0.0415 10.26152,-0.0631 5.95598,-2.83547 -1.25,-5.53572 z"
+       id="path8080"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc" />
+    <rect
+       style="fill:#bbb4a4;fill-opacity:1;stroke:none"
+       id="rect8074"
+       width="383.73242"
+       height="71.993126"
+       x="569.5672"
+       y="-807.80939"
+       rx="0"
+       ry="13.166928" />
+    <rect
+       ry="13.166928"
+       rx="0"
+       y="-571.18115"
+       x="393.80063"
+       height="44.466469"
+       width="373.63089"
+       id="rect8068"
+       style="fill:#bbb4a4;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#bbb4a4;fill-opacity:1;stroke:none"
+       id="rect8064"
+       width="340.05945"
+       height="47.071075"
+       x="574.35284"
+       y="-333.94162"
+       rx="0"
+       ry="13.166928" />
+    <rect
+       ry="13.166928"
+       rx="0"
+       y="-88.474541"
+       x="390.5051"
+       height="40.000008"
+       width="305.71426"
+       id="rect8058"
+       style="fill:#bbb4a4;fill-opacity:1;stroke:none" />
+    <rect
+       ry="13.166928"
+       rx="13.166927"
+       y="1709.5052"
+       x="617.14288"
+       height="234.28572"
+       width="340"
+       id="rect8062"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect8060"
+       width="340"
+       height="234.28572"
+       x="-198.5714"
+       y="1703.791"
+       rx="13.166927"
+       ry="13.166928" />
+    <rect
+       ry="13.166929"
+       rx="0"
+       y="1960.9337"
+       x="241.42863"
+       height="137.14287"
+       width="298.57141"
+       id="rect8054"
+       style="fill:#bbb4a4;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#bbb4a4;fill-opacity:1;stroke:none"
+       id="rect8056"
+       width="305.71426"
+       height="151.42857"
+       x="645.71429"
+       y="1749.5051"
+       rx="0"
+       ry="13.166928" />
+    <rect
+       style="fill:#bbb4a4;fill-opacity:1;stroke:none"
+       id="rect8052"
+       width="281.42856"
+       height="147.14285"
+       x="-149.99994"
+       y="1752.3622"
+       rx="0"
+       ry="13.166929" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect8050"
+       width="387.14282"
+       height="75.714279"
+       x="421.42859"
+       y="3328.0764"
+       rx="0"
+       ry="0" />
+    <rect
+       ry="0"
+       rx="0"
+       y="3058.0764"
+       x="371.42859"
+       height="75.714279"
+       width="222.85712"
+       id="rect8048"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect8046"
+       width="222.85712"
+       height="75.714279"
+       x="747.14288"
+       y="2885.2192"
+       rx="0"
+       ry="0" />
+    <rect
+       ry="0"
+       rx="0"
+       y="2816.6479"
+       x="378.57144"
+       height="54.285709"
+       width="219.99997"
+       id="rect8038"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect8036"
+       width="568.57141"
+       height="40"
+       x="-232.85713"
+       y="3048.105"
+       rx="13.166926"
+       ry="13.16693" />
+    <rect
+       ry="13.166929"
+       rx="13.166926"
+       y="2802.3621"
+       x="-234.28568"
+       height="198.57143"
+       width="568.57141"
+       id="rect8024"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect8012"
+       width="247.14285"
+       height="142.85715"
+       x="-187.14281"
+       y="2419.5049"
+       rx="13.166927"
+       ry="13.166929" />
+    <rect
+       ry="13.166929"
+       rx="13.166927"
+       y="2419.5049"
+       x="112.85719"
+       height="142.85715"
+       width="852.85712"
+       id="rect8022"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       ry="13.166928"
+       rx="13.166927"
+       y="2150.9338"
+       x="-155.71425"
+       height="115.71429"
+       width="1015.7143"
+       id="rect8008"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect8002"
+       width="1148.5714"
+       height="158.57144"
+       x="-152.85713"
+       y="1558.0764"
+       rx="13.166927"
+       ry="13.166928" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect8010"
+       width="247.14285"
+       height="211.42857"
+       x="380.00003"
+       y="1279.505"
+       rx="13.166927"
+       ry="13.166928" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect8006"
+       width="247.14285"
+       height="211.42857"
+       x="382.85718"
+       y="878.07648"
+       rx="13.166927"
+       ry="13.166928" />
+    <rect
+       ry="13.166928"
+       rx="13.166927"
+       y="483.79077"
+       x="382.85718"
+       height="211.42857"
+       width="247.14285"
+       id="rect8004"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       ry="13.166928"
+       rx="13.166927"
+       y="325.21936"
+       x="471.42859"
+       height="84.285721"
+       width="457.14285"
+       id="rect7996"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect7998"
+       width="457.14285"
+       height="84.285721"
+       x="472.85715"
+       y="720.93365"
+       rx="13.166927"
+       ry="13.166928" />
+    <rect
+       ry="13.166928"
+       rx="13.166927"
+       y="1133.7908"
+       x="467.14285"
+       height="84.285721"
+       width="457.14285"
+       id="rect8000"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect7994"
+       width="570"
+       height="165.71429"
+       x="-239.99995"
+       y="335.21936"
+       rx="13.166928"
+       ry="13.166928" />
+    <rect
+       ry="13.166928"
+       rx="13.166928"
+       y="-836.20917"
+       x="-221.42848"
+       height="90.000015"
+       width="172.85715"
+       id="rect7988"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect7990"
+       width="172.85715"
+       height="90.000015"
+       x="-217.14276"
+       y="-543.35205"
+       rx="13.166928"
+       ry="13.166928" />
+    <rect
+       ry="13.166928"
+       rx="13.166928"
+       y="-184.78062"
+       x="-188.57133"
+       height="90.000015"
+       width="172.85715"
+       id="rect7992"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect7986"
+       width="495.71429"
+       height="141.42859"
+       x="490.00006"
+       y="135.21941"
+       rx="13.166927"
+       ry="13.166928" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect7982"
+       width="495.71429"
+       height="141.42859"
+       x="480.00003"
+       y="-1031.9235"
+       rx="13.166927"
+       ry="13.166928" />
+    <rect
+       ry="13.166928"
+       rx="13.166927"
+       y="-1023.352"
+       x="-169.99995"
+       height="141.42859"
+       width="495.71429"
+       id="rect7980"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect7978"
+       width="1041.4286"
+       height="127.14287"
+       x="-65.714256"
+       y="-1217.6377"
+       rx="13.166927"
+       ry="13.166928" />
+    <rect
+       ry="13.166928"
+       rx="13.166927"
+       y="-1816.2091"
+       x="517.14288"
+       height="75.714294"
+       width="378.57144"
+       id="rect7976"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       ry="13.166928"
+       rx="13.166928"
+       y="-2010.4949"
+       x="262.85712"
+       height="75.714294"
+       width="231.42857"
+       id="rect7972"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect7647"
+       width="970"
+       height="244.28572"
+       x="-25.714285"
+       y="-2279.0664"
+       rx="13.166928"
+       ry="13.166927" />
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#5e5a51;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="418.57138"
+       y="-2114.781"
+       id="text8417"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8419"
+         x="439.57138"
+         y="-2114.781"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:42px;word-spacing:0px;fill:#5e5a51;fill-opacity:1;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei">数据专家</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="117.14286"
+       y="-1876.2094"
+       id="text8429"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8431"
+         x="117.14286"
+         y="-1876.2094"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:STKaiti;-inkscape-font-specification:STKaiti">什么是数据专家？</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="685.71429"
+       y="-1771.9236"
+       id="text8433"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8435"
+         x="685.71429"
+         y="-1771.9236"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:STKaiti;-inkscape-font-specification:STKaiti">典型的背景</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="415.08371"
+       y="-1151.9235"
+       id="text8437"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8439"
+         x="423.08371"
+         y="-1151.9235"
+         style="font-size:28px;text-align:center;letter-spacing:16px;text-anchor:middle">数据专家是那些在软件工程行业统计懂得最多的，</tspan><tspan
+         sodipodi:role="line"
+         x="423.08371"
+         y="-1116.9235"
+         style="font-size:28px;text-align:center;letter-spacing:16px;text-anchor:middle"
+         id="tspan8627">在统计行业软件编的最棒的人。</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e2897c;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="-154.5593"
+       y="-972.14398"
+       id="text8441"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8443"
+         x="-154.5593"
+         y="-972.14398"
+         style="font-size:40px;font-weight:bold;text-align:start;text-anchor:start;-inkscape-font-specification:Microsoft YaHei Bold">首先学好统计，数学</tspan><tspan
+         sodipodi:role="line"
+         x="-154.5593"
+         y="-922.14398"
+         style="font-size:40px;font-weight:bold;text-align:start;text-anchor:start;-inkscape-font-specification:Microsoft YaHei Bold"
+         id="tspan8629">和机器学习</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#f18780;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="575.51849"
+       y="-975.02582"
+       id="text8445"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8447"
+         x="575.51849"
+         y="-975.02582"
+         style="font-size:40px;font-weight:bold;-inkscape-font-specification:Microsoft YaHei Bold">学习编码</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="716.50903"
+       y="-766.78357"
+       id="text8449"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8451"
+         x="716.50903"
+         y="-766.78357">计算机科学基础</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="537.14288"
+       y="-539.06641"
+       id="text8453"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8455"
+         x="537.14288"
+         y="-539.06641">学习端对端开发</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="741.42859"
+       y="-297.63782"
+       id="text8457"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8459"
+         x="741.42859"
+         y="-297.63782">选择一个程序语言</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="500"
+       y="-55.372406"
+       id="text8461"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8463"
+         x="500"
+         y="-55.372406">交互式学习</tspan></text>
+    <rect
+       ry="13.166928"
+       rx="13.166927"
+       y="132.36226"
+       x="-162.85709"
+       height="141.42859"
+       width="495.71429"
+       id="rect7984"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#f18780;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei Bold"
+       x="-48.571438"
+       y="180.93361"
+       id="text8465"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8467"
+         x="-48.571438"
+         y="180.93361">理解数据集</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="-12.857143"
+       y="518.07648"
+       id="text8469"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8471"
+         x="-12.857143"
+         y="518.07648" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#f18780;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei Bold"
+       x="512.13171"
+       y="192.36218"
+       id="text8473"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8475"
+         x="512.13171"
+         y="192.36218">精通数据重组，</tspan><tspan
+         sodipodi:role="line"
+         x="512.13171"
+         y="242.36218"
+         id="tspan7577">可视化和报告生成</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="622.85712"
+       y="382.36218"
+       id="text8477"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8479"
+         x="622.85712"
+         y="382.36218">数据清理和重组</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8481"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       transform="translate(249.50768,-1.0101525)"><flowRegion
+         id="flowRegion8483"><rect
+           id="rect8485"
+           width="530.38361"
+           height="164.88977"
+           x="-471.42856"
+           y="353.79074"
+           style="text-align:start;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara8487">作为一个数据处理的学生，你经常会遇到文本文件。但是一旦你进入工业领域，数据几乎总是存储在数据库里的。可能是MySQL，Postgres，MongoDB，Cassandra等。</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="338.57144"
+       y="530.93359"
+       id="text8489"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8491"
+         x="338.57144"
+         y="530.93359" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8493"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       transform="translate(14.285714,-30.000001)"><flowRegion
+         id="flowRegion8495"><rect
+           id="rect8497"
+           width="202.85715"
+           height="150"
+           x="407.14285"
+           y="525.2193"
+           style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" /></flowRegion><flowPara
+         id="flowPara8499"
+         style="text-align:start;text-anchor:start">数据重组是把数据从”原始“格式转变为方便处理的格式的过程</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="591.42853"
+       y="782.36218"
+       id="text8501"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8503"
+         x="591.42853"
+         y="782.36218">数据可视化</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8505"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       transform="translate(0,4.2857143)"><flowRegion
+         id="flowRegion8507"><rect
+           id="rect8509"
+           width="200"
+           height="175.71428"
+           x="421.42856"
+           y="880.93359" /></flowRegion><flowPara
+         id="flowPara8511"
+         style="text-align:start;text-anchor:start">数据可视化包括绘制和研究数据的可视化表达</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="564.28571"
+       y="1182.3622"
+       id="text8513"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8515"
+         x="564.28571"
+         y="1182.3622">报告生成</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8517"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       transform="translate(-4.2857141,-7.1428583)"><flowRegion
+         id="flowRegion8519"><rect
+           id="rect8521"
+           width="195.71429"
+           height="207.14287"
+           x="430"
+           y="1295.2194" /></flowRegion><flowPara
+         id="flowPara8523"
+         style="text-align:start;text-anchor:start">在所有的数据分析工作者，将分析和结果写成容易理解的报告都是最后一个关键步骤</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="394.28571"
+       y="1439.505"
+       id="text8525"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8527"
+         x="397.84821"
+         y="1439.505"> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#f18780;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei Bold"
+       x="-134.28572"
+       y="1603.7908"
+       id="text8529"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8531"
+         x="-134.28572"
+         y="1603.7908">晋级到大数据</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8533"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       transform="translate(492.85714,-107.14286)"><flowRegion
+         id="flowRegion8535"><rect
+           id="rect8537"
+           width="1105.7142"
+           height="90.000008"
+           x="-630"
+           y="1730.9336"
+           style="text-align:start;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara8539"
+         style="letter-spacing:5px">当你开始处理与网络相关的数据的时候，基本的方法和流程必须改变。大部分数据专家都在处理在单机上无法解决的问题。他们处理的数据量需要分布式处理。</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8541"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       transform="translate(229.99999,-171.42857)"><flowRegion
+         id="flowRegion8543"><rect
+           id="rect8545"
+           width="234.28572"
+           height="138.57143"
+           x="-352.85715"
+           y="1935.2194"
+           style="text-align:start;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara8547"
+         style="letter-spacing:0px">Hadoop是一个用来在集群上存储和大尺度分析数据的开源软件架构。</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8549"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       transform="translate(-184.28572,32.857142)"><flowRegion
+         id="flowRegion8551"><rect
+           id="rect8553"
+           width="250"
+           height="164.28572"
+           x="455.71429"
+           y="1935.2194"
+           style="text-align:start;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara8555"
+         style="letter-spacing:0px">MapReduce 是一个允许大规模可扩展的处理Hadoop集群上数据的程序模板。</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#f18780;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei Bold"
+       x="-138.57143"
+       y="2200.9333"
+       id="text8557"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8559"
+         x="-138.57143"
+         y="2200.9333">积累经验，练习并和年轻数据专家沟通</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="-74.285706"
+       y="2523.3904"
+       id="text8561"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8563"
+         x="-74.285706"
+         y="2523.3904">参加比赛</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="258.57141"
+       y="2498.2104"
+       id="text8565"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8567"
+         x="258.57141"
+         y="2498.2104">和年轻数据</tspan><tspan
+         sodipodi:role="line"
+         x="258.57141"
+         y="2548.2104"
+         id="tspan7773">专家见面</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="554.28577"
+       y="2498.2109"
+       id="text8569"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8571"
+         x="554.28577"
+         y="2498.2109">做一个</tspan><tspan
+         sodipodi:role="line"
+         x="554.28577"
+         y="2548.2109"
+         id="tspan8030">小项目</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="834.28571"
+       y="2523.7908"
+       id="text8573"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8575"
+         x="834.28571"
+         y="2523.7908">发展你的直觉</tspan></text>
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect8032"
+       width="424.28571"
+       height="142.85715"
+       x="-165.71425"
+       y="2615.2192"
+       rx="13.166927"
+       ry="13.166929" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#f18780;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei Bold"
+       x="-157.14287"
+       y="2672.3621"
+       id="text8577"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8579"
+         x="-157.14287"
+         y="2672.3621">实习，集训或</tspan><tspan
+         sodipodi:role="line"
+         x="-157.14287"
+         y="2722.3621"
+         id="tspan7616">者找个工作</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8581"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       transform="translate(441.42857,14.285714)"><flowRegion
+         id="flowRegion8583"><rect
+           id="rect8585"
+           width="488.57144"
+           height="108.57143"
+           x="-642.85712"
+           y="2805.2192" /></flowRegion><flowPara
+         id="flowPara8587"
+         style="text-align:start;letter-spacing:5px;text-anchor:start">用你新学到的技术来与现实世界的混杂的数据打交道来确认你是不是成为了一个真正的数据专家。</flowPara></flowRoot>    <rect
+       ry="13.166929"
+       rx="13.166927"
+       y="2613.7908"
+       x="484.28577"
+       height="142.85715"
+       width="424.28571"
+       id="rect8034"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#f18780;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei Bold"
+       x="500.00003"
+       y="2673.7908"
+       id="text8589"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8591"
+         x="500.00003"
+         y="2673.7908">跟进并与社区交流</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="498.57141"
+       y="2855.2192"
+       id="text8593"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8595"
+         x="498.57141"
+         y="2855.2192">关注的网站</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="847.14282"
+       y="2940.9336"
+       id="text8597"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8599"
+         x="847.14282"
+         y="2940.9336">关注的人</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="492.85715"
+       y="3110.9336"
+       id="text8601"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8603"
+         x="492.85715"
+         y="3110.9336">需要数据？</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="518.74689"
+       y="3357.7175"
+       id="text8605"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8607"
+         x="518.74689"
+         y="3357.7175">免费学习数据分析</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#f46931;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="483.58737"
+       y="3391.9182"
+       id="text8609"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8611"
+         x="483.58737"
+         y="3391.9182">交互式学习</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8613"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       transform="translate(-360,-8.5714288)"><flowRegion
+         id="flowRegion8615"><rect
+           id="rect8617"
+           width="272.85715"
+           height="151.42859"
+           x="1030"
+           y="1773.7908"
+           style="text-align:start;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara8619"
+         style="text-align:start;letter-spacing:0px;text-anchor:start">Apache Spark是Hadoop的瑞士军刀。它为Hadpoop提供了高效的实时处理数据的能力。</flowPara></flowRoot>    <rect
+       ry="13.166927"
+       rx="13.166928"
+       y="-2351.9236"
+       x="292.85715"
+       height="67.14286"
+       width="172.85713"
+       id="rect8621"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="377.14285"
+       y="-2300.4949"
+       id="text8421"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8423"
+         x="379.64285"
+         y="-2300.4949"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:5px;font-family:STKaiti;-inkscape-font-specification:STKaiti">如何成为</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#f77e78;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei Bold"
+       x="378.57144"
+       y="-1956.2092"
+       id="text8623"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8625"
+         x="378.57144"
+         y="-1956.2092">的八个简单步骤</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7712"
+       y="-130.49496"
+       x="-98.571426"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       xml:space="preserve"><tspan
+         y="-130.49496"
+         x="-98.571426"
+         id="tspan7714"
+         sodipodi:role="line">机器学习</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="-135.71428"
+       y="-464.78067"
+       id="text7716"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7718"
+         x="-135.71428"
+         y="-464.78067">统计</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="-150"
+       y="-760.49493"
+       id="text7720"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7722"
+         x="-150"
+         y="-760.49493">数学</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="-144.28572"
+       y="2968.1848"
+       id="text7810"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7812"
+         x="-144.28572"
+         y="2968.1848">实习</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="55.714287"
+       y="2968.1445"
+       id="text7814"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7816"
+         x="55.714287"
+         y="2968.1445">集训</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:STKaiti;-inkscape-font-specification:STKaiti"
+       x="260"
+       y="2967.5049"
+       id="text7818"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7820"
+         x="260"
+         y="2967.5049">工作</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="-145.71428"
+       y="3076.5542"
+       id="text7822"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7824"
+         x="-145.71428"
+         y="3076.5542">初级</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="61.42857"
+       y="3076.4839"
+       id="text7826"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7828"
+         x="61.42857"
+         y="3076.4839">中级</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="260"
+       y="3076.6479"
+       id="text7830"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7832"
+         x="260"
+         y="3076.6479">高级</tspan></text>
+    <flowRoot
+       transform="translate(495.71429,482.85714)"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       id="flowRoot8014"
+       xml:space="preserve"><flowRegion
+         id="flowRegion8016"><rect
+           style="text-align:start;text-anchor:start"
+           y="1730.9336"
+           x="-630"
+           height="90.000008"
+           width="1105.7142"
+           id="rect8018" /></flowRegion><flowPara
+         style="letter-spacing:5px"
+         id="flowPara8020">熟能生巧</flowPara></flowRoot>    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect8040"
+       width="22.857128"
+       height="21.428572"
+       x="-98.571426"
+       y="2990.9333"
+       rx="13.166926"
+       ry="13.16693" />
+    <rect
+       ry="13.16693"
+       rx="13.166926"
+       y="2990.9333"
+       x="110"
+       height="21.428572"
+       width="22.857128"
+       id="rect8042"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect8044"
+       width="22.857128"
+       height="21.428572"
+       x="218.28572"
+       y="2982.9333"
+       rx="13.166926"
+       ry="13.16693" />
+    <rect
+       ry="13.166928"
+       rx="0"
+       y="-73.322258"
+       x="594.05084"
+       height="40.000008"
+       width="17.820791"
+       id="rect8066"
+       style="fill:#bbb4a4;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:#bbb4a4;fill-opacity:1;stroke:none"
+       d="m 776.07143,-288.3521 -1.25,5.17857 c 3.98945,1.84541 5.96218,3.43873 13.39285,5.71429 l 6.07143,-8.39286 23.21429,-0.71428 0.53571,9.28571 3.75,2.32143 11.25,-1.60714 9.10714,-11.60715 z"
+       id="path8072"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc" />
+    <path
+       style="color:#000000;fill:#bbb4a4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 455.98214,-528.53067 0,10.71429 7.50729,0 1.68914,-10.89286 z"
+       id="path8076"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#bbb4a4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;color:#000000;fill-opacity:1;fill-rule:nonzero;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 677.30728,-529.53669 -1.51523,12.12183 14.64721,-0.50508 -0.50508,-13.13198 z"
+       id="path8078"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="524.73389"
+       y="465.35059"
+       id="text8105"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8107"
+         x="524.73389"
+         y="465.35059">定  义</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="779.04932"
+       y="463.67691"
+       id="text8109"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8111"
+         x="779.04932"
+         y="463.67691">工  具</tspan></text>
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect8143"
+       width="157.31319"
+       height="30.31181"
+       x="473.83762"
+       y="832.22467"
+       rx="13.166927"
+       ry="13.166928" />
+    <rect
+       ry="13.166928"
+       rx="13.166927"
+       y="828.18402"
+       x="732.43665"
+       height="30.31181"
+       width="157.31319"
+       id="rect8145"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text8147"
+       y="853.24915"
+       x="524.73389"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"><tspan
+         y="853.24915"
+         x="524.73389"
+         id="tspan8149"
+         sodipodi:role="line">定  义</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text8151"
+       y="851.5755"
+       x="779.04932"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       xml:space="preserve"><tspan
+         y="851.5755"
+         x="779.04932"
+         id="tspan8153"
+         sodipodi:role="line">工  具</tspan></text>
+    <rect
+       ry="13.166928"
+       rx="13.166927"
+       y="1233.2552"
+       x="473.83762"
+       height="30.31181"
+       width="157.31319"
+       id="rect8155"
+       style="fill:#eae7d8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#eae7d8;fill-opacity:1;stroke:none"
+       id="rect8157"
+       width="157.31319"
+       height="30.31181"
+       x="732.43665"
+       y="1229.2146"
+       rx="13.166927"
+       ry="13.166928" />
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="524.73389"
+       y="1254.2797"
+       id="text8159"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8161"
+         x="524.73389"
+         y="1254.2797">定  义</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="779.04932"
+       y="1252.6061"
+       id="text8163"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8165"
+         x="779.04932"
+         y="1252.6061">工  具</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="1256.7092"
+       y="-1135.114"
+       id="text8167"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.63676861,-0.77105495,0.77105495,0.63676861,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8169"
+         x="1256.7092"
+         y="-1135.114"
+         style="font-size:32px">码农技能</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="968.32373"
+       y="-1155.5077"
+       id="text8171"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.75680362,-0.65364232,0.65364232,0.75680362,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8173"
+         x="968.32373"
+         y="-1155.5077">危险区域</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="94.826683"
+       y="-1676.5348"
+       id="text8175"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8177"
+         x="94.826683"
+         y="-1676.5348">机器学习</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="-1095.4253"
+       y="-1316.828"
+       id="text8179"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.65186232,0.75833734,-0.75833734,0.65186232,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8181"
+         x="-1095.4253"
+         y="-1316.828">数学和统计学</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="-763.09613"
+       y="-1308.6307"
+       id="text8183"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.78469827,0.61987792,-0.61987792,0.78469827,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan8185"
+         x="-763.09613"
+         y="-1308.6307">传统研究</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="96.132706"
+       y="-1580.8503"
+       id="text8187"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8189"
+         x="96.132706"
+         y="-1580.8503">数据科学</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+       x="96.724442"
+       y="-1327.0758"
+       id="text8191"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8193"
+         x="96.724442"
+         y="-1327.0758">专业知识</tspan></text>
+  </g>
+</svg>

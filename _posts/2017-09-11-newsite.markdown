@@ -1,0 +1,16 @@
+---
+author: Longqi
+comments: true
+date: 2017-09-11 16:31:58 +0800
+layout: post
+slug: newsite
+title: New Site 新的网站
+categories: [Site]
+tags:
+-  Update
+---
+
+Hi everyone! I am happy to announce I have a [new version of this website](//whyhow.github.io). It is a new iteration of the website. Most of the old articles will still be here, and the new articles will be published in the [new website here](//whyhow.github.io). You can find several new articles there now, and some of them are actually published months ago. [One of the article](//whyhow.github.io/writetex/writetex-1.6.1/) is related to a major update of [WriteTeX](//writetex.tk). For further update of [WriteTeX](//writetex.tk), please also refer to [new website](//whyhow.github.io). Clearly, the new website is not full functional, and more updates are on the way. Welcome to visit the new website @ [whyhow.github.io](//whyhow.github.io).
+
+
+各位好，非常高兴的宣布[新版的本网站](//whyhow.github.io)。这是本网站的一次改版。本网的大部分文章将不会移动，新的文章将在[新网站](//whyhow.github.io)发布。现在[新网站](//whyhow.github.io)已有数篇文章，他们有些是前几个月发布的。其中包括一篇[WriteTeX](//writetex.tk)的重大改版[文章](//whyhow.github.io/writetex/writetex-1.6.1/)。对于[WriteTeX](//writetex.tk)，未来的更新也将在新网站发布。显然，新网站至今仍有很多功能需要完善，更多的更新正在逐步开发中。欢迎大家造访新网站 @ [whyhow.github.io](//whyhow.github.io)！

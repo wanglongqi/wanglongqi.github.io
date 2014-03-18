@@ -1,0 +1,72 @@
+---
+author: YiZi
+comments: true
+date: 2016-04-05 20:21:45 +0800
+layout: post
+slug: ltaapi
+title: 新加坡LTA的JSON API
+categories: [Javascript]
+tags:
+-  新加坡
+-  数据
+-  社会
+-  公共交通
+-  API
+---
+<div class="forward">本文转载自新网站同名文章：<a href="https://whyhow.github.io/2016/04/05/ltaapi.html">https://whyhow.github.io/2016/04/05/ltaapi.html</a></div>
+新加坡的公交数据当然由LTA公布，官方有接口，对于网站来说很方便。如果直接做网页的话，有些时候还是json的api比较好用，所以我就山寨了一个，把LTA的公交到站数据直接转换成了JSON格式（感觉其他一些数据咱穷人也不关心）。项目托管在GAE上，有兴趣使用的读者可以测试一下，不过可能受到GAE每天的额度的限制不一定好使哦。
+
+接口解释如下：
+
+`https://bt201501.appspot.com/?stop=[站号]&bus=[公交车号]&pretty=[pretty?]`
+
+例如，
+查看李伟楠图书馆的状态可以用：
+
+`https://bt201501.appspot.com/?stop=27211&pretty=1`
+
+返回的信息是这样的：
+
+{% highlight javascript %}
+{
+    "BusStopID": "27211", 
+    "Services": [
+        {
+            "NextBus": {
+                "EstimatedArrival": "2016-04-05T20:13:20+08:00", 
+                "Feature": "", 
+                "Latitude": "1.3481421666666666", 
+                "Load": "Seats Available", 
+                "Longitude": "103.68081166666667", 
+                "VisitNumber": "1"
+            }, 
+            "Operator": "SBST", 
+            "OriginatingID": "22009", 
+            "ServiceNo": "179", 
+            "Status": "In Operation", 
+            "SubsequentBus": {
+                "EstimatedArrival": "2016-04-05T20:19:23+08:00", 
+                "Feature": "WAB", 
+                "Latitude": "1.3443085", 
+                "Load": "Seats Available", 
+                "Longitude": "103.69138533333333", 
+                "VisitNumber": "1"
+            }, 
+            "SubsequentBus3": {
+                "EstimatedArrival": "2016-04-05T20:19:30+08:00", 
+                "Feature": "WAB", 
+                "Latitude": "1.3440743333333334", 
+                "Load": "Seats Available", 
+                "Longitude": "103.69155466666666", 
+                "VisitNumber": "1"
+            }, 
+            "TerminatingID": "22009"
+        }
+    ], 
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrival/@Element"
+}
+{% endhighlight %}
+
+注意到API的站号是必须输入的，车号是可以不输入了，不输入就会把这个站所有的车辆打出来（其实是前50个）。
+
+祝大家玩得开心咯，如果`bt201501`不好用了，大家可以试试`bt201502`和`bt201503`。

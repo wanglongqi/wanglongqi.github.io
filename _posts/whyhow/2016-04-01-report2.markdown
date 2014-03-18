@@ -1,0 +1,97 @@
+---
+author: YiZi
+comments: true
+date: 2016-04-01 14:09:15 +0800
+layout: post
+slug: report0401
+title: 新加坡死亡数据分析（二）
+categories: [Opinion]
+tags:
+-  新加坡
+-  统计
+-  社会
+-  可视化
+---
+<div class="forward">本文转载自新网站同名文章：<a href="https://whyhow.github.io/2016/04/01/report2.html">https://whyhow.github.io/2016/04/01/report2.html</a></div>
+<p>昨天我们分析了<a href="{% post_url whyhow/2016-03-31-Report %}">一组新加坡的死亡人口统计数据</a>，今天我们分析下另外一组新加坡的<a href="https://data.gov.sg/dataset/deaths-by-age-group-occupation-and-sex">死亡人口数据</a>：死亡人数与职业的数据。下面是数据表中对于职业的分类：</p>
+<div id="occupation" class="section level2">
+<h2>Occupation</h2>
+<p>Agricultural &amp; Fishery Workers<br />
+Clerical Workers<br />
+Legislators, Senior Officials &amp; Managers<br />
+Not Working<br />
+Production Craftsmen &amp; Other Related Workers Professionals<br />
+Service Workers, Shop &amp; Market Sales Workers Technicians &amp; Associate Professionals<br />
+Workers Not Classifiable By Occupation</p>
+</div>
+<div class="section level2">
+<h2>每年死亡人数按性别分类</h2>
+<p>可以看到除了2009年，其他年份的死亡人数都有少量提高（2009年是个什么Magic年份呢？）。</p>
+<p><img src="/public/images/death/occu/unnamed-chunk-3-1.png" alt="" /><!-- --></p>
+<p><img src="/public/images/death/occu/unnamed-chunk-4-1.png" alt="" /><!-- --></p>
+</div>
+
+
+<div class="section level2">
+<h2>死亡的年龄段分布</h2>
+<p>十年的统计数据和三年的统计数据是吻合的，虽然男性死亡数量每年都大于女性，但是死亡人数按照年龄分类死亡最多的却是老年女性。男性的死亡人数都是通过从20岁（或者更早）开始不断累积的差值超过女性的总死亡人数的。</p>
+<p><img src="/public/images/death/occu/unnamed-chunk-5-1.png" alt="" /><!-- --></p>
+</div>
+<div class="section level2">
+<h2>死亡职业</h2>
+<p>大部分死亡人口应该都是无业人员吧，毕竟80岁以上的人大部分应该还是处于休养状态吧。出此之外，制造业光荣地作为死亡人数最多的行业。</p>
+<p><img src="/public/images/death/occu/unnamed-chunk-6-1.png" alt="" /><!-- --></p>
+<p>去掉不工作人员之后，下面就是有工作人员的死亡统计，可以看到<strong>在有工作的阵亡人数中</strong>绝大多数是男性。</p>
+<p><img src="/public/images/death/occu/unnamed-chunk-7-1.png" alt="" /><!-- --></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Occupation</th>
+<th align="right">Deaths</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Not Working</td>
+<td align="right">157600</td>
+</tr>
+<tr class="even">
+<td align="left">Production Craftsmen &amp; Other Related Workers</td>
+<td align="right">9015</td>
+</tr>
+<tr class="odd">
+<td align="left">Service Workers, Shop &amp; Market Sales Workers</td>
+<td align="right">4287</td>
+</tr>
+<tr class="even">
+<td align="left">Technicians &amp; Associate Professionals</td>
+<td align="right">1425</td>
+</tr>
+<tr class="odd">
+<td align="left">Professionals</td>
+<td align="right">1315</td>
+</tr>
+<tr class="even">
+<td align="left">Legislators, Senior Officials &amp; Managers</td>
+<td align="right">1067</td>
+</tr>
+<tr class="odd">
+<td align="left">Clerical Workers</td>
+<td align="right">911</td>
+</tr>
+<tr class="even">
+<td align="left">Workers Not Classifiable By Occupation</td>
+<td align="right">879</td>
+</tr>
+<tr class="odd">
+<td align="left">Agricultural &amp; Fishery Workers</td>
+<td align="right">21</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section level2">
+<h2>逐年龄段的死亡人员的职业</h2>
+<p>下面各个年龄段的死亡人员的职业统计。可以看到无业才是大部分年龄段人员的主要杀手，所以要长寿先工作？但是年轻人需要注意，20~39岁的群体里，制造业的死亡人数并不比无业人员少多少。</p>
+<p><img src="/public/images/death/occu/unnamed-chunk-8-1.png" alt="" /><!-- --></p>
+</div>

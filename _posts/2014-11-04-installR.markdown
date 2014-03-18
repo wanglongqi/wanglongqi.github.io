@@ -1,0 +1,50 @@
+---
+author: Longqi
+comments: true
+date: 2014-11-04 13:05:02
+layout: post
+slug: UpgradeR
+title: 使用installr升级R至最新版本
+categories: [R]
+tags:
+- R
+- Tutorial
+---
+![rpkg](https://wanglongqi.github.io/public/images/rpkg.svg)
+升级R一直是一件比较痛苦的事情，你需要先安装新的R，然后在逐一安装以前装过的包。最快的办法也是把以前的包文件夹拷到新的R中，然后在新的版本中运行包更新。由于官方的源一般都提供最新R版本的二进制文件，所以为了更好的稳定性一般也要跟着升级。所以这是一件相对痛苦又不得不做的事情。
+
+现在installr程序包提供了自动化升级的途径，你只需要回答几个问题就可以将R升级至最新版本，同时相应的程序包也会及时的得到更新。你需要做的只是：
+
+{% highlight r %}
+install.packages("installr")
+library(installr)
+updateR()
+{% endhighlight %}
+
+然后就会提示最新的R版本，和是否需要拷贝老版本的R程序包目录，是否需要移除老的程序包目录以及是否更新新的版本中的程序包。一切搞定之后会提醒你是否需要打开新的RGui，程序会默认将系统的默认R设置为最新版，因此RStudio也会自动切换到最新的R版本。下面是升级之后RStudio的启动提示
+
+
+	R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"
+	Copyright (C) 2014 The R Foundation for Statistical Computing
+	Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+	R is free software and comes with ABSOLUTELY NO WARRANTY.
+	You are welcome to redistribute it under certain conditions.
+	Type 'license()' or 'licence()' for distribution details.
+
+	R is a collaborative project with many contributors.
+	Type 'contributors()' for more information and
+	'citation()' on how to cite R or R packages in publications.
+
+	Type 'demo()' for some demos, 'help()' for on-line help, or
+	'help.start()' for an HTML browser interface to help.
+	Type 'q()' to quit R.
+
+可以查看一下现在程序包里的库都是对应哪个版本的R编译的(图片见文章开头)：
+
+{% highlight r %}
+pkgs<-installed.packages()
+plot(as.factor(pkgs[,'Built']),col=2:4,main='Packages built version',ylab='Count of packages')
+{% endhighlight %}
+
+可以看到大部分程序包都更新到了最新的R，但是还有不少还停留在大版本号3.1.0上，也有小部分还是3.1.11。总的来看，R的升级还是很成功的，使用起来也很方面。

@@ -1,0 +1,266 @@
+---
+author: YiZi
+comments: true
+date: 2016-04-05 20:06:38 +0800
+layout: post
+slug: neaapi
+title: 新加坡NEA的JSON API
+categories: [Javascript]
+tags:
+-  新加坡
+-  数据
+-  社会
+-  天气
+-  API
+---
+<div class="forward">本文转载自新网站同名文章：<a href="https://whyhow.github.io/2016/04/05/neaapi.html">https://whyhow.github.io/2016/04/05/neaapi.html</a></div>
+新加坡的天气数据由气象局公布，官方有XML的接口，做得其实很好了。如果直接做网页的话，有些时候希望是json的api，所以我就山寨了一个，把NEA的XML数据直接转换成了JSON格式。项目托管在GAE上，有兴趣使用的读者可以测试一下，不过可能受到GAE每天的额度的限制不一定好使哦。
+
+接口解释如下：
+
+`https://bt201504.appspot.com/nea?dataset=[dataset]&pretty=[pretty?]`
+
+可用的`dataset`如下：（和NEA的名字一样也可以使用，不然会使用下列映射表映射到NEA的官方名称）
+
+{% highlight python %}
+{'2hr': '2hr_nowcast',
+	'2hr': '2hr_nowcast',
+	'24hr': '24hrs_forecast',
+	'24h': '24hrs_forecast',
+	'4d': '4days_outlook',
+	'hvr': 'heavy_rain_warning',
+	'uv': 'uvi',
+	'dz': 'earthquake',
+	'psi': 'psi_update',
+	'pm25': 'pm2.5_update'}
+{% endhighlight %}
+
+例如：
+
+查询PM2.5的值可以用如下网址（pretty可以去掉，只是为了打印得好看些）
+`https://bt201504.appspot.com/nea?dataset=pm25&pretty=1`
+{% highlight javascript %}
+{
+    "channel": {
+        "source": "Airviro", 
+        "item": {
+            "region": [
+                {
+                    "latitude": "1.41803", 
+                    "record": {
+                        "reading": {
+                            "type": "PM25_RGN_1HR", 
+                            "value": "8"
+                        }
+                    }, 
+                    "id": "rNO", 
+                    "longitude": "103.82000"
+                }, 
+                {
+                    "latitude": "1.35735", 
+                    "record": {
+                        "reading": {
+                            "type": "PM25_RGN_1HR", 
+                            "value": "13"
+                        }
+                    }, 
+                    "id": "rCE", 
+                    "longitude": "103.82000"
+                }, 
+                {
+                    "latitude": "1.35735", 
+                    "record": {
+                        "reading": {
+                            "type": "PM25_RGN_1HR", 
+                            "value": "22"
+                        }
+                    }, 
+                    "id": "rEA", 
+                    "longitude": "103.94000"
+                }, 
+                {
+                    "latitude": "1.35735", 
+                    "record": {
+                        "reading": {
+                            "type": "PM25_RGN_1HR", 
+                            "value": "6"
+                        }
+                    }, 
+                    "id": "rWE", 
+                    "longitude": "103.70000"
+                }, 
+                {
+                    "latitude": "1.29587", 
+                    "record": {
+                        "reading": {
+                            "type": "PM25_RGN_1HR", 
+                            "value": "19"
+                        }
+                    }, 
+                    "id": "rSO", 
+                    "longitude": "103.82000"
+                }
+            ]
+        }, 
+        "title": "PM2.5 Update"
+    }
+}
+{% endhighlight %}
+
+大雨预警还有一个直接的接口 `https://bt201504.appspot.com/hvr.json`，这个返回的结果中不包含base64之后的卫星图像和降雨分布，需要的话用上面的接口查询。
+
+另外，PM2.5和PSI还有历史数据可供程序，接口如下：
+
+`https://bt201504.appspot.com/air?dataset=[pm25 or psi]&start=[%Y-%m-%d]&pretty=1`
+
+例如：今天的PM2.5记录可以用如下参数查询：
+
+`https://bt201504.appspot.com/air?dataset=pm25&pretty=1&start=2016-04-05`
+
+结果是这样的：
+
+{% highlight javascript %}
+{
+    "count": 12, 
+    "data": [
+        {
+            "event_time": "2016-04-05T11:00:00.000Z", 
+            "regions": {
+                "central": 13, 
+                "east": 22, 
+                "north": 8, 
+                "south": 19, 
+                "west": 6
+            }, 
+            "timestamp": "2016-04-05T11:00:00.000Z"
+        }, 
+        {
+            "event_time": "2016-04-05T10:00:00.000Z", 
+            "regions": {
+                "central": 22, 
+                "east": 14, 
+                "north": 20, 
+                "south": 18, 
+                "west": 18
+            }, 
+            "timestamp": "2016-04-05T10:00:00.000Z"
+        }, 
+        {
+            "event_time": "2016-04-05T09:00:00.000Z", 
+            "regions": {
+                "central": 15, 
+                "east": 17, 
+                "north": 10, 
+                "south": 19, 
+                "west": 28
+            }, 
+            "timestamp": "2016-04-05T09:00:00.000Z"
+        }, 
+        {
+            "event_time": "2016-04-05T08:00:00.000Z", 
+            "regions": {
+                "central": 10, 
+                "east": 20, 
+                "north": 9, 
+                "south": 25, 
+                "west": 28
+            }, 
+            "timestamp": "2016-04-05T08:00:00.000Z"
+        }, 
+        {
+            "event_time": "2016-04-05T07:00:00.000Z", 
+            "regions": {
+                "central": 14, 
+                "east": 11, 
+                "north": 7, 
+                "south": 15, 
+                "west": 19
+            }, 
+            "timestamp": "2016-04-05T07:00:00.000Z"
+        }, 
+        {
+            "event_time": "2016-04-05T06:00:00.000Z", 
+            "regions": {
+                "central": 13, 
+                "east": 14, 
+                "north": 13, 
+                "south": 16, 
+                "west": 16
+            }, 
+            "timestamp": "2016-04-05T06:00:00.000Z"
+        }, 
+        {
+            "event_time": "2016-04-05T05:00:00.000Z", 
+            "regions": {
+                "central": 16, 
+                "east": 19, 
+                "north": 9, 
+                "south": 16, 
+                "west": 15
+            }, 
+            "timestamp": "2016-04-05T05:00:00.000Z"
+        }, 
+        {
+            "event_time": "2016-04-05T04:00:00.000Z", 
+            "regions": {
+                "central": 14, 
+                "east": 15, 
+                "north": 10, 
+                "south": 11, 
+                "west": 17
+            }, 
+            "timestamp": "2016-04-05T04:00:00.000Z"
+        }, 
+        {
+            "event_time": "2016-04-05T03:00:00.000Z", 
+            "regions": {
+                "central": 14, 
+                "east": 16, 
+                "north": 21, 
+                "south": 10, 
+                "west": 31
+            }, 
+            "timestamp": "2016-04-05T03:00:00.000Z"
+        }, 
+        {
+            "event_time": "2016-04-05T02:00:00.000Z", 
+            "regions": {
+                "central": 26, 
+                "east": 17, 
+                "north": 18, 
+                "south": 25, 
+                "west": 22
+            }, 
+            "timestamp": "2016-04-05T02:00:00.000Z"
+        }, 
+        {
+            "event_time": "2016-04-05T01:00:00.000Z", 
+            "regions": {
+                "central": 21, 
+                "east": 12, 
+                "north": 19, 
+                "south": 16, 
+                "west": 24
+            }, 
+            "timestamp": "2016-04-05T01:00:00.000Z"
+        }, 
+        {
+            "event_time": "2016-04-05T00:00:00.000Z", 
+            "regions": {
+                "central": 15, 
+                "east": 9, 
+                "north": 10, 
+                "south": 10, 
+                "west": 9
+            }, 
+            "timestamp": "2016-04-05T00:00:00.000Z"
+        }
+    ], 
+    "end": "2016-04-05T15:59:59.999Z", 
+    "start": "2016-04-05T00:00:00.000Z", 
+    "status": true
+}
+{% endhighlight %}
+
+有兴趣玩玩新加坡天气数据的小伙伴们可以起来嗨喽！
+

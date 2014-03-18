@@ -1,0 +1,243 @@
+---
+author: Longqi
+comments: true
+date: 2017-02-25 23:20:29 +0800
+layout: post
+slug: dplyrpar
+title: How to parallelize 'do' computation in dplyr 
+categories: [R]
+tags:
+-  R
+-  dplyr
+-  Tutorial
+---
+
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>Recently, I took apart in the <a href="https://tianchi.shuju.aliyun.com/competition/introduction.htm?raceId=231591">IJCAI-17 Customer Flow Forecasts</a>. It is an interesting competition in some extent. The <a href="https://tianchi.shuju.aliyun.com/competition/information.htm?raceId=231591">datasets</a> provided include:</p>
+<ol style="list-style-type: decimal">
+<li>shop_info: shop information data</li>
+<li>user_pay: users pay behavior</li>
+<li>user_view: users view behavior</li>
+<li>prediction：test set and submission format</li>
+</ol>
+<p>Because the nature of this problem is to predict time series, methods specifically designed for this task should be tested. The well-known ones include:</p>
+<ol style="list-style-type: decimal">
+<li>ARIMA series models</li>
+<li>ETS series models</li>
+<li>Regression models</li>
+</ol>
+<p>And it is not hard to find out that customer flow is a seasonal time series. Therefore, time series decomposition such as X12 and STL may be useful tools in analysis.</p>
+<div id="preprocessing" class="section level3">
+<h3>Preprocessing</h3>
+<p>The datasets include plenty of information such as the <code>user_id</code> make a payment to <code>shop_id</code> at <code>time</code>. Because the goal is to predict the flow of each shop and it is hard to build a <code>user_id</code> profile based model with only this amount of data provided, a <code>shop_id</code> profile based solution appears to be a better choice, i.e., we will build a model for each shop, and do the prediction. Therefore, for the preprocessing, the <code>user_id</code> should be aggregated. This is a pretty entry level task for <code>dpylr</code>(R) or <code>pandas</code>(Python) user. Therefore, I do not share code for this part, the results are organized as following dataset:</p>
+<pre class="r"><code>library(psych)
+summary(tc2017)</code></pre>
+<pre><code>##     shop_id       time_stamp             date_week         nb_pay      
+##  Min.   :   1   Min.   :2015-06-26   Monday   :86544   Min.   :   1.0  
+##  1st Qu.: 504   1st Qu.:2016-02-03   Tuesday  :84851   1st Qu.:  51.0  
+##  Median :1019   Median :2016-05-22   Wednesday:85283   Median :  82.0  
+##  Mean   :1008   Mean   :2016-05-04   Thursday :85643   Mean   : 116.3  
+##  3rd Qu.:1512   3rd Qu.:2016-08-15   Friday   :86041   3rd Qu.: 135.0  
+##  Max.   :2000   Max.   :2016-10-31   Saturday :84902   Max.   :4704.0  
+##                                      Sunday   :86011</code></pre>
+<pre class="r"><code>describe(tc2017)</code></pre>
+<pre><code>##             vars      n    mean     sd median trimmed    mad min  max
+## shop_id        1 599275 1007.58 577.88   1019 1008.69 747.23   1 2000
+## time_stamp*    2 599275     NaN     NA     NA     NaN     NA Inf -Inf
+## date_week*     3 599275    4.00   2.00      4    4.00   2.97   1    7
+## nb_pay         4 599275  116.26 132.04     82   93.64  54.86   1 4704
+##             range  skew kurtosis   se
+## shop_id      1999 -0.02    -1.22 0.75
+## time_stamp*  -Inf    NA       NA   NA
+## date_week*      6  0.00    -1.25 0.00
+## nb_pay       4703  7.06   105.67 0.17</code></pre>
+</div>
+<div id="exploratory" class="section level3">
+<h3>Exploratory</h3>
+<p>First, let us make some figures using off course <code>ggplot2</code>. Plots for first five shops:</p>
+<p><img src="/public/images/dplyrpar/unnamed-chunk-1-1.png" width="672" /><img src="/public/images/dplyrpar/unnamed-chunk-1-2.png" width="672" /></p>
+<p>Above two figures are quite messy. We can notice that the data have different range, which means that we may have to worry about NAs. Moreover, most of the series do not steady in the given range. For these five curves, the curves are more steady after April 2016. Then, above series are plotted into separated panels as follows:</p>
+<pre class="r"><code>p &lt;- ggplot(tc2017 %&gt;% filter(shop_id&lt;6),aes(time_stamp,nb_pay)) +
+  geom_line() +
+  facet_wrap(~shop_id, ncol = 1, scales = &quot;free&quot;)
+print(p)</code></pre>
+<p><img src="/public/images/dplyrpar/unnamed-chunk-2-1.png" width="1152" /></p>
+<p>Some series have strong seasonal feature, such as curve for <code>shop_id==4</code>. We may need to consider the seasonal effect. A quick <code>acf</code> drawing is shown as below:</p>
+<pre class="r"><code>acf((tc2017 %&gt;% filter(shop_id==4))$nb_pay)</code></pre>
+<p><img src="/public/images/dplyrpar/unnamed-chunk-3-1.png" width="672" /></p>
+<p>It can be observed that the periodic pattern is quite clear, the period is 7 and it is the length of one week. Therefore, we plot the data against the weekday:</p>
+<pre class="r"><code>p &lt;- ggplot(tc2017 %&gt;% filter(shop_id==4),
+            aes(time_stamp,nb_pay)) +
+  geom_line(size=1) + 
+  facet_grid(date_week~.,scales = &quot;fixed&quot;)+
+  theme_bw()
+print(p)</code></pre>
+<p><img src="/public/images/dplyrpar/unnamed-chunk-4-1.png" width="768" /></p>
+<p>It is shown in above figure, the number of customs is much steady when we investigate the flow on the same weekday. This pattern also appears in the data of other shops.</p>
+<pre class="r"><code>p &lt;- ggplot(tc2017 %&gt;% filter(shop_id&lt;6),
+            aes(time_stamp,nb_pay,color = date_week)) +
+  geom_line(size=1) + 
+  facet_grid(date_week~shop_id,scales = &quot;free&quot;)+
+  scale_color_brewer(palette = &quot;Set1&quot;)+
+  theme_bw()+ theme(legend.position = &quot;none&quot;)
+print(p)</code></pre>
+<p><img src="/public/images/dplyrpar/unnamed-chunk-5-1.png" width="768" /></p>
+<p>Generally, the flows have quite different patterns between weekdays and weekends. However, the longtime trend also plays important role in the flow.</p>
+<p>Let's make some predictions here:</p>
+<pre class="r"><code>library(forecast)
+library(xts)
+to.ts &lt;- function (x) {
+  ts(x$nb_pay,frequency = 7)
+}
+
+tmp &lt;- to.ts(tc2017%&gt;%filter(shop_id==1))
+
+autoplot(forecast(stlm(tmp))) + theme_bw()</code></pre>
+<p><img src="/public/images/dplyrpar/unnamed-chunk-6-1.png" width="672" /></p>
+<pre class="r"><code>autoplot(forecast(ets(tmp))) + theme_bw()</code></pre>
+<p><img src="/public/images/dplyrpar/unnamed-chunk-6-2.png" width="672" /></p>
+<pre class="r"><code>autoplot(forecast(tbats(tmp))) + theme_bw()</code></pre>
+<p><img src="/public/images/dplyrpar/unnamed-chunk-6-3.png" width="672" /></p>
+<pre class="r"><code>autoplot(forecast(auto.arima(tmp,NA,1))) + theme_bw()</code></pre>
+<p><img src="/public/images/dplyrpar/unnamed-chunk-6-4.png" width="672" /> How about <code>shope_id==4</code>:</p>
+<pre class="r"><code>tmp &lt;- to.ts(tc2017%&gt;%filter(shop_id==4))
+
+autoplot(forecast(stlm(tmp))) + theme_bw()</code></pre>
+<p><img src="/public/images/dplyrpar/unnamed-chunk-7-1.png" width="672" /></p>
+<pre class="r"><code>autoplot(forecast(ets(tmp))) + theme_bw()</code></pre>
+<p><img src="/public/images/dplyrpar/unnamed-chunk-7-2.png" width="672" /></p>
+<pre class="r"><code>autoplot(forecast(tbats(tmp))) + theme_bw()</code></pre>
+<p><img src="/public/images/dplyrpar/unnamed-chunk-7-3.png" width="672" /></p>
+<pre class="r"><code>autoplot(forecast(auto.arima(tmp,NA,1))) + theme_bw()</code></pre>
+<p><img src="/public/images/dplyrpar/unnamed-chunk-7-4.png" width="672" /></p>
+<p>OK, this is the end of the analysis, otherwise the article becomes a tutorial on analyzing the competition data. Based on the results above, the performances of the well-known methods are pretty decent in my opinion. Next is how to calculate them in 2000 shops.</p>
+</div>
+</div>
+<div id="a-workable-solution" class="section level2">
+<h2>A workable solution</h2>
+<p><code>ets</code> is a fast algorithm, and its performance is quite good. Therefore, let's assume we want to apply <code>ets</code> to the whole dataset. The easiest way is to use some functions from <code>dplyr</code>. <code>summarise</code> is a good candidate, but it only able to capture functions with only one return value, such as <code>mean</code> and <code>median</code>:</p>
+<pre class="r"><code>tc2017 %&gt;% group_by(shop_id) %&gt;%
+  summarise(mean(nb_pay),median(nb_pay)) </code></pre>
+<pre><code>## # A tibble: 2,000 × 3
+##    shop_id `mean(nb_pay)` `median(nb_pay)`
+##      &lt;int&gt;          &lt;dbl&gt;            &lt;dbl&gt;
+## 1        1      239.50646              228
+## 2        2      118.87538               92
+## 3        3       76.97794               74
+## 4        4      129.58095              116
+## 5        5      155.71782              158
+## 6        6       62.11765               60
+## 7        7      144.79917              139
+## 8        8       81.63043               76
+## 9        9      182.61035              171
+## 10      10       45.39024               43
+## # ... with 1,990 more rows</code></pre>
+<p>So, we need a general version of <code>summarise</code>, and what we get is <code>do</code>:</p>
+<blockquote>
+<p>This is a general purpose complement to the specialised manipulation functions filter, select, mutate, summarise and arrange. You can use do to perform arbitrary computation, returning either a data frame or arbitrary objects which will be stored in a list. This is particularly useful when working with models: you can fit models per group with do and then flexibly extract components with either another do or summarise.</p>
+</blockquote>
+<p>Here is where most people get stuck, because the first example of this function is something like:</p>
+<pre class="r"><code>head3</code></pre>
+<pre><code>## Source: local data frame [6,000 x 4]
+## Groups: shop_id [2,000]
+## 
+##    shop_id time_stamp date_week nb_pay
+##      &lt;int&gt;     &lt;date&gt;    &lt;fctr&gt;  &lt;int&gt;
+## 1        1 2015-10-10  Saturday    188
+## 2        1 2015-10-11    Sunday    272
+## 3        1 2015-10-12    Monday    257
+## 4        2 2015-11-25 Wednesday     55
+## 5        2 2015-11-26  Thursday    175
+## 6        2 2015-11-27    Friday    186
+## 7        3 2016-06-18  Saturday     71
+## 8        3 2016-06-19    Sunday     45
+## 9        3 2016-06-20    Monday     62
+## 10       4 2016-07-19   Tuesday     74
+## # ... with 5,990 more rows</code></pre>
+<p>Above function extracted the first three values appearing for each shop. The data structure what we get is the same as the original one. Pretty good? No, what we need is <code>You can use do to perform arbitrary computation, returning either a data frame or arbitrary objects which will be stored in a list.</code> And the first example absolutely sent us to a wrong direction. Actually, the later examples did the right thing. The trick is to assign the return value to a variable:</p>
+<pre class="r"><code>head3</code></pre>
+<pre><code>## Source: local data frame [2,000 x 2]
+## Groups: &lt;by row&gt;
+## 
+## # A tibble: 2,000 × 2
+##    shop_id     head3
+## *    &lt;int&gt;    &lt;list&gt;
+## 1        1 &lt;int [3]&gt;
+## 2        2 &lt;int [3]&gt;
+## 3        3 &lt;int [3]&gt;
+## 4        4 &lt;int [3]&gt;
+## 5        5 &lt;int [3]&gt;
+## 6        6 &lt;int [3]&gt;
+## 7        7 &lt;int [3]&gt;
+## 8        8 &lt;int [3]&gt;
+## 9        9 &lt;int [3]&gt;
+## 10      10 &lt;int [3]&gt;
+## # ... with 1,990 more rows</code></pre>
+<p>And the <code>head3</code> column is what we want:</p>
+<pre class="r"><code>head3$head3[1]</code></pre>
+<pre><code>## [[1]]
+## [1] 188 272 257</code></pre>
+<p>OK, good. The next thing is to write a forecast function and apply it the dataset. <code>forecast</code> library is what we are looking for.</p>
+<pre class="r"><code>library(forecast)
+forecast.by.ets &lt;- function(df){
+  forecast(ets(to.ts(df)),14)$mean
+}</code></pre>
+<p>Let's test this function:</p>
+<pre class="r"><code>forecast.by.ets(tc2017%&gt;%filter(shop_id==1))</code></pre>
+<pre><code>## Time Series:
+## Start = c(56, 3) 
+## End = c(58, 2) 
+## Frequency = 7 
+##  [1] 220.4800 229.6598 223.8705 250.1321 243.6516 221.6542 219.3051
+##  [8] 220.4803 229.6601 223.8707 250.1323 243.6519 221.6545 219.3053</code></pre>
+<p>OK, it seems working. Then applying it to the whole dataset:</p>
+<pre class="r"><code>out &lt;- tc2017 %&gt;% group_by(shop_id) %&gt;%
+  do(predict = forecast.by.ets(.))</code></pre>
+<p>Above function is correct. Why I leave it there is that it is so slow for our goal and here comes what this article about: how to parallelized this computation? But first let me show you above function do works:</p>
+<pre class="r"><code>out &lt;- tc2017 %&gt;% filter(shop_id&lt;3) %&gt;%
+  group_by(shop_id) %&gt;%
+  do(predict = forecast.by.ets(.))
+out</code></pre>
+<pre><code>## Source: local data frame [2 x 2]
+## Groups: &lt;by row&gt;
+## 
+## # A tibble: 2 × 2
+##   shop_id  predict
+## *   &lt;int&gt;   &lt;list&gt;
+## 1       1 &lt;S3: ts&gt;
+## 2       2 &lt;S3: ts&gt;</code></pre>
+<pre class="r"><code>out$predict[1]</code></pre>
+<pre><code>## [[1]]
+## Time Series:
+## Start = c(56, 3) 
+## End = c(58, 2) 
+## Frequency = 7 
+##  [1] 220.4800 229.6598 223.8705 250.1321 243.6516 221.6542 219.3051
+##  [8] 220.4803 229.6601 223.8707 250.1323 243.6519 221.6545 219.3053</code></pre>
+</div>
+<div id="parallelize-it" class="section level2">
+<h2>Parallelize it</h2>
+<p>Finally, all the stuffs that we need are prepared. Now the problem is following code only run in one core, which is a total waste. Come on, these jobs are perfectly separated from each other.</p>
+<pre class="r"><code>out &lt;- tc2017 %&gt;% group_by(shop_id) %&gt;%
+  do(predict = forecast.by.ets(.))</code></pre>
+<p>Yes, you can just ignore <code>dplyr</code> function and write your own parallel version using something like <code>foreach</code> or <code>parallel</code>. However, luckily there is a simple solution for this problem by the author of <code>ggplot2</code>. He provided a very elegant way to solve this problem. The library is named <code>multidplyr</code>. (NOT multiplyr)</p>
+<pre class="r"><code>library(multidplyr)</code></pre>
+<p><code>multidplyr</code> is a fantastic library. The best thing about <code>multidplyr</code> is that you need <strong>very little</strong> modification of your original <code>dplyr</code> version codes, and <code>multidplyr</code> will take care of almost all the other things. For our case, the codes become:</p>
+<pre class="r"><code>out &lt;- tc2017 %&gt;% partition(shop_id) %&gt;%
+  do(predict = forecast.by.ets(.)) %&gt;%
+  collect() </code></pre>
+<p>What is the difference? The <code>group_by</code> function is changed to <code>partition</code>, and we need to collect the data to its original format using <code>collect</code>. So basically, you need nothing to do, right? Clearly above code can not run correctly. At least, we need some kind of broadcast even we do not need sync in this case. In order solve this you will need some codes like:</p>
+<pre class="r"><code>cluster &lt;- get_default_cluster()
+cluster_library(cluster, &quot;forecast&quot;)
+cluster_library(cluster, &quot;dplyr&quot;)
+
+cluster_assign_value(cluster,&quot;forecast.by.ets&quot;,forecast.by.ets)
+cluster_assign_value(cluster,&quot;to.ts&quot;,to.ts)</code></pre>
+<p>You may need to change some codes above for your own prediction function. Basically, you will need all the libraries and functions are correctly loaded in all the cluster nodes. Because our jobs are perfectly separated from each other, there is no need for sync data between nodes which is much easier for us and also faster.</p>
+<p>To conclude, parallelize <code>dplyr</code> <code>do</code> function is easy by using <code>multidplyr</code>. Normally you need a <code>dplyr</code> version working code first. Because we are more familiar with it, and it is much easier to debug the <code>dplyr</code> version code than the parallelized version. After you have working <code>dplyr</code> version solution, you can use <code>multidplyr</code> to partition the problem and distribute them to a cluster. This is a well-designed framework, although it cannot dealing with more serious parallelize problem requiring communication between nodes.</p>
+<p>BTW, <code>multidplyr</code> is not available in CRAN, the <code>multiplyr</code> in CRAN is not what we are looking for. You need <code>devtools</code> to install <code>multidplyr</code> (if you do not have <code>devtools</code>, install it with the commented line below.):</p>
+<pre class="r"><code># install.packages(&quot;devtools&quot;)
+devtools::install_github(&quot;hadley/multidplyr&quot;)</code></pre>
+</div>
+

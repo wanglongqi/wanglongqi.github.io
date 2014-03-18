@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="200"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="D:\SVNs\wanglongqi.github.io\trunk\public\logo.png"
+   inkscape:export-xdpi="64.800003"
+   inkscape:export-ydpi="64.800003">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="-19.58113"
+     inkscape:cy="99.392176"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1138"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-225.16292,-321.94031)">
+    <rect
+       style="fill:#11253c;fill-opacity:1;stroke:none"
+       id="rect7335"
+       width="200"
+       height="200"
+       x="225.16292"
+       y="321.94031" />
+    <text
+       xml:space="preserve"
+       style="font-size:19.56776619px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.6;fill:#3b8686;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="251.11705"
+       y="482.57556"
+       id="text7355"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7357"
+         x="251.11705"
+         y="482.57556"
+         style="font-size:201.26844788px;fill:#3b8686">&amp;</tspan></text>
+    <g
+       style="font-size:19.47877121px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#cc333f;fill-opacity:1;stroke:none;font-family:Vivaldi;-inkscape-font-specification:Vivaldi Oblique"
+       id="text7323" />
+    <text
+       xml:space="preserve"
+       style="font-size:42.52396774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#c2d154;fill-opacity:1;stroke:#c2d154;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="257.26627"
+       y="419.2341"
+       id="text7345"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7347"
+         x="257.26627"
+         y="419.2341"
+         style="font-size:194.39527893px;fill:#c2d154;stroke:#c2d154">w</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48.4417305px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#db6842;fill-opacity:1;stroke:#db6842;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="277.43524"
+       y="512.43561"
+       id="text7349"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7351"
+         x="277.43524"
+         y="512.43561"
+         style="font-size:138.404953px;fill:#db6842;stroke:#db6842">H</tspan></text>
+  </g>
+</svg>

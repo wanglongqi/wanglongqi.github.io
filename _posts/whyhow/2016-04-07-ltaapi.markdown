@@ -1,0 +1,109 @@
+---
+author: YiZi
+comments: true
+date: 2016-04-07 23:26:43 +0800
+layout: post
+slug: ltaapiv2
+title: 新加坡LTA的增强JSON API
+categories: [Javascript]
+tags:
+-  新加坡
+-  数据
+-  社会
+-  公共交通
+-  API
+---
+<div class="forward">本文转载自新网站同名文章：<a href="https://whyhow.github.io/2016/04/07/ltaapi.html">https://whyhow.github.io/2016/04/07/ltaapi.html</a></div>
+昨天的文章提到了[LTA官方的API的JSON接口]({% post_url whyhow/2016-04-05-ltaapi %})，今天增强了一下API的功能，定义了JSON版本API的增强版。接口如下：
+
+`https://bt201501.appspot.com/bus?stop=[站号]&bus=[公交车号]&pretty=[pretty?]`
+
+例如，
+查看李伟楠图书馆的状态可以用：
+
+`https://bt201501.appspot.com/bus?stop=27211&pretty=1`
+
+返回的信息是这样的：
+
+{% highlight javascript %}
+{
+    "BusStopID": "27211", 
+    "BusStopLocation": {
+        "Latitude": "103.68050066497821", 
+        "Longitude": "103.68050066497821"
+    }, 
+    "BusStopName": "Lee Wee Nam Lib", 
+    "ServerTime": "23:16:46", 
+    "Services": [
+        {
+            "NextBus": {
+                "EstimateDistance": "1285.7 m", 
+                "EstimatedArrival": "23:20:55", 
+                "Feature": "WAB", 
+                "Latitude": "1.3441753333333333", 
+                "Load": "Seats Available", 
+                "Longitude": "103.69143883333334", 
+                "VisitNumber": "1"
+            }, 
+            "ServiceNo": "179", 
+            "Status": "In Operation", 
+            "SubsequentBus": {
+                "EstimateDistance": "", 
+                "EstimatedArrival": "23:29:46", 
+                "Feature": "WAB", 
+                "Latitude": "0", 
+                "Load": "Seats Available", 
+                "Longitude": "0", 
+                "VisitNumber": "1"
+            }, 
+            "SubsequentBus3": {
+                "EstimateDistance": "", 
+                "EstimatedArrival": "23:32:06", 
+                "Feature": "WAB", 
+                "Latitude": "0", 
+                "Load": "Seats Available", 
+                "Longitude": "0", 
+                "VisitNumber": "1"
+            }
+        }
+    ]
+}
+{% endhighlight %}
+
+主要增加的信息包括站点的GPS位置，服务器的时间和预计的到达距离。接口的注意事项和原API是一样的。同时还有一个缩减版的API，去掉了很多个人不太需要的信息。接口如下：
+
+`https://bt201501.appspot.com/v3?stop=[站号]&bus=[公交车号]&pretty=[pretty?]`
+
+同样Lee Wee Nam Lib的查询结果如下：
+
+`https://bt201501.appspot.com/v3?stop=27211&pretty=1`
+
+{% highlight javascript %}
+{
+    "BusStopName": "Lee Wee Nam Lib", 
+    "ServerTime": "23:23:38", 
+    "Services": [
+        {
+            "NextBus": {
+                "EstimateDistance": "2370.4 m", 
+                "EstimatedArrival": "23:31:48", 
+                "Load": "Seats Available"
+            }, 
+            "ServiceNo": "179", 
+            "Status": "In Operation", 
+            "SubsequentBus": {
+                "EstimateDistance": "", 
+                "EstimatedArrival": "23:39:06", 
+                "Load": "Seats Available"
+            }, 
+            "SubsequentBus3": {
+                "EstimateDistance": "", 
+                "EstimatedArrival": "23:45:06", 
+                "Load": "Seats Available"
+            }
+        }
+    ]
+}
+{% endhighlight %}
+
+接口同样部署到了`bt201502`和`bt201503`，如果`bt201501`可以切换至其他服务器。
