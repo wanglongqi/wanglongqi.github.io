@@ -4,8 +4,6 @@ title: "Hello World!"
 date: 2014-03-19T18:10:55+08:00
 ---
 
-# Hello World
-
 Since GitHub SVN interface does not allow empty directory, This is a test post!
 
 ## [MathJax](http://www.mathjax.org/) Test
