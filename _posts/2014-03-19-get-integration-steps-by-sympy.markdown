@@ -51,8 +51,8 @@ This post trys to convert a IPython notebook to markdown document by nbconvert.
 </li>
 </ol>
 <hr/>
-    <p>The answer is:</p>
-    <p><script type="math/tex; mode=display">x \sin{\left (x \right )} + \cos{\left (x \right )}+ \mathrm{constant}</script></p>
+<p>The answer is:</p>
+<p><script type="math/tex; mode=display">x \sin{\left (x \right )} + \cos{\left (x \right )}+ \mathrm{constant}</script></p>
 
 
 
@@ -118,8 +118,8 @@ This post trys to convert a IPython notebook to markdown document by nbconvert.
 </li>
 </ol>
 <hr/>
-    <p>The answer is:</p>
-    <p><script type="math/tex; mode=display">\left(x^{2} - 2 x + 2\right) e^{x}+ \mathrm{constant}</script></p>
+<p>The answer is:</p>
+<p><script type="math/tex; mode=display">\left(x^{2} - 2 x + 2\right) e^{x}+ \mathrm{constant}</script></p>
 
 
 
@@ -336,7 +336,7 @@ This post trys to convert a IPython notebook to markdown document by nbconvert.
 </li>
 </ol>
 <hr/>
-    <p>The answer is:</p>
-    <p><script type="math/tex; mode=display">- \frac{1}{8} \cos{\left (4 x \right )} + \frac{1}{8}+ \mathrm{constant}</script></p>
+<p>The answer is:</p>
+<p><script type="math/tex; mode=display">- \frac{1}{8} \cos{\left (4 x \right )} + \frac{1}{8}+ \mathrm{constant}</script></p>
 
 
