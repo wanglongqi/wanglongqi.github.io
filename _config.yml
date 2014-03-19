@@ -1,0 +1,23 @@
+# Dependencies
+markdown:         kramdown
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Why & How
+tagline:          '为什么？怎么做？'
+description:      'Personal page on my research. You may get answers on <b> How </b> to do something. Hopefully, you may find some answers on <i> Why</i>  something happens.'
+url:              https://wanglongqi.github.io
+
+author:
+  name:           'WANG Longqi'
+  url:            https://wanglongqi.github.io
+
+paginate:         5
+
+# Custom vars
+
+github:
+  repo:           https://github.com/wanglongqi
