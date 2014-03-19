@@ -6,8 +6,6 @@ date: 2014-03-19T22:44:57+08:00
 
 This post trys to convert a IPython notebook to markdown document by nbconvert.
 
-?
-
     from intsteps import *
     from sympy import *
     from IPython.display import HTML
@@ -194,8 +192,8 @@ This post trys to convert a IPython notebook to markdown document by nbconvert.
 </li>
 </ol>
 <hr/>
-    <p>The answer is:</p>
-    <p><script type="math/tex; mode=display">\frac{e^{x}}{10} \left(\sin{\left (3 x \right )} - 3 \cos{\left (3 x \right )}\right)+ \mathrm{constant}</script></p>
+<p>The answer is:</p>
+<p><script type="math/tex; mode=display">\frac{e^{x}}{10} \left(\sin{\left (3 x \right )} - 3 \cos{\left (3 x \right )}\right)+ \mathrm{constant}</script></p>
 
 
 
