@@ -8,7 +8,7 @@ date: 2014-03-19T18:10:55+08:00
 
 Since GitHub SVN interface does not allow empty directory, This is a test post!
 
-## [MathJax](www.mathjax.org/) Test
+## [MathJax](http://www.mathjax.org/) Test
 
 Pass with kramdown, fail in redcarpet.
 
