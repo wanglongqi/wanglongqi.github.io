@@ -7,7 +7,7 @@ title: About
   以子之矛，陷子之盾，何如？	——《韩非子·难一》
 </p>
 
--> ![Logo](/public/logo.svg) <-
+<center> ![Logo](/public/logo.svg) </center>
 
 ## 正名
 
