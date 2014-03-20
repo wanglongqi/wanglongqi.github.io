@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: 'Buenard',serif;
+  font-family: "Buenard", "PT Sans", 华文楷体, "Bookman Old Style", 楷体, Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48rem) {
   html {
