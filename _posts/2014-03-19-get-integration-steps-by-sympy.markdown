@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Get Integration Steps by Sympy"
-tags: "Test", "Sympy"
 date: 2014-03-19T22:44:57+08:00
 ---
 

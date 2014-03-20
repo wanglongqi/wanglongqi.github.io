@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Hello World!"
-tags: "Test","Tag Test"
 date: 2014-03-19T18:10:55+08:00
 ---
 
@@ -36,5 +35,8 @@ def effect(self):
         for i in self.options.ids:
             node=self.selected[i]
 {% endhighlight %}
+
+## Tags Test
+Fails, No tag is presented on the generated webpage.
 
 End of test file.
