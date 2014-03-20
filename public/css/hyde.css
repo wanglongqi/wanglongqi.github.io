@@ -1,4 +1,4 @@
-/*
+﻿/*
  *  __                  __
  * /\ \                /\ \
  * \ \ \___   __  __   \_\ \     __
@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family:Buenard,楷体, 华文楷体, "Bookman Old Style", Helvetica, Arial, sans-serif;
+  font-family: "Buenard", 华文楷体, "Bookman Old Style", 楷体, Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48rem) {
   html {
