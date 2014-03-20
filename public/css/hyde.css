@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Bookman Old Style", "PT Sans",楷体, 华文楷体, Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48rem) {
   html {
