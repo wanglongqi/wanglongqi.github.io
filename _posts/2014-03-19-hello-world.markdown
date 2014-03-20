@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Hello World!"
+tags: "Test","Tag Test"
 date: 2014-03-19T18:10:55+08:00
 ---
 
-Since GitHub SVN interface does not allow empty directory, This is a test post!
+Since GitHub SVN interface does not allow empty directory, This is a test post! Latex Equation and Code Highlight are tested in this post. Meanwhile tags function is also tested in this post.
 
 ## [MathJax](http://www.mathjax.org/) Test
 

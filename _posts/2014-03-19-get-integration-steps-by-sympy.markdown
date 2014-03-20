@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Get Integration Steps by Sympy"
+tags: "Test", "Sympy"
 date: 2014-03-19T22:44:57+08:00
 ---
 
-This post trys to convert a IPython notebook to markdown document by nbconvert.
+This post trys to convert a IPython notebook to markdown document by nbconvert.The result shows that minor changes need to be made in order to render the markdown correctly. Jeykll has many render errors in compiling markdown document. Anyway, Jeykll is not that mature as Wordpress. Many bugs are unavoidable, some of them are lie in the initial design of the system which are almost impossible to fix.
 
     from intsteps import *
     from sympy import *
