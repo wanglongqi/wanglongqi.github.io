@@ -6,53 +6,61 @@ date: 2014-03-21T12:54:40+08:00
 
 <i>Note: GitHub fails to rend the markdown file. I have to modify generated Latex file by hand. Here is a version of [PDF version](https://wanglongqi.github.io/public/res/M6803.pdf) of this document. You can also use IPython's nbview website to view the [HTML version](http://goo.gl/f8JAZ4) of the markdown file. The Excel Worksheet can be downloaded from [here](https://wanglongqi.github.io/public/res/RK4.xlsx).</i>
 
-## Ex.1. 
-(a). Perfrom LDLT decomposition on the matrix A. Since the matrix is symmetrical, we only need to calculate L.
+
+# M6803 Assignment3
+## Wang Longqi
+## Ex.1.
+(a). Apply LDLT decomposition on the matrix A. Since the matrix is symmetrical,
+we only need to calculate L.
+
 $$L_{21}=\frac{20}{8}=2.5 \\ L_{31}=\frac{15}{8}=1.875\\U_{22}=30\\U_{13}=15
-\\L_{32}=\frac{A_{32}-L_{31}U_{12}}{U_{22}}=0.4167\\U_{23}=12.5\\U_{33}=A_{33}-L_{31}U_{13}-L_{32}U_{23}=26.667$$
+\\L_{32}=\frac{A_{32}-L_{31}U_{12}}{U_{22}}=0.4167\\U_{23}=12.5\\U_{33}=A_{33}-L
+_{31}U_{13}-L_{32}U_{23}=26.667$$
 
 Therefore, we have following LDLT decomposition:
+
 \begin{equation}A=\left[
 \begin{array}{ccc}
-1 & 0 & 0 \\ 
-2.5 & 1 & 0 \\ 
+1 & 0 & 0 \\
+2.5 & 1 & 0 \\
 1.875 & 0.4167 & 1
-\end{array} \right] 
+\end{array} \right]
 \left[
 \begin{array}{ccc}
-8 & 0 & 0 \\ 
-0 & 30 & 0 \\ 
+8 & 0 & 0 \\
+0 & 30 & 0 \\
 0 & 0 & 26.667
 \end{array} \right]
 \left[
 \begin{array}{ccc}
-1 & 2.5 & 1.875 \\ 
-0 & 1 & 0.4167 \\ 
+1 & 2.5 & 1.875 \\
+0 & 1 & 0.4167 \\
 0 & 0 & 1
-\end{array} \right] 
+\end{array} \right]
 \end{equation}
 
 Then, transform the result to Cholesky decomposition
 \begin{equation}A=\left[
 \begin{array}{ccc}
-2.8284 & 0 & 0 \\ 
-7.0711 & 5.4772 & 0 \\ 
+2.8284 & 0 & 0 \\
+7.0711 & 5.4772 & 0 \\
 5.3033 & 2.2822 & 5.1640
-\end{array} \right] 
+\end{array} \right]
 \left[
 \begin{array}{ccc}
-2.8284 & 7.0711 & 5.3033 \\ 
-0 & 5.4772 & 2.2822 \\ 
+2.8284 & 7.0711 & 5.3033 \\
+0 & 5.4772 & 2.2822 \\
 0 & 0 & 5.1640
-\end{array} \right] 
+\end{array} \right]
 \end{equation}
 
-The Equation can be solved as $Ax=L(L^Tx)=b$. By using substitute procedure, we can get
+The Equation can be solved as $Ax=L(L^Tx)=b$. By using substitute procedure, we
+can get
 \begin{equation} L^Tx=
 \left[
 \begin{array}{c}
 17.677\\22.822\\-8.876
-\end{array} \right] 
+\end{array} \right]
 \end{equation}
 
 Then, back substitute, we obtain
@@ -60,15 +68,18 @@ Then, back substitute, we obtain
 \left[
 \begin{array}{c}
 -2.734 \\  4.883\\ -1.719
-\end{array} \right] 
+\end{array} \right]
 \end{equation}
 
-(b). Because the matrix is not diagonally dominant matrix, Jacobi method can not converge. What is worse, two largest elements in row one and row two are in the same column. Therefore, we cannot adjust rows or columns to make Jacobi method converge. Following is the Jacobi iteration for original matrix:
+(b). Because the matrix is not diagonally dominant matrix, Jacobi method cannot
+converge. What is worse, two largest elements in row one and row two are in the
+same column. Therefore, we cannot adjust rows or columns to make Jacobi method
+converge. Following is the Jacobi iteration for original matrix:
 \begin{equation} x^{(n+1)}=
 \left[
 \begin{array}{c}
 6.25\\31.25\\12.5
-\end{array} \right] 
+\end{array} \right]
 -\left[
 \begin{array}{ccc}
 0 &         2.5       &  1.875\\
@@ -82,111 +93,133 @@ Therefore,
 \left[
 \begin{array}{c}
 6.25\\31.25\\12.5
-\end{array} \right] 
+\end{array} \right]
 -\left[
 \begin{array}{ccc}
 0 &         2.5       &  1.875\\
 0.25      &  0       &  0.625\\
 0.25      &  0.83333333&  0\\
-\end{array} \right] 
+\end{array} \right]
 \left[
 \begin{array}{c}
 -1\\2\\-1
-\end{array} \right] 
+\end{array} \right]
 =\left[
 \begin{array}{c}
 3.125   \\  32.125    \\ 11.0833
-\end{array} \right] 
+\end{array} \right]
 \end{equation}
 
 \begin{equation} x^{(2)}=
 \left[
 \begin{array}{c}
 6.25\\31.25\\12.5
-\end{array} \right] 
+\end{array} \right]
 -\left[
 \begin{array}{ccc}
 0 &         2.5       &  1.875\\
 0.25      &  0       &  0.625\\
 0.25      &  0.83333333&  0\\
-\end{array} \right] 
+\end{array} \right]
 \left[
 \begin{array}{c}
 3.125   \\  32.125    \\ 11.0833
-\end{array} \right] 
+\end{array} \right]
 =\left[
 \begin{array}{c}
 -94.843\\
  23.541\\
 -15.052
-\end{array} \right] 
+\end{array} \right]
 \end{equation}\begin{equation} x^{(3)}=
 \left[
 \begin{array}{c}
 6.25\\31.25\\12.5
-\end{array} \right] 
+\end{array} \right]
 -\left[
 \begin{array}{ccc}
 0 &         2.5       &  1.875\\
 0.25      &  0       &  0.625\\
 0.25      &  0.83333333&  0\\
-\end{array} \right] 
+\end{array} \right]
 \left[
 \begin{array}{c}
 -94.843\\
  23.541\\
 -15.052
-\end{array} \right] 
+\end{array} \right]
 =\left[
 \begin{array}{c}
 -24.3815\\
  64.3684\\
  16.5928
-\end{array} \right] 
+\end{array} \right]
 \end{equation}\begin{equation} x^{(4)}=
 \left[
 \begin{array}{c}
 6.25\\31.25\\12.5
-\end{array} \right] 
+\end{array} \right]
 -\left[
 \begin{array}{ccc}
 0 &         2.5       &  1.875\\
 0.25      &  0       &  0.625\\
 0.25      &  0.83333333&  0\\
-\end{array} \right] 
+\end{array} \right]
 \left[
 \begin{array}{c}
 -24.3815\\
  64.3684\\
  16.5928
-\end{array} \right] 
+\end{array} \right]
 =\left[
 \begin{array}{c}
 -185.782\\
   26.974\\
  -35.045
-\end{array} \right] 
+\end{array} \right]
 \end{equation}
 
 ## Ex.2
-We know the Taylor expansion of functin $f(x+h)$ is
-$$f(x+h)=f{\left (x \right )} + h  \frac{d}{d x} f{\left (x \right )} + \frac{h^{2}}{2}  \frac{d^{2}}{d x^{2}}  f{\left (x \right )} + \frac{h^{3}}{6}  \frac{d^{3}}{d x^{3}}  f{\left (x \right )}  + \frac{h^{4}}{24} \frac{d^{4}}{d x^{4}}  f{\left (x \right )} +\mathcal{O}\left(h^{4}\right)$$
+We know the Taylor expansion of function $f(x+h)$ is
+$$f(x+h)=f{\left (x \right )} + h  \frac{d}{d x} f{\left (x \right )} +
+\frac{h^{2}}{2}  \frac{d^{2}}{d x^{2}}  f{\left (x \right )} + \frac{h^{3}}{6}
+\frac{d^{3}}{d x^{3}}  f{\left (x \right )}  + \frac{h^{4}}{24} \frac{d^{4}}{d
+x^{4}}  f{\left (x \right )} +\mathcal{O}\left(h^{4}\right)$$
 
-Therefore, we write down Taylor expansion for 
-$$f(x-2h)=f{\left (x \right )} -2 h  \frac{d}{d x} f{\left (x \right )} + \frac{4h^{2}}{2}  \frac{d^{2}}{d x^{2}}  f{\left (x \right )} - \frac{8h^{3}}{6}  \frac{d^{3}}{d x^{3}}  f{\left (x \right )}  + \frac{16 h^{4}}{24} \frac{d^{4}}{d x^{4}}  f{\left (x \right )} +\mathcal{O}\left(h^{5}\right)\\
-f(x-h)=f{\left (x \right )} - h  \frac{d}{d x} f{\left (x \right )} + \frac{h^{2}}{2}  \frac{d^{2}}{d x^{2}}  f{\left (x \right )} - \frac{h^{3}}{6}  \frac{d^{3}}{d x^{3}}  f{\left (x \right )}  + \frac{h^{4}}{24} \frac{d^{4}}{d x^{4}}  f{\left (x \right )} +\mathcal{O}\left(h^{5}\right)\\
-f(x+h)=f{\left (x \right )} + h  \frac{d}{d x} f{\left (x \right )} + \frac{h^{2}}{2}  \frac{d^{2}}{d x^{2}}  f{\left (x \right )} + \frac{h^{3}}{6}  \frac{d^{3}}{d x^{3}}  f{\left (x \right )}  + \frac{h^{4}}{24} \frac{d^{4}}{d x^{4}}  f{\left (x \right )} +\mathcal{O}\left(h^{5}\right)\\
-f(x+2h)=f{\left (x \right )} + 2h  \frac{d}{d x} f{\left (x \right )} + \frac{4h^{2}}{2}  \frac{d^{2}}{d x^{2}}  f{\left (x \right )} + \frac{8h^{3}}{6}  \frac{d^{3}}{d x^{3}}  f{\left (x \right )}  + \frac{16h^{4}}{24} \frac{d^{4}}{d x^{4}}  f{\left (x \right )} +\mathcal{O}\left(h^{5}\right)$$
+Therefore, we write down Taylor expansion for
+$$f(x-2h)=f{\left (x \right )} -2 h  \frac{d}{d x} f{\left (x \right )} +
+\frac{4h^{2}}{2}  \frac{d^{2}}{d x^{2}}  f{\left (x \right )} - \frac{8h^{3}}{6}
+\frac{d^{3}}{d x^{3}}  f{\left (x \right )}  + \frac{16 h^{4}}{24}
+\frac{d^{4}}{d x^{4}}  f{\left (x \right )} +\mathcal{O}\left(h^{5}\right)\\
+f(x-h)=f{\left (x \right )} - h  \frac{d}{d x} f{\left (x \right )} +
+\frac{h^{2}}{2}  \frac{d^{2}}{d x^{2}}  f{\left (x \right )} - \frac{h^{3}}{6}
+\frac{d^{3}}{d x^{3}}  f{\left (x \right )}  + \frac{h^{4}}{24} \frac{d^{4}}{d
+x^{4}}  f{\left (x \right )} +\mathcal{O}\left(h^{5}\right)\\
+f(x+h)=f{\left (x \right )} + h  \frac{d}{d x} f{\left (x \right )} +
+\frac{h^{2}}{2}  \frac{d^{2}}{d x^{2}}  f{\left (x \right )} + \frac{h^{3}}{6}
+\frac{d^{3}}{d x^{3}}  f{\left (x \right )}  + \frac{h^{4}}{24} \frac{d^{4}}{d
+x^{4}}  f{\left (x \right )} +\mathcal{O}\left(h^{5}\right)\\
+f(x+2h)=f{\left (x \right )} + 2h  \frac{d}{d x} f{\left (x \right )} +
+\frac{4h^{2}}{2}  \frac{d^{2}}{d x^{2}}  f{\left (x \right )} + \frac{8h^{3}}{6}
+\frac{d^{3}}{d x^{3}}  f{\left (x \right )}  + \frac{16h^{4}}{24} \frac{d^{4}}{d
+x^{4}}  f{\left (x \right )} +\mathcal{O}\left(h^{5}\right)$$
 
-It can be easily observed that 
+It can be easily observed that
 $$\begin{array}{l}
 f(x+2h)-f(x-2h)-2\left(f(x+h)+f(x-h)\right)\\
-=4 h  \frac{d}{d x} f{\left (x \right )} + \frac{16h^{3}}{6}  \frac{d^{3}}{d x^{3}}  f{\left (x \right )}-2\left(2 h  \frac{d}{d x} f{\left (x \right )} + \frac{2h^{3}}{6}  \frac{d^{3}}{d x^{3}}  f{\left (x \right )}\right)  +\mathcal{O}\left(h^{5}\right)\\
-= 2h^3  \frac{d^{3}}{d x^{3}}  f{\left (x \right )} +\mathcal{O}\left(h^{5}\right)
+=4 h  \frac{d}{d x} f{\left (x \right )} + \frac{16h^{3}}{6}  \frac{d^{3}}{d
+x^{3}}  f{\left (x \right )}-2\left(2 h  \frac{d}{d x} f{\left (x \right )} +
+\frac{2h^{3}}{6}  \frac{d^{3}}{d x^{3}}  f{\left (x \right )}\right)
++\mathcal{O}\left(h^{5}\right)\\
+= 2h^3  \frac{d^{3}}{d x^{3}}  f{\left (x \right )}
++\mathcal{O}\left(h^{5}\right)
 \end{array}$$
 
-Therefore, we obtain the centered finite-difference approximation to the third derivate that is second-order accurate:
-$$ \frac{d^{3}}{d x^{3}}  f{\left (x \right )} =\frac{f(x+2h)-f(x-2h)-2\left(f(x+h)+f(x-h)\right)}{2} +\mathcal{O}\left(h^{2}\right)$$
+Therefore, we obtain the centered finite-difference approximation to the third
+derivate that is second-order accurate:
+$$ \frac{d^{3}}{d x^{3}}  f{\left (x \right )}
+=\frac{f(x+2h)-f(x-2h)-2\left(f(x+h)+f(x-h)\right)}{2}
++\mathcal{O}\left(h^{2}\right)$$
 
 ## Ex.3
 Firstly, we derive the governing equation of the given system.
@@ -197,7 +230,11 @@ Substitute the given parameters into the equation, we obtain:
 $$\frac{dh}{dt}=-\frac{0.55 \sqrt{2gh}}{10^4}\\
 h(0)=2.75$$
 
-Inserting 4th order RK method in to Excel for this problem, we have following plot for $h(t)$
+The exact time that the tank will be empty is 13620.9 second.
+
+Inserting 4th order RK method in to Excel for this problem, we have following
+plot for $h(t)$
+
 ![](http://wanglongqi.github.io/public/images/RK100.png)
 
 Meanwhile, iteration of RK methods with step $t=1000$s is attached:
@@ -349,7 +386,12 @@ Meanwhile, iteration of RK methods with step $t=1000$s is attached:
     </tr>
 </table>
 
-Therefore, approximately after 13500 seconds, the tank will be empty.
+Therefore, approximately after 13500 seconds (with step of 100), the tank will
+be empty. Comparing to the exact
+solution, this result is acceptable.
 
-The online version of this homework (including the [Excel worksheet](https://wanglongqi.github.io/public/res/RK4.xlsx)) is upload to [http://goo.gl/ALDR1E](http://goo.gl/ALDR1E). 
+The online version of this homework (including the [Excel
+worksheet](https://wanglongqi.github.io/public/res/RK4.xlsx)) is upload to
+[http://goo.gl/ALDR1E](http://goo.gl/ALDR1E).
+
 
