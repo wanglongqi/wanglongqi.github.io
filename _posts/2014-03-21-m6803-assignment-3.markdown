@@ -4,7 +4,7 @@ title: "M6803 Assignment 3"
 date: 2014-03-21T12:54:40+08:00
 ---
 
-<i>Note: GitHub fails to rend the markdown file, I have to modify generated Latex file by hand. Here is a version of [PDF version](https://wanglongqi.github.io/public/res/M6803.pdf) and [HTML version](https://wanglongqi.github.io/public/res/M6803.html) of this document. The Excel Worksheet can be downloaded from [here](https://wanglongqi.github.io/public/res/RK4.xlsx).</i>
+<i>Note: GitHub fails to rend the markdown file, I have to modify generated Latex file by hand. Here is a version of [PDF version](https://wanglongqi.github.io/public/res/M6803.pdf) of this document. The Excel Worksheet can be downloaded from [here](https://wanglongqi.github.io/public/res/RK4.xlsx).</i>
 
 ## Ex.1. 
 (a). Perfrom LDLT decomposition on the matrix A. Since the matrix is symmetrical, we only need to calculate L.
