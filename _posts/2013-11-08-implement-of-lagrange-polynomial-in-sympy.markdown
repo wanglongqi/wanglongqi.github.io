@@ -20,16 +20,16 @@ Its parameters include:
 
 
 	
-  1. [latex]n[/latex]: number of given points,
+  1. $n$: number of given points,
 
 	
-  2. [latex]x_i[/latex]: coordinates of interpolation points,
+  2. $x_i$: coordinates of interpolation points,
 
 	
   3. order: n-1, the max power in the poly.,
 
 	
-  4. [latex]L_i[/latex]: Lagrange Poly. at point [latex]i[/latex] ([latex]i[/latex] start from 0).
+  4. $L_i$: Lagrange Poly. at point $i$ ($i$ start from 0).
 
 
 We introduce a Sympy implement for the polynomial, since we do not find an official implement. The code is presented here:
