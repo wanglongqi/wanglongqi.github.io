@@ -26,7 +26,8 @@ where, $\lambda$ is the only parameter of exponential distribution.
 ## LogNormal distribution
 ![lognorm](https://wanglongqi.github.io/public/images/lognorm.png)
 
-Samples from lognormal have median located between mode and mean value, which is also a common phenomenon in our daily life. The tail of some common distribution (negligible amount of outliers are presented), like lognormal distribution, makes the median larger than mean value.
+Samples from lognormal have median located between mode and mean value, which is also a common phenomenon in our daily life. The tail of some common distributions (negligible amount of outliers are presented), like lognormal distribution, makes the median larger than mean value. As is discussed in the session, the presents of outliers is the reason why annual income of Beijing is much higher than it should be.
 
 ## Additional notes
-Some distributions have well defined median and mode, but have undefined mean value. Such as Cauchy distribution. The derivation of the conclusion requires a bit mathematics, you can refer to [this page]( http://en.wikipedia.org/wiki/Cauchy_distribution#Mean) for more details.
+Some distributions have well-defined median and mode, but have undefined mean value, such as Cauchy distribution. The derivation of the conclusion requires a bit mathematics, you can refer to [this page]( http://en.wikipedia.org/wiki/Cauchy_distribution#Mean) for more details.
+
