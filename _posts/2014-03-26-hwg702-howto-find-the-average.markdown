@@ -20,6 +20,7 @@ As is shown in the above figure, samples from Normal distribution have the same 
 Samples from exponential distribution are clearly skewed. Most of the samples are located near zero. In this case, mode is obviously not a suitable index for this distribution. The other two indexes return similar results. In fact, expected mean value and median have following relation:
 
 $$Median=\ln 2, Mean =\ln 2 \lambda^{-1}$$
+
 where, $\lambda$ is the only parameter of exponential distribution.
 
 ## LogNormal distribution
@@ -28,4 +29,4 @@ where, $\lambda$ is the only parameter of exponential distribution.
 Samples from lognormal have median located between mode and mean value, which is also a common phenomenon in our daily life. The tail of some common distribution (negligible amount of outliers are presented), like lognormal distribution, makes the median larger than mean value.
 
 ## Additional notes
-Some distributions that have a limit median and mode have undefined mean value. The derivation requires a bit mathematics, you can refer to [this page]( http://en.wikipedia.org/wiki/Cauchy_distribution#Mean) for more details.
+Some distributions have well defined median and mode, but have undefined mean value. The derivation requires a bit mathematics, you can refer to [this page]( http://en.wikipedia.org/wiki/Cauchy_distribution#Mean) for more details.
