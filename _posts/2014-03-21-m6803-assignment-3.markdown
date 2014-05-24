@@ -218,7 +218,7 @@ x^{3}}  f{\left (x \right )}-2\left(2 h  \frac{d}{d x} f{\left (x \right )} +
 Therefore, we obtain the centered finite-difference approximation to the third
 derivate that is second-order accurate:
 $$ \frac{d^{3}}{d x^{3}}  f{\left (x \right )}
-=\frac{f(x+2h)-f(x-2h)-2\left(f(x+h)+f(x-h)\right)}{2}
+=\frac{f(x+2h)-f(x-2h)-2\left(f(x+h)+f(x-h)\right)}{2 h^3}
 +\mathcal{O}\left(h^{2}\right)$$
 
 ## Ex.3
