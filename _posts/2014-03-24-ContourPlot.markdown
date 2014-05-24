@@ -271,16 +271,12 @@ tags:
 
 
 {% highlight python %}    
-    xi = np.mgrid[0:1:100j, 0:1:200j]
 
-
-
+    xi = np.mgrid[0:1:100j, 0:1:200j]   
+    contourf(xi[0],xi[1],reshape(z0,(100,-1)))
+    contourf(xi[0],xi[1],reshape(z0,(100,-1)))
+    contourf(xi[0],xi[1],reshape(z0,(100,-1)))
     
-    contourf(xi[0],xi[1],reshape(z0,(100,-1)))
-    contourf(xi[0],xi[1],reshape(z0,(100,-1)))
-    contourf(xi[0],xi[1],reshape(z0,(100,-1)))
-
-
 {% endhighlight %}
 
 [![figure_1](http://bcs.duapp.com/pecker/figure_1_thumb.png)](http://bcs.duapp.com/pecker/figure_1.png)
