@@ -32,7 +32,7 @@ tags:
 
 
 
-
+{% highlight python %}
     
     #------------------------------------------------------------------------------
     # Linear interpolation in N-D
@@ -133,7 +133,7 @@ tags:
     
             return out
 
-
+{% endhighlight %}
 
 
 ## 最近邻插值方法
@@ -145,7 +145,7 @@ tags:
 
 
 
-
+{% highlight python %}
     
     class NearestNDInterpolator(NDInterpolatorBase):
         """
@@ -190,7 +190,7 @@ tags:
             dist, i = self.tree.query(xi)
             return self.values[i]
 
-
+{% endhighlight %}
 
 
 ## 样条插值方法
@@ -241,14 +241,14 @@ tags:
 
 
 
-    
+{% highlight python %}    
     def gen(x,y):
        return x*(1-x)*np.cos(4*np.pi*x) * np.sin(4*np.pi*y**2)**2
     points = np.random.rand(1000, 2)
     values = gen(points[:,0], points[:,1])
     xi = np.mgrid[0:1:100j, 0:1:200j]
     xi=reshape(xi,(2,-1)).T
-
+{% endhighlight %}
 
 
 
@@ -256,13 +256,13 @@ tags:
 
 
 
-
+{% highlight python %}
     
     z0 = griddata(points, values, xi, method='nearest')
     z1 = griddata(points, values, xi, method='linear')
     z2 = griddata(points, values, xi, method='cubic')
 
-
+{% endhighlight %}
 
 
 最后，对这些值绘制等高线：
@@ -270,7 +270,7 @@ tags:
 
 
 
-    
+{% highlight python %}    
     xi = np.mgrid[0:1:100j, 0:1:200j]
 
 
@@ -281,7 +281,7 @@ tags:
     contourf(xi[0],xi[1],reshape(z0,(100,-1)))
 
 
-
+{% endhighlight %}
 
 [![figure_1](http://bcs.duapp.com/pecker/figure_1_thumb.png)](http://bcs.duapp.com/pecker/figure_1.png)
 
