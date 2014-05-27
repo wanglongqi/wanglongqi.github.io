@@ -188,7 +188,7 @@ Markdown 渲染器支持，应该就没问题。
 
 还没有好好弄弄这些模板，还有很多地方可以改进。啥时候有时间再改改。
 
-[Github]: http://wanglongqi.github.io/public/pdfs/gihub.pdf
+[Github]: http://wanglongqi.github.io/public/pdfs/github.pdf
 [Radar]: http://wanglongqi.github.io/public/pdfs/radar.pdf
 [SolarizedLight]: http://wanglongqi.github.io/public/pdfs/solight.pdf
 [SolarizedDark]: http://wanglongqi.github.io/public/pdfs/sodark.pdf
