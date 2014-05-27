@@ -4,6 +4,7 @@ title: "Sublime Text 可视化编辑Markdown"
 layout: post
 ---
 
+![Omni](http://wanglongqi.github.io/public/images/omni.gif)
 最近开始使用Sublime Text发现越用越顺手。以前一直在寻找一个可以支持离线实时预览的Markdown编辑器，而且还能比较完美的支持公式，结果都没有很满意的。后来就开始使用StackEdit，唯一的缺点就是必须用在线的MathJax，感觉总是有点不舒服。当然在浏览器里使用也有不太好的用户体验。前两天发现Sublime Text里有一个很强大的插件叫OmniMarkupPreviewer，可以支持多种格式文件的实时预览。以下是文档的摘要：
 
 > OmniMarkupPreviewer has builtin support following markups:
