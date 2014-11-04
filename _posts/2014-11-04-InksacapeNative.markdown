@@ -4,7 +4,7 @@ comments: true
 date: 2014-11-04 22:06:16
 layout: post
 slug: InkscapeNative
-title: Mac版Native的Inkscape
+title: Native的Mac版Inkscape
 tags:
 - Python
 - Tutorial
