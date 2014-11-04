@@ -2,6 +2,9 @@
 layout: page
 title: About
 ---
+# Why & How （崴&灏）
+
+### 以生之有涯随知之无涯，殆矣，然何为，为何为。[山路不平，起伏不定；水势浩大，汹涌不宁。](https://wanglongqi.github.io/2014/11/05/ChineseName/)
 
 <p class="message">
   以子之矛，陷子之盾，何如？	——《韩非子·难一》
