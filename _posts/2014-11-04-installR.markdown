@@ -46,3 +46,5 @@ updateR()
 pkgs<-installed.packages()
 plot(as.factor(pkgs[,'Built']),col=2:4,main='Packages built version',ylab='Count of packages')
 {% endhighlight %}
+
+可以看到大部分程序包都更新到了最新的R，但是还有不少还停留在大版本号3.1.0上，也有小部分还是3.1.11。总的来看，R的升级还是很成功的，使用起来也很方面。
