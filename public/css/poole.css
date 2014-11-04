@@ -85,14 +85,14 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 h3 {
-  margin-top: 1.5rem;
+  margin-top: 1.25rem;
   font-size: 1.2rem;
 }
 h4, h5, h6 {
