@@ -9,6 +9,7 @@ tags:
 - Python
 - Tutorial
 ---
+Float在C里面是单精度的，那么在Numpy里面也是单精度的吗？
 
 答案是双精度的，因为这是Numpy的数据类型列表：
 

@@ -9,7 +9,7 @@ tags:
 - Python
 - Tutorial
 ---
-![xkcd.png](https://github.com/wanglongqi/WriteTeX/raw/master/images/xkcd.png)
+![xkcd.png](https://wanglongqi.github.io/public/images/xkcd.png)
 
 XKCD图片一直挺流行的，在很多软件中都可以实现，基本的想法都是原始图片加粗线条加抖动家卡通字体。Matplotlib也跟风开发了一个XKCD的绘制函数，效果还不错。官方推荐使用Humor Sans字体，可以去网上弄一个，不过没有的效果也不错。
 
@@ -32,5 +32,5 @@ show()
 
 然后你就得到了文章开头那张XKCD风格的图片了。当然，这个图片可以放到Inkscape里进行继续的修饰，直到你满意为止。
 
-![xkcd.svg](https://github.com/wanglongqi/WriteTeX/raw/master/images/xkcd.svg)
+![xkcd.svg](https://wanglongqi.github.io/public/images/xkcd.svg)
 
