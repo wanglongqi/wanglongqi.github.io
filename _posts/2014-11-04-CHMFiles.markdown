@@ -1,0 +1,24 @@
+---
+author: Longqi
+comments: true
+date: 2014-11-04 16:41:00
+layout: post
+slug: CHMFiles
+title: 一些常用Python库的CHM帮助文件
+tags:
+- Python
+- Share
+---
+![Matplotlib.chm](https://wanglongqi.github.io/public/images/chms.png)
+
+我个人喜欢看chm格式的文档，有目录有索引，拷贝搜索都很方便，在各个系统上查看也很方便，但是现在好像已经不流行chm格式的文档了。大部分库都直接只提供在线版本的帮助，大部分也只是提供了pdf格式的文档。对于我来说这些文档都不太好用，所有编译了常用的几个Python库的chm文档，共享出来大家使用。不过很多都可能不足够新，我觉得看个大概已经足够了。
+
+1. [Cython.chm](https://wanglongqi.github.io/public/chms/Cythondoc.chm)
+1. [ipython.chm](https://wanglongqi.github.io/public/chms/ipythondoc.chm)
+1. [Matplotlib.chm](https://wanglongqi.github.io/public/chms/Matplotlibdoc.chm)
+1. [numba.chm](https://wanglongqi.github.io/public/chms/numbadoc.chm)
+1. [numpy.chm](https://wanglongqi.github.io/public/chms/numpy.chm)
+1. [scipy.chm](https://wanglongqi.github.io/public/chms/scipy.chm)
+1. [SymPy.chm](https://wanglongqi.github.io/public/chms/SymPydoc.chm)
+1. [tvtk.chm](https://wanglongqi.github.io/public/chms/tvtkdoc.chm)
+
