@@ -1,7 +1,7 @@
 ---
 author: Longqi
 comments: true
-date: 2014-11-04 08:28:02
+date: 2014-11-05 05:28:47
 layout: post
 slug: ChineseName
 title: 弄个中文名字
