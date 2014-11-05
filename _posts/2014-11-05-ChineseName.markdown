@@ -9,7 +9,6 @@ tags:
 - SiteRelate
 - Name
 ---
-![xkcd.png](https://wanglongqi.github.io/public/images/xkcd.png)
 
 	Remember, remember, fifth of November.
 
