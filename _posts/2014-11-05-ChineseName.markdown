@@ -9,6 +9,7 @@ tags:
 - SiteRelate
 - Name
 ---
+![nov5](https://wanglongqi.github.io/public/images/nov5.svg)
 
 	Remember, remember, the fifth of November.
 
