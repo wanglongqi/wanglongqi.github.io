@@ -10,7 +10,7 @@ tags:
 - Name
 ---
 
-	Remember, remember, fifth of November.
+	Remember, remember, the fifth of November.
 
 今天睡不着觉，索性起来给网站弄个中文名字。那最好的翻译无非要求信达雅，我可没有这个本事。那就直接来音译吧，英文名叫Why & How，那中文名叫wai & hao，那就去翻字典吧，用哪两个字，这也算中文命名的套路了吧！
 
