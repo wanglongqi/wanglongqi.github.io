@@ -30,14 +30,14 @@ plot(gvisBubbleChart(eng,colorvar="Status",
 {% endhighlight %}
 
 <!-- BubbleChart generated in R 3.1.2 by googleVis 0.5.6 package -->
-<!-- Thu Nov 06 16:11:55 2014 -->
+<!-- Thu Nov 06 16:30:07 2014 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartID2f445fca17fe () {
+function gvisDataBubbleChartIDf5c5b754baf () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -103,23 +103,24 @@ var datajson =
 ] 
 ];
 data.addColumn('string','x');
-data.addColumn('number','Index2');
-data.addColumn('number','Index1');
+data.addColumn('number','Energy');
+data.addColumn('number','max');
 data.addColumn('string','Status');
 data.addRows(datajson);
 return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartID2f445fca17fe() {
-var data = gvisDataBubbleChartID2f445fca17fe();
+function drawChartBubbleChartIDf5c5b754baf() {
+var data = gvisDataBubbleChartIDf5c5b754baf();
 var options = {};
 options["height"] =    800;
 options["vAxes"] = [{title:'Index1'}];
 options["hAxes"] = [{title:'Index2'}];
 
+
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartID2f445fca17fe')
+    document.getElementById('BubbleChartIDf5c5b754baf')
     );
     chart.draw(data,options);
     
@@ -143,9 +144,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartID2f445fca17fe);
+callbacks.push(drawChartBubbleChartIDf5c5b754baf);
 })();
-function displayChartBubbleChartID2f445fca17fe() {
+function displayChartBubbleChartIDf5c5b754baf() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -167,3 +168,12 @@ callbacks.shift()();
  
 // jsFooter
 </script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartIDf5c5b754baf"></script>
+ 
+<!-- divChart -->
+  
+<div id="BubbleChartIDf5c5b754baf" 
+  style="width: 800; height: 600;">
+</div>
