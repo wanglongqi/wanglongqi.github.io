@@ -24,20 +24,19 @@ eng[7:8,'Status']='Loose'
 eng$Status=factor(eng$Status,levels=c('Intact','Partial Loose','Loose'))
 op <- options(gvis.plot.tag= 'chart' )
 plot(gvisBubbleChart(eng,colorvar="Status",
-                     opt=list(height=800,
+                     opt=list(height=400,
                               vAxes="[{title:'Index1'}]",
                               hAxes="[{title:'Index2'}]")))
 {% endhighlight %}
-
 <!-- BubbleChart generated in R 3.1.2 by googleVis 0.5.6 package -->
-<!-- Thu Nov 06 16:47:00 2014 -->
+<!-- Thu Nov 06 16:50:25 2014 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartIDf5c138721fd () {
+function gvisDataBubbleChartIDf5c2a463b72 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -103,16 +102,16 @@ var datajson =
 ] 
 ];
 data.addColumn('string','x');
-data.addColumn('number','Energy');
-data.addColumn('number','max');
+data.addColumn('number','Index2');
+data.addColumn('number','Index1');
 data.addColumn('string','Status');
 data.addRows(datajson);
 return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartIDf5c138721fd() {
-var data = gvisDataBubbleChartIDf5c138721fd();
+function drawChartBubbleChartIDf5c2a463b72() {
+var data = gvisDataBubbleChartIDf5c2a463b72();
 var options = {};
 options["height"] =    400;
 options["vAxes"] = [{title:'Index1'}];
@@ -120,7 +119,7 @@ options["hAxes"] = [{title:'Index2'}];
 
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartIDf5c138721fd')
+    document.getElementById('BubbleChartIDf5c2a463b72')
     );
     chart.draw(data,options);
     
@@ -144,9 +143,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartIDf5c138721fd);
+callbacks.push(drawChartBubbleChartIDf5c2a463b72);
 })();
-function displayChartBubbleChartIDf5c138721fd() {
+function displayChartBubbleChartIDf5c2a463b72() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -170,10 +169,10 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartIDf5c138721fd"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartIDf5c2a463b72"></script>
  
 <!-- divChart -->
   
-<div id="BubbleChartIDf5c138721fd" 
+<div id="BubbleChartIDf5c2a463b72" 
   style="width: 600; height: 400;">
 </div>
