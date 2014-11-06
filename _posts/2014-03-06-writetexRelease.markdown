@@ -3,7 +3,7 @@ author: Longqi
 comments: true
 date: 2014-03-06 16:08:55+00:00
 layout: post
-slug: writetex%ef%bc%9ainkscape%e7%9a%84tex%e6%8f%92%e4%bb%b6
+slug: writetex
 title: WriteTeX：Inkscape的Tex插件
 wordpress_id: 627
 tags:

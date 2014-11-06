@@ -3,7 +3,7 @@ author: Longqi
 comments: true
 date: 2014-03-08 02:42:08+00:00
 layout: post
-slug: writetex-is-on-github-now-writetex%e5%8f%91%e5%b8%83%e4%ba%86%ef%bc%81
+slug: writetex-is-on-github-now
 title: WriteTeX is on GitHub now! (WriteTeX发布了！)
 wordpress_id: 633
 tags:
