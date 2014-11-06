@@ -10,7 +10,7 @@ tags:
 - R
 ---
 <div id="BubbleChartIDf5c5b754baf" 
-  style="width: 800; height: 300;">
+  style="width: 400; height: 300;">
 </div>
 [Google Chart api ](https://developers.google.com/chart/) 是一个已经提出很多年的接口了，很多网站都在用，但是Google现在国内被封，估计也没法使用了，这个文章就算为国外的朋友们推荐GoogleVis吧！
 
