@@ -6,8 +6,8 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Why & How
-tagline:          '崴&灏'
+title:            Why &amp; How
+tagline:          '崴&amp;灏'
 description:      '以生之有涯随知之无涯，殆矣，然何为，为何为。'
 url:              https://wanglongqi.github.io
 
