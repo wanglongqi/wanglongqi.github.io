@@ -10,8 +10,9 @@ tags:
 - R
 ---
 <div id="BubbleChartIDf5c5b754baf" 
-  style="width: 400; height: 300;">
+  style="width: 600; height: 400;">
 </div>
+
 [Google Chart api ](https://developers.google.com/chart/) 是一个已经提出很多年的接口了，很多网站都在用，但是Google现在国内被封，估计也没法使用了，这个文章就算为国外的朋友们推荐GoogleVis吧！
 
 Google Chart api （GCA）虽然做得还不错，但是对于我们这类非专业人士还是很麻烦，为了画个图花很长的时间写JS实在是有点本末倒置。不过自从有了googleVis的R程序包之后，你已经不需要再写JS就能得到不错的动态图像了，非常适合在有*互联网*的地方展示各种图像。GCA的缺陷就是没有离线版本，你要拿着个网页倒没有网络的地方，什么都显示不出来。
@@ -116,7 +117,7 @@ return(data);
 function drawChartBubbleChartIDf5c5b754baf() {
 var data = gvisDataBubbleChartIDf5c5b754baf();
 var options = {};
-options["height"] =    800;
+options["height"] =    400;
 options["vAxes"] = [{title:'Index1'}];
 options["hAxes"] = [{title:'Index2'}];
 
@@ -173,9 +174,4 @@ callbacks.shift()();
  
 <!-- jsChart -->  
 <script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartIDf5c5b754baf"></script>
- 
-<!-- divChart -->
-  
-<div id="BubbleChartIDf5c5b754baf" 
-  style="width: 800; height: 500;">
-</div>
+
