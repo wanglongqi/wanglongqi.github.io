@@ -30,14 +30,14 @@ plot(gvisBubbleChart(eng,colorvar="Status",
 {% endhighlight %}
 
 <!-- BubbleChart generated in R 3.1.2 by googleVis 0.5.6 package -->
-<!-- Thu Nov 06 16:30:07 2014 -->
+<!-- Thu Nov 06 16:47:00 2014 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartIDf5c5b754baf () {
+function gvisDataBubbleChartIDf5c138721fd () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -111,8 +111,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartIDf5c5b754baf() {
-var data = gvisDataBubbleChartIDf5c5b754baf();
+function drawChartBubbleChartIDf5c138721fd() {
+var data = gvisDataBubbleChartIDf5c138721fd();
 var options = {};
 options["height"] =    400;
 options["vAxes"] = [{title:'Index1'}];
@@ -120,7 +120,7 @@ options["hAxes"] = [{title:'Index2'}];
 
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartIDf5c5b754baf')
+    document.getElementById('BubbleChartIDf5c138721fd')
     );
     chart.draw(data,options);
     
@@ -144,9 +144,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartIDf5c5b754baf);
+callbacks.push(drawChartBubbleChartIDf5c138721fd);
 })();
-function displayChartBubbleChartIDf5c5b754baf() {
+function displayChartBubbleChartIDf5c138721fd() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -170,8 +170,10 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartIDf5c5b754baf"></script>
-
-<div id="BubbleChartIDf5c5b754baf" 
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartIDf5c138721fd"></script>
+ 
+<!-- divChart -->
+  
+<div id="BubbleChartIDf5c138721fd" 
   style="width: 600; height: 400;">
 </div>
