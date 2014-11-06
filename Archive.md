@@ -17,3 +17,9 @@ slug: Archive
         </a>
     </li>
 {% endfor %}
+
+{% for category in site.tags %}
+    <a href="/{{ category | first | slugize }}/">
+        {{ category | first }}
+    </a>
+{% endfor %}
