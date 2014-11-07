@@ -2,12 +2,13 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1><a href="/">{{ site.title }}</a></h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead">{{ site.description }} </p>
+
     </div>
 
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
-        <a href="/">Home</a>
+        <a href="/">首页</a>
       </li>
 
       {% comment %}
@@ -28,7 +29,9 @@
 
       <li class="sidebar-nav-item"><a href="https://wanglongqi.github.io/WriteTeX">WriteTeX</a></li>
       <li class="sidebar-nav-item"><a href="https://wanglongqi.github.io/BatchRun">BatchRun</a></li>
-      <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub projects</a></li>
+      <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub 项目</a></li>
+      <li class="sidebar-nav-item"><a href="https://feeds.feedburner.com/WhyHow"> 
+      <img src="/public/rss.svg" /> </a></li>
     </ul>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
