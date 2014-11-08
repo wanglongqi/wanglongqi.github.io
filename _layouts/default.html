@@ -6,8 +6,8 @@
   {% if post.url contains 'githis' %}
   <h1 class="post-title">{{ site.title }} </h1>
   {% else %}
-  post.url
-  site.url
+  {{post.url}}
+  {{site.url}}
     {% include sidebar.html %}
  {% endif %}
     <div class="content container">
