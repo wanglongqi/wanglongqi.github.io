@@ -24,7 +24,7 @@ ExifTool支持Canon, Casio, FLIR, FujiFilm, GE, HP, JVC/Victor, Kodak, Leaf, Min
 最后，上一个照片的ExifTool输出的某张照片的信息，可以看到信息相当丰富，甚至包括了相机和镜头的序列号。
 
 <table>
-<tr><td colspan=2 bgcolor='#dddddd'>File</td></tr>
+<tr><td>File</td></tr>
 <tr><td>FileName</td><td>_MG_6048.CR2</td></tr>
 <tr><td>Directory</td><td>.</td></tr>
 <tr><td>FileSize</td><td>22 MB</td></tr>
@@ -35,7 +35,7 @@ ExifTool支持Canon, Casio, FLIR, FujiFilm, GE, HP, JVC/Victor, Kodak, Leaf, Min
 <tr><td>FileType</td><td>CR2</td></tr>
 <tr><td>MIMEType</td><td>image/x-canon-cr2</td></tr>
 <tr><td>ExifByteOrder</td><td>Little-endian (Intel, II)</td></tr>
-<tr><td colspan=2 bgcolor='#dddddd'>EXIF</td></tr>
+<tr><td>EXIF</td></tr>
 <tr><td>ImageWidth</td><td>5184</td></tr>
 <tr><td>ImageHeight</td><td>3456</td></tr>
 <tr><td>BitsPerSample</td><td>8 8 8</td></tr>
@@ -105,9 +105,9 @@ ExifTool支持Canon, Casio, FLIR, FujiFilm, GE, HP, JVC/Victor, Kodak, Leaf, Min
 <tr><td>StripOffsets</td><td>3360816</td></tr>
 <tr><td>StripByteCounts</td><td>20074597</td></tr>
 <tr><td>RawImageSegmentation</td><td>2 1728 1888</td></tr>
-<tr><td colspan=2 bgcolor='#dddddd'>XMP</td></tr>
+<tr><td>XMP</td></tr>
 <tr><td>Rating</td><td>0</td></tr>
-<tr><td colspan=2 bgcolor='#dddddd'>MakerNotes</td></tr>
+<tr><td>MakerNotes</td></tr>
 <tr><td>MacroMode</td><td>Normal</td></tr>
 <tr><td>SelfTimer</td><td>Off</td></tr>
 <tr><td>Quality</td><td>RAW</td></tr>
