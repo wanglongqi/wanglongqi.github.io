@@ -9,7 +9,7 @@ tags:
 - Abaqus
 - Tutorial
 ---
-
+![Abaqus Related Post](/public/images/abaqus.svg)
 Abaqus Input文件是Abaqus计算使用的实际输入文件，该文件有三种类型的语句：
 
 1. 关键字语句：
