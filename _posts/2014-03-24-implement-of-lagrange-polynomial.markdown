@@ -9,7 +9,7 @@ tags:
 - Python
 - Sympy
 ---
-
+![Python Related Posts](/public/images/python.svg)
 Lagrange Polynomial has a general form like:
 
 $$L_i(x)=\prod_{j=1,j\neq i}^{n} \frac{x-x_j}{x_i-x_j}$$
