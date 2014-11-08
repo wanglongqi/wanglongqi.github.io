@@ -3,13 +3,7 @@
 {% include head.html %}
 
   <body class="theme-base-0d">
-  {% if post.url contains 'githis' %}
-  <h1 class="post-title">{{ site.title }} </h1>
-  {% else %}
-  {{post.url}}
-  {{site.url}}
     {% include sidebar.html %}
- {% endif %}
     <div class="content container">
       {{ content }}
     </div>

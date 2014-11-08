@@ -54,6 +54,7 @@ html {
  */
 
 .sidebar {
+  visiable:false;
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
@@ -61,6 +62,7 @@ html {
 }
 @media (min-width: 48rem) {
   .sidebar {
+    visiable:true;
     position: fixed;
     top: 0;
     left: 0;
