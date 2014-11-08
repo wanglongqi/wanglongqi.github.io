@@ -54,20 +54,22 @@ html {
  */
 
 .sidebar {
-  visiable:false;
+  visiability:hidden;
+  height:0rem;
   text-align: center;
-  padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
 @media (min-width: 48rem) {
   .sidebar {
-    visiable:true;
+    visiability:visible;
+    padding: 2rem 1rem;
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     width: 18rem;
+    height:initial;
     text-align: left;
   }
 }
