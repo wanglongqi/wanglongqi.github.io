@@ -4,7 +4,7 @@ comments: true
 date: 2014-11-08 10:46:24
 layout: post
 slug: ExifTool
-title: ExifTool: 强大的图像文件信息查看程序
+title: ExifTool：强大的图像文件信息查看程序
 tags:
 - Photo
 - Tools
