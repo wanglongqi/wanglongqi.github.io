@@ -10,7 +10,7 @@ tags:
 - CheatSheet
 - Forward
 ---
-
+![GhostScript Logo](/public/images/gs.svg)
 GhostScript是处理PDF和PS的神器，但是实在太难用了。今天看到一个[不错的总结](http://flukylogs.blogspot.sg/2012/08/gs-ghostscript-cheat-sheet.html)转载并翻译修改一下：
 
 - PS到PDF:
