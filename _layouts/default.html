@@ -3,9 +3,9 @@
 {% include head.html %}
 
   <body class="theme-base-0d">
-
+  {% if page.url==link.url %}
     {% include sidebar.html %}
-
+ {% endif %}
     <div class="content container">
       {{ content }}
     </div>
