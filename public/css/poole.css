@@ -147,6 +147,7 @@ abbr[title] {
 /* Code */
 code,
 pre {
+  font-weight: bold;
   font-family: Consolas,'Liberation Mono', Menlo, Monaco, "Courier New", monospace;
 }
 code {
