@@ -10,7 +10,7 @@ tags:
 - Tutorial
 - Matlab
 ---
-![Python Related Posts](/public/images/python.svg)
+![Python Related Posts](/public/images/python.png)
 作为一个老的Matlab用户，自然会有很多Matlab格式的数据文件，迁移到Python之后第一步就是怎么读取Matlab数据文件。Matlab的数据文件分为两种，后缀都是.mat，旧的Matlab文件是私有格式；新的Matlab文件是HDF5的封装。
 
 ## 旧版Matlab文件的读写
