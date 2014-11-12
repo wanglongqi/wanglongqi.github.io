@@ -10,7 +10,7 @@ tags:
 - Python
 - Tutorial
 ---
-![python](/public/images/python.png)
+![](/public/images/Fig5.png)
 Matplotlib的Legend和Matlab很像，但是没有选项可以直接将Legend放置到坐标轴外侧。默认的定位选项loc有以下选项：
 
 	loc : int or string or pair of floats, default: 0
