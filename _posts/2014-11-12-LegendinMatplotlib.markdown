@@ -66,20 +66,20 @@ Matplotlib的Legend和Matlab很像，但是没有选项可以直接将Legend放�
 
 {% highlight python %}
 
-	# -*- coding: utf-8 -*-
-	"""
-	Created on Wed Nov 12 10:27:22 2014
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Nov 12 10:27:22 2014
 
-	@author: longqi
-	"""
+@author: longqi
+"""
 
-	from pylab import *
+from pylab import *
 
-	x = arange(0,20,.3)
-	y = sin(x)
+x = arange(0,20,.3)
+y = sin(x)
 
-	plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
-	legend(['$sin(x)$'])
+plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
+legend(['$sin(x)$'])
 
 {% endhighlight %}
 
@@ -87,10 +87,10 @@ Matplotlib的Legend和Matlab很像，但是没有选项可以直接将Legend放�
 
 {% highlight python %}
 
-	figure()
+figure()
 
-	plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
-	legend(['$sin(x)$'],3)
+plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
+legend(['$sin(x)$'],3)
 
 {% endhighlight %}
 
@@ -98,9 +98,9 @@ Matplotlib的Legend和Matlab很像，但是没有选项可以直接将Legend放�
 
 {% highlight python %}
 
-	figure()
-	plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
-	legend(['$sin(x)$'],bbox_to_anchor=(0.5,0.5),loc=10)
+figure()
+plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
+legend(['$sin(x)$'],bbox_to_anchor=(0.5,0.5),loc=10)
 
 {% endhighlight %}
 
@@ -108,9 +108,9 @@ Matplotlib的Legend和Matlab很像，但是没有选项可以直接将Legend放�
 
 {% highlight python %}
 
-	figure()
-	plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
-	legend(['$sin(x)$'],bbox_to_anchor=(1.02,0.8),loc='center left')
+figure()
+plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
+legend(['$sin(x)$'],bbox_to_anchor=(1.02,0.8),loc='center left')
 
 {% endhighlight %}
 
@@ -118,11 +118,11 @@ Matplotlib的Legend和Matlab很像，但是没有选项可以直接将Legend放�
 
 {% highlight python %}
 
-	figure()
-	ax = gca()
-	ax.set_position([0,0,0.8,1])
-	plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
-	legend(['$sin(x)$'],bbox_to_anchor=(1.02,0.8),loc='center left')
+figure()
+ax = gca()
+ax.set_position([0,0,0.8,1])
+plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
+legend(['$sin(x)$'],bbox_to_anchor=(1.02,0.8),loc='center left')
 
 {% endhighlight %}
 
@@ -133,9 +133,9 @@ Matplotlib的Legend和Matlab很像，但是没有选项可以直接将Legend放�
 
 {% highlight python %}
 
-	figure()
-	plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
-	legend(['$sin(x)$'],loc='best',fancybox=True,shadow=True,numpoints=1,)
+figure()
+plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
+legend(['$sin(x)$'],loc='best',fancybox=True,shadow=True,numpoints=1,)
 
 {% endhighlight %}
 
