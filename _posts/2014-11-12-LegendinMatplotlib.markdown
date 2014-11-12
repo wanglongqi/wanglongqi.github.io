@@ -81,26 +81,42 @@ Matplotlib的Legend和Matlab很像，但是没有选项可以直接将Legend放�
 	plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
 	legend(['$sin(x)$'])
 
+{% endhighlight %}
+
 ![](/public/images/Fig1.png)
+
+{% highlight python %}
 
 	figure()
 
 	plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
 	legend(['$sin(x)$'],3)
 
+{% endhighlight %}
+
 ![](/public/images/Fig2.png)
+
+{% highlight python %}
 
 	figure()
 	plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
 	legend(['$sin(x)$'],bbox_to_anchor=(0.5,0.5),loc=10)
 
+{% endhighlight %}
+
 ![](/public/images/Fig3.png)
+
+{% highlight python %}
 
 	figure()
 	plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
 	legend(['$sin(x)$'],bbox_to_anchor=(1.02,0.8),loc='center left')
 
+{% endhighlight %}
+
 ![](/public/images/Fig4.png)
+
+{% highlight python %}
 
 	figure()
 	ax = gca()
@@ -108,9 +124,10 @@ Matplotlib的Legend和Matlab很像，但是没有选项可以直接将Legend放�
 	plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
 	legend(['$sin(x)$'],bbox_to_anchor=(1.02,0.8),loc='center left')
 
+{% endhighlight %}
+
 ![](/public/images/Fig5.png)
 
-{% endhighlight %}
 
 代码中展示了一下plot函数中众多选项中的一部分，legend函数的其他有用选项比如可以这样控制legend的样式：
 
@@ -120,9 +137,9 @@ Matplotlib的Legend和Matlab很像，但是没有选项可以直接将Legend放�
 	plot(x,y,'darkblue',lw=2,marker='*',mfc='lightgreen',ms=12,mec='darkgreen',mew=1)
 	legend(['$sin(x)$'],loc='best',fancybox=True,shadow=True,numpoints=1,)
 
-![](/public/images/Fig7.png)
-
 {% endhighlight %}
+
+![](/public/images/Fig7.png)
 
 总之，Matplotlib用于2D绘图还是比较优秀的，图像的效果一般来讲和Matlab的图像有过之而无不及。不过有些功能却不太容易实现，还需要大家不断的探索解决方案。
 
