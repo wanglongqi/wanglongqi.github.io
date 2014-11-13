@@ -17,32 +17,32 @@ tags:
 解决方案中Robert Kern提到：
 
 {% highlight python %}
-	In your `setup.py`, the Extension should have the argument `include_dirs=[numpy.get_include()]`.
+In your `setup.py`, the Extension should have the argument `include_dirs=[numpy.get_include()]`.
 
-	Also, you are missing `np.import_array()` in your code.
+Also, you are missing `np.import_array()` in your code.
 
-	--
+--
 
-	Example setup.py:
+Example setup.py:
 
-	from distutils.core import setup, Extension
-	from Cython.Build import cythonize
-	import numpy
+from distutils.core import setup, Extension
+from Cython.Build import cythonize
+import numpy
 
-	setup(
-	    ext_modules=[
-	        Extension("my_module", ["my_module.c"],
-	                  include_dirs=[numpy.get_include()]),
-	    ],
-	)
+setup(
+    ext_modules=[
+        Extension("my_module", ["my_module.c"],
+                  include_dirs=[numpy.get_include()]),
+    ],
+)
 
-	# Or, if you use cythonize() to make the ext_modules list,
-	# include_dirs can be passed to setup()
+# Or, if you use cythonize() to make the ext_modules list,
+# include_dirs can be passed to setup()
 
-	setup(
-	    ext_modules=cythonize("my_module.pyx"),
-	    include_dirs=[numpy.get_include()]
-	)  
+setup(
+    ext_modules=cythonize("my_module.pyx"),
+    include_dirs=[numpy.get_include()]
+)  
 {% endhighlight %}
 
   
