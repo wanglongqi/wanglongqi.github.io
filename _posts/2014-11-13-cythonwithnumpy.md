@@ -16,6 +16,7 @@ tags:
 
 解决方案中Robert Kern提到：
 
+{% highlight python %}
 	In your `setup.py`, the Extension should have the argument `include_dirs=[numpy.get_include()]`.
 
 	Also, you are missing `np.import_array()` in your code.
@@ -41,7 +42,10 @@ tags:
 	setup(
 	    ext_modules=cythonize("my_module.pyx"),
 	    include_dirs=[numpy.get_include()]
-	)    
+	)  
+{% endhighlight %}
+
+  
 
 解决方法就是往`include_dirs`添加`numpy.get_include()`。
 
