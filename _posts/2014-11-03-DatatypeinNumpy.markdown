@@ -5,6 +5,7 @@ date: 2014-11-03 23:46:58
 layout: post
 slug: DataTypeinNumpy
 title: Numpy里的Float是单精度还是双精度？
+categories: [Python]
 tags:
 - Python
 - Tutorial

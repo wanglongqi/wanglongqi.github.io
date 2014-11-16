@@ -5,6 +5,7 @@ date: 2014-11-06 16:15:27
 layout: post
 slug: Googlevis
 title: GoogleVis示例
+categories: [R]
 tags:
 - Tutorial
 - R

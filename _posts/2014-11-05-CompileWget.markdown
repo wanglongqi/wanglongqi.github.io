@@ -5,6 +5,7 @@ date: 2014-11-05 15:02:41
 layout: post
 slug: ComplieWget
 title: Mac下编译wget
+categories: [System]
 tags:
 - Mac
 - wget

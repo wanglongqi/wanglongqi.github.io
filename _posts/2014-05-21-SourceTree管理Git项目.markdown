@@ -5,6 +5,7 @@ date: 2014-05-21 13:46:55
 layout: post
 slug: SourceTree
 title: SourceTree 管理Git项目还不错
+categories: [Tools]
 tags:
 - SourceTree
 - Git

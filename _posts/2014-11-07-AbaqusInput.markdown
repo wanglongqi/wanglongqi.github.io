@@ -5,6 +5,7 @@ date: 2014-11-07 23:30:41
 layout: post
 slug: AbaqusInput
 title: Abaqus Input文件的语法规则
+categories: [Abaqus]
 tags:
 - Abaqus
 - Tutorial

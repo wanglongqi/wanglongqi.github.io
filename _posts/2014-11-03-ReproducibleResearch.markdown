@@ -5,6 +5,7 @@ date: 2014-11-03 13:56:58
 layout: post
 slug: ReproducibleResearch
 title: 我们需要可再现研究（Reproducible Research）吗？
+categories: [Opinion]
 tags:
 - Python
 - Research

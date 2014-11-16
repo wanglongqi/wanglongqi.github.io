@@ -5,6 +5,7 @@ date: 2014-11-08 17:20:19
 layout: post
 slug: TsinghuaBoysDay
 title: 清华男女生节也应杜绝奢侈浪费
+categories: [Opinion]
 tags:
 - Tsinghua
 - Opinion

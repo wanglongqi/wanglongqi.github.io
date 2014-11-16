@@ -5,6 +5,7 @@ date: 2014-11-10 17:07:40
 layout: post
 slug: VisNeedsDesign
 title: 优秀的插图是设计出来的
+categories: [Opinion]
 tags:
 - R
 - Graphics

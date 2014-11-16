@@ -5,7 +5,7 @@ date: 2014-03-08 02:42:08+00:00
 layout: post
 slug: writetex-is-on-github-now
 title: WriteTeX is on GitHub now! (WriteTeX发布了！)
-wordpress_id: 633
+categories: [Inkscape]
 tags:
 - Inkscape
 - WriteTeX

@@ -5,6 +5,7 @@ date: 2014-03-24 13:29:28+00:00
 layout: post
 slug: implement-of-lagrange-polynomial-in-sympy
 title: Implement of Lagrange Polynomial in Sympy
+categories: [Python]
 tags:
 - Python
 - Sympy

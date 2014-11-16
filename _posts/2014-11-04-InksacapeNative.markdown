@@ -5,6 +5,7 @@ date: 2014-11-04 22:06:16
 layout: post
 slug: InkscapeNative
 title: 原生Mac OS X版Inkscape (Native Mac OS X edition Inkscape is available for downloading) 
+categories: [Inkscape]
 tags:
 - Mac OS X
 - Inkscape

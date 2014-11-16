@@ -5,6 +5,7 @@ date: 2014-11-13 12:52:27
 layout: post
 slug: CythonwithNumpy
 title: 使用了Numpy的Cython程序编译错误解决方案
+categories: [Python]
 tags:
 - Python
 - Cython

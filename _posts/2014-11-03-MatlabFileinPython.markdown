@@ -5,6 +5,7 @@ date: 2014-11-03 22:56:58
 layout: post
 slug: MatlabFileinPython
 title: Python中处理Matlab文件
+categories: [Python]
 tags:
 - Python
 - Tutorial

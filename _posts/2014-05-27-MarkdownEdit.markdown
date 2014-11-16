@@ -5,6 +5,7 @@ date: 2014-05-27T23:57:18+8:00
 layout: post
 slug: MarkdownEdit
 title: Sublime Text 可视化编辑Markdown
+categories: [Tools]
 tags:
 - Markdown
 - Sublime

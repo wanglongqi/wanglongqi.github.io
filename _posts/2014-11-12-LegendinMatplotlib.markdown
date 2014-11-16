@@ -5,6 +5,7 @@ date: 2014-11-12 11:29:13
 layout: post
 slug: LegendinMatplotlib
 title: Matplotlib中Legend怎么设置到坐标轴外侧
+categories: [Python]
 tags:
 - Matplotlib
 - Python

@@ -5,6 +5,7 @@ date: 2014-11-05 13:40:03
 layout: post
 slug: ACopyright
 title: 某网站的版权条款等于自掘坟墓
+categories: [Opinion]
 tags:
 - Opinion
 ---

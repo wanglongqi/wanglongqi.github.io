@@ -5,6 +5,7 @@ date: 2014-11-04 08:28:02
 layout: post
 slug: XKCDinPython
 title: 怎么在Python里绘制XKCD风格的图像？
+categories: [Python]
 tags:
 - Python
 - Tutorial

@@ -5,6 +5,7 @@ date: 2014-11-10 00:09:12
 layout: post
 slug: WeChatVideo
 title: 你知道微信小视频是有声的吗？
+categories: [Opinion]
 tags:
 - WeChat
 - Tencent

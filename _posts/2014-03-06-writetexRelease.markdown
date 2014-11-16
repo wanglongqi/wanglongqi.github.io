@@ -5,7 +5,7 @@ date: 2014-03-06 16:08:55+00:00
 layout: post
 slug: writetex
 title: WriteTeX：Inkscape的Tex插件
-wordpress_id: 627
+categories: [Inkscape]
 tags:
 - Inkscape
 - WriteTeX

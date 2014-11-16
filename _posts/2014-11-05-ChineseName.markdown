@@ -5,6 +5,7 @@ date: 2014-11-05 05:28:47
 layout: post
 slug: ChineseName
 title: 弄个中文名字
+categories: [Site]
 tags:
 - SiteRelate
 - Name

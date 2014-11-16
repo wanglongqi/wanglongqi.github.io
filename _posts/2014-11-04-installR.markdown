@@ -5,6 +5,7 @@ date: 2014-11-04 13:05:02
 layout: post
 slug: UpgradeR
 title: 使用installr升级R至最新版本
+categories: [R]
 tags:
 - R
 - Tutorial

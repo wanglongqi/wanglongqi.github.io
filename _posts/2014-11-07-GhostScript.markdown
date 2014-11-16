@@ -5,6 +5,7 @@ date: 2014-11-07 12:25:01
 layout: post
 slug: GhostScript
 title: GS (GhostScript)的快速参考卡片
+categories: [Tools]
 tags:
 - GS
 - CheatSheet

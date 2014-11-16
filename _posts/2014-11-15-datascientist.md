@@ -6,7 +6,7 @@ layout: post
 slug: DataScientist
 title: 如何八步成为数据专家
 published: True
-categories: []
+categories: ['Share']
 tags:
 - Share
 - Translation
