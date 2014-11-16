@@ -6,7 +6,7 @@ slug: Archive
 ### 这是网站上现有的文章列表
 <ul>
 {% for category in site.categories %}
-  <li><a name="{{ category | first }}" style="text-transform:initial;">{{ category | first }}</a>
+  <li><a name="{{ category | first }}" style="text-transform:capitalize;">{{ category | first }}</a>
     <ul>
     {% for posts in category %}
       {% for post in posts %}
