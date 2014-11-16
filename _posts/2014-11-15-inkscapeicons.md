@@ -2,9 +2,9 @@
 author: Longqi
 comments: true
 date: 2014-11-16 15:25:34
-layout:post
+layout: post
 slug: InkscapeIcons
-title:修改Mac版Inkscape的图表
+title: 修改Mac版Inkscape的图表
 published: True
 categories: [Inkscape]
 tags:
