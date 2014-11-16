@@ -1,8 +1,8 @@
 ---
 author: Longqi
 comments: true
-date: 2014-11-15 11:30:07
-layout: post
+date: 2014-11-16 15:25:34
+layout:post
 slug: InkscapeIcons
 title:修改Mac版Inkscape的图表
 published: True
