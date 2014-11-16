@@ -12,7 +12,7 @@ tags:
 - Tutorial
 ---
 ![newlook](/public/images/inkscapeicon/after.png)
-前几日向大家推荐Inkscape的Mac OS原生版本 {% post_url InkscapeNative %}，今天就算售后服务吧！默认的Nightly版本的Mac OS的Inkscape使用的是暗色主题，习惯了浅色主题的用户可能会不适应。以往更改主题可以到 `/share/icons/icons.svg` 里更改，但是Mac版本的Inkscape里面已经没有那个文件了，而是一堆主题。那么要怎么用呢？
+前几日向大家推荐Inkscape的Mac OS原生版本，今天就算售后服务吧！默认的Nightly版本的Mac OS的Inkscape使用的是暗色主题，习惯了浅色主题的用户可能会不适应。以往更改主题可以到 `/share/icons/icons.svg` 里更改，但是Mac版本的Inkscape里面已经没有那个文件了，而是一堆主题。那么要怎么用呢？
 
 其实很简单，Mac版本的Inkscape里安装了主题管理差距，就在`扩展`菜单下面，如下图：
 
