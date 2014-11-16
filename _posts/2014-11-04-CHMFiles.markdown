@@ -20,4 +20,5 @@ tags:
 1. [scipy.chm](https://wanglongqi.github.io/public/chms/scipy.chm)
 1. [SymPy.chm](https://wanglongqi.github.io/public/chms/SymPydoc.chm)
 1. [tvtk.chm](https://wanglongqi.github.io/public/chms/tvtkdoc.chm)
+1. [statsmodels.chm](https://wanglongqi.github.io/public/chms/statsmodelsdoc.chm)
 
