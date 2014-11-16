@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 文章目录
+title: 分类目录
 slug: Archive
 ---
 ### 这是网站上现有的文章列表

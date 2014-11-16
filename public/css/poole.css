@@ -402,3 +402,13 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+.arpost{
+  line-height: 2rem;
+  list-style-type:cjk-heavenly-stem;
+}
+
+.arcat{
+  text-transform:capitalize;
+  list-style-type:cjk-ideographic;
+}
