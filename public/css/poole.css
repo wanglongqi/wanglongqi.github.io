@@ -407,6 +407,8 @@ a.pagination-item:hover {
   line-height: 2rem;
   list-style-image: url("/public/css/list1.png");
   margin-top: 1rem;
+  font-weight: normal;
+  font-size: 100%;
 }
 
 .arcat{
