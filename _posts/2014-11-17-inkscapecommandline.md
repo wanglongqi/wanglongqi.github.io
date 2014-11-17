@@ -63,40 +63,38 @@ Inkscape的命令行参数很多， 官网上有详细介绍，在这里做个�
 
 {% highlight batch %}
 
-打开文件:
-
+打开文件
     inkscape filename.svg
-从命令行打印：
 
+从命令行打印
     inkscape filename.svg -p '| lpr'
+
 导出SVG到90dpi的PNG
-
     inkscape filename.svg --export-png=filename.png
+
 导出SVG到600*400的PNG
-
     inkscape filename.svg --export-png=filename.png -w600 -h400
+
 导出SVG内所有对象的区域到PNG
-
     inkscape filename.svg --export-png=filename.png --export-area-drawing
+
 导出SVG中id="text1555"的对象到PNG
-
     inkscape filename.svg --export-id=text1555 --export-use-hints
+
 同上，但使用默认DPI,自定义文件名并调整导出区域至整数
-
     inkscape filename.svg --export-id=text1555 --export-png=text.png --export-area-snap
+
 导出SVG到无Inkscape标签的SVG
-
     inkscape filename1.svg --export-plain-svg=filename2.svg
+
 导出SVG到EPS，并将文字转换为路径
-
     inkscape filename.svg --export-eps=filename.eps --export-text-to-path
+
 查询text1555的宽度
-
     inkscape filename.svg --query-width --query-id text1555
+
 拷贝对象id="path1555"，并旋转90度，然后保存并退出。
-
     inkscape filename.svg --select=path1555 --verb=EditDuplicate --verb=ObjectRotate90 --verb=FileSave --verb=FileClose
-
 {% endhighlight %}
 
 
