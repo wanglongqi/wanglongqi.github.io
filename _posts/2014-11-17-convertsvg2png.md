@@ -23,5 +23,5 @@ echo quit >> input
 inkscape.com --shell <input
 {% endhighlight %}
 
-是不是很简单啊！如果想要搞清楚这些参数的含义可以参考其他几篇文章哦：[Inkscape的命令行参数]({% post_url 2014-11-14-inkscapecommandline %})和[批处理中for循环怎么去掉变量的后缀名]()。
+是不是很简单啊！如果想要搞清楚这些参数的含义可以参考其他几篇文章哦：[Inkscape的命令行参数]({% post_url 2014-11-17-inkscapecommandline %})和[批处理中for循环怎么去掉变量的后缀名](/)。
 
