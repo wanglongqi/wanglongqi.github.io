@@ -10,7 +10,7 @@ tags:
 - Mac OS X
 - Inkscape
 ---
-![inkscape.png](/public/images/inkscape.png)
+![inkscape.png](/public/images/inkscapemac.png)
 Inkscape 无疑是**开源免费**的矢量图绘制软件中的王者，与GIMP搭配基本可以解决图像处理的大部分问题。Inkscape在Window和Linux的平台下支持一直都还不错，但是Mac OS的用户，特别是新版Mac OS X的用户不但得到不快速的更新，而且官方的Mac OS版Inkscape还需要装XQuartz。对于不想装XQuartz的用户，无疑这是在Mac OS上暂时不装Inkscape的理由。更何况GIMP也已经推出了原生的Mac OS版本，就更没有理由去装XQuartz了。其实很早就有人折腾Native的Inkscape，今天发现了一个0.48.4的第三方编译版本，觉得用着还不错，推荐给大家。这里是下载地址：<del> [https://copy.com/vX1lAjxmhAUl](https://copy.com/vX1lAjxmhAUl) </del>
 
 
