@@ -1,7 +1,7 @@
 ---
 author: Longqi
 comments: true
-date: 2014-11-17 14:02:46
+date: 2014-11-17 16:50:40
 layout: post
 slug: InkscapeCommandLine
 title: Inkscape的命令行参数
