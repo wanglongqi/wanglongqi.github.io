@@ -405,10 +405,10 @@ a.pagination-item:hover {
 
 .arpost{
   line-height: 2rem;
-  list-style-type:cjk-heavenly-stem;
+  list-style-image: "/public/css/list1.png";
 }
 
 .arcat{
   text-transform:capitalize;
-  list-style-type:cjk-ideographic;
+  list-style-image: "/public/css/cat1.png";
 }
