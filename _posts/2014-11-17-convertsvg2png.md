@@ -17,11 +17,29 @@ tags:
 原理很简单了，不让Inkscape每次都启动即可，这个很困难吗，当然不是Inkscape设计人员还是挺靠谱的。下面就是我的解决方案：
 
 {% highlight batch %}
-if exsit input delete input
-for %i in (*.svg) do @echo %i -e %~ni.png -w 500 >> input
+if exist input del input
+for %%i in (*.svg) do @echo %%i -e %%~ni.png -w 500 >> input
 echo quit >> input
 inkscape.com --shell <input
 {% endhighlight %}
 
 是不是很简单啊！如果想要搞清楚这些参数的含义可以参考其他几篇文章哦：[Inkscape的命令行参数]({% post_url 2014-11-17-inkscapecommandline %})和[批处理中for循环怎么去掉变量的后缀名]({% post_url 2014-11-18-variableinforloop %})。
+
+也可以新建一个命令svg2png。内容如下即可：
+
+{% highlight batch %}
+if exist input del input
+for %%i in (%*) do @echo %%i -e %%~ni.png>> input
+echo quit >> input
+inkscape.com  --shell <input
+{% endhighlight %}
+
+类似的可以有svg2eps。
+
+{% highlight batch %}
+if exist input del input
+for %%i in (%*) do @echo %%i -E %%~ni.eps>> input
+echo quit >> input
+inkscape.com  --shell <input
+{% endhighlight %}
 
