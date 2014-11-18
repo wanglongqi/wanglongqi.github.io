@@ -13,7 +13,11 @@ tags:
 - Python
 ---
 ![Python](/public/images/python.png)
-
+Jekyll 可以使用Pygment做语法高亮，格式是
+	{% highlight 语言代码 %}
+	Hello world!
+	{% endhighlight %}
+所以需要这个语言代码，帮助里有，很臭很长，所以直接用R重新处理了一下。然后用Google Chart api弄了个表格，当然是用[GoogleVis包弄的](/)。嗯，下面就是格式和代号对应表了：
 
 <!-- jsHeader -->
 <script type="text/javascript">
