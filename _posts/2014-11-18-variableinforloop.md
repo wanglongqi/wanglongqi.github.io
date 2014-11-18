@@ -1,7 +1,7 @@
 ---
 author: Longqi
 comments: true
-date: 2014-11-18 11:18:14
+date: 2014-11-18 13:13:14
 layout: post
 slug: VariableinForLoop
 title: 批处理中for循环怎么去掉变量的后缀名
