@@ -15,9 +15,9 @@ tags:
 ![Python](/public/images/python.png)
 Jekyll 可以使用Pygment做语法高亮，格式是
 
-`&#123;% highlight 语言代码 %&#125;`
-Hello world!
-`&#123;% endhighlight %&#125;`
+	&#123;% highlight 语言代码 %&#125;
+	Hello world!
+	&#123;% endhighlight %&#125;
 
 所以需要这个语言代码，帮助里有，很臭很长，所以直接用R重新处理了一下。然后用Google Chart api弄了个表格，当然是用[GoogleVis包弄的]({% post_url 2014-11-06-GoogleVis %})。嗯，下面就是格式和代号对应表了：
 
