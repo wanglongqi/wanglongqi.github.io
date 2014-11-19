@@ -12,7 +12,7 @@ tags:
 - System
 - Batch
 ---
-
+![cmd](/public/images/cmd.png)
 在for循环中可以使用的变量名修改符包括：
 
     %~I         - 将 %I 去掉变量两边的双引号 (")
