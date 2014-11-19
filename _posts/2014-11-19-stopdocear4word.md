@@ -1,7 +1,7 @@
 ---
 author: Longqi
 comments: true
-date: 2014-11-18 11:18:14
+date: 2014-11-19 13:34:55
 layout: post
 slug: StopDocear4word
 title: 暂时不要使用Docear4Word (Do not use Docear4Word now.)
@@ -17,17 +17,17 @@ Docear是一套文献管理软件，之前有同学推荐我用，不过一直�
 
 比如，使用IEEE格式渲染数据库文件的结果是：
 
-[1]	M.-B. Abdo and M. Hori, “A numerical study of structural damage detection using changes in the rotation of mode shapes,” Journal of Sound and vibration, vol. 251, no. 2, pp. 227–239, 2002.
-[2]	H. Ahmadian and H. Jalali, “Generic element formulation for modelling bolted lap joints,” Mechanical Systems and Signal Processing, vol. 21, no. 5, pp. 2318–2334, 2007.
-[3]	J. Esteban and C. A. Rogers, “Energy dissipation through joints: theory and experiments,” Computers & Structures, vol. 75, no. 4, pp. 347–359, 2000.
-[4]	W. Fan and P. Qiao, “Vibration-based damage identification methods: a review and comparative study,” Structural Health Monitoring, vol. 10, no. 1, pp. 83–111, 2011.
+	[1]	M.-B. Abdo and M. Hori, “A numerical study of structural damage detection using changes in the rotation of mode shapes,” Journal of Sound and vibration, vol. 251, no. 2, pp. 227–239, 2002.
+	[2]	H. Ahmadian and H. Jalali, “Generic element formulation for modelling bolted lap joints,” Mechanical Systems and Signal Processing, vol. 21, no. 5, pp. 2318–2334, 2007.
+	[3]	J. Esteban and C. A. Rogers, “Energy dissipation through joints: theory and experiments,” Computers & Structures, vol. 75, no. 4, pp. 347–359, 2000.
+	[4]	W. Fan and P. Qiao, “Vibration-based damage identification methods: a review and comparative study,” Structural Health Monitoring, vol. 10, no. 1, pp. 83–111, 2011.
 
 但是用Elsevier格式渲染出来的结果是这样的：
 
-[1]	M.-B. Abdo, M. Hori, A numerical study of structural damage detection using changes in the rotation of mode shapes, Journal SoundVibration. 251 (2002) 227–239. http://www.sciencedirect.com/science/article/pii/S0022460X01939896.
-[2]	H. Ahmadian, H. Jalali, Generic element formulation for modelling bolted lap joints, MechanicalSystems Signal Processing. 21 (2007) 2318–2334. http://www.sciencedirect.com/science/article/pii/S0888327006002263.
-[3]	J. Esteban, C.A. Rogers, Energy dissipation through joints: theory and experiments, Computers&Structures. 75 (2000) 347–359. http://www.sciencedirect.com/science/article/pii/S0045794999000966.
-[4]	W. Fan, P. Qiao, Vibration-based damage identification methods: a review and comparative study, StructuralHealthMonitoring. 10 (2011) 83–111.
+	[1]	M.-B. Abdo, M. Hori, A numerical study of structural damage detection using changes in the rotation of mode shapes, Journal SoundVibration. 251 (2002) 227–239. http://www.sciencedirect.com/science/article/pii/S0022460X01939896.
+	[2]	H. Ahmadian, H. Jalali, Generic element formulation for modelling bolted lap joints, MechanicalSystems Signal Processing. 21 (2007) 2318–2334. http://www.sciencedirect.com/science/article/pii/S0888327006002263.
+	[3]	J. Esteban, C.A. Rogers, Energy dissipation through joints: theory and experiments, Computers&Structures. 75 (2000) 347–359. http://www.sciencedirect.com/science/article/pii/S0045794999000966.
+	[4]	W. Fan, P. Qiao, Vibration-based damage identification methods: a review and comparative study, StructuralHealthMonitoring. 10 (2011) 83–111.
 
 Elsevier格式的渲染所有的期刊名都是不对的，而且还有其他人半年前就报告[其他类似Bug](http://www.docear.org/support/forums/docear-support-forums-group3/bug-reports-forum6/docear4word-styles-from-csl-site-not-working-thread895/)，官方已经接受了报告，但是半年都没有推出修正，这样的速度是不能够接受的。因此，建议大家使用其他的Bibtex与Word的接口程序，比如[Mendeley](http://www.mendeley.com)或者[Zotero](http://zotero.org)或者[Papers](http://www.papersapp.com)。不过我都没有尝试过，不单独推荐那个软件。对了Mendeley和Zotero更多的像文献管理软件，而不是BibTeX集成的解决方案。个人比较喜欢用JabRef，Mendeley的界面看着也不错，使用起来和Docear4Word比较类似，试用了一下感觉很不错。由于之前有同学报告过Mendeley有一些问题，我需要在使用一段时间才能有结论，之后再报告啦！
 
