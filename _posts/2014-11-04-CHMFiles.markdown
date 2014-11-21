@@ -21,5 +21,15 @@ tags:
 1. [scipy.chm](https://wanglongqi.github.io/public/chms/scipy.chm)
 1. [SymPy.chm](https://wanglongqi.github.io/public/chms/SymPydoc.chm)
 1. [tvtk.chm](https://wanglongqi.github.io/public/chms/tvtkdoc.chm)
-8. [statsmodels.chm](https://wanglongqi.github.io/public/chms/statsmodelsdoc.chm)
+1. [statsmodels.chm](https://wanglongqi.github.io/public/chms/statsmodelsdoc.chm)
+1. [pandas.chm](https://wanglongqi.github.io/public/chms/pandas.chm)
 
+
+2014-11-21 更新：
+最近更新了大部分的文档，删除了文档中的在线资源。
+添加了[pandas.chm](https://wanglongqi.github.io/public/chms/pandas.chm)，这个比较麻烦，官方没有使用默认文档系统。而且里面还有TOC在所有页，实在是很讨厌。折腾了一把，终于去掉了。
+
+2014-11-20 更新：
+Numpy的文档更新到1.9，上一次编译没成功。
+添加了[statsmodels.chm](https://wanglongqi.github.io/public/chms/statsmodelsdoc.chm)
+更新了 [Cython.chm](https://wanglongqi.github.io/public/chms/Cythondoc.chm)，这个比较推荐大家更新。
