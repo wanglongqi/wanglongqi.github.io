@@ -20,7 +20,7 @@ tags:
 	scipy.signal.lombscargle(x, y, freqs)
 	计算Lomb-Scargle周期图.
 
-	计算得到的周期图没有归一滑，放大系数为(A**2) * N/4  A是对于足够大N的正弦信号的幅值。
+	计算得到的周期图没有归一化，放大系数为(A**2) * N/4 ，A是对于足够大N的正弦信号的幅值。
 
 	参数:	
 	x : 数组
