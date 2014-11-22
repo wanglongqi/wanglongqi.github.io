@@ -23,7 +23,11 @@ tags:
 1. [tvtk.chm](https://wanglongqi.github.io/public/chms/tvtkdoc.chm)
 1. [statsmodels.chm](https://wanglongqi.github.io/public/chms/statsmodelsdoc.chm)
 1. [pandas.chm](https://wanglongqi.github.io/public/chms/pandas.chm)
+1. [PySpectrum.chm](https://wanglongqi.github.io/public/chms/Spectrum.chm)
 
+2014-11-22 更新：
+更新Sympy文档到0.7.6
+添加[PySpectrum.chm](https://wanglongqi.github.io/public/chms/Spectrum.chm)的文档
 
 2014-11-21 更新：
 最近更新了大部分的文档，删除了文档中的在线资源。
