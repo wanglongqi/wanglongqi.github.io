@@ -5,7 +5,7 @@ slug: About
 ---
 <img src="/public/logo.svg" align="center" alt="Logo"/>
 <h2>Why & How （崴&灏）</h2>
-[以生之有涯随知之无涯，殆矣，然何为，为何为。山路不平，起伏不定；水势浩大，汹涌不宁。](https://wanglongqi.github.io/2014/11/05/ChineseName/)
+[以生之有涯随知之无涯，殆矣，然何为，为何为。山路不平，起伏不定；水势浩大，汹涌不宁。]({% post_url 2014-11-05-ChineseName %})
 
 <p class="message">
 崴 音wǎi，原意是山路不平；还有一个音是 wēi，是指山势高大，这个意思容易理解，就是这个字拆成两部分山和威的合并意义。<br/>
