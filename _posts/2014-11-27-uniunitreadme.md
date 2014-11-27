@@ -10,7 +10,7 @@ categories: [uniunit]
 tags:
 - uniUnit
 ---
-![uniUnit](/public/images/uniUnit.png)
+![uniUnit](/public/images/uniUnit128.png)
 In FEM and other similar simulation techniques, keeping consistent units is a tedious work and almost everyone made this kind of mistake one or two times. Therefore, here I propose a package for dealing with this problem once and for all.
 
 The idea of the package is simple, you tell me what is the system of units you want. Then, tell me the correct number in any system of units. All is done! The package will try to print out the value in you specified system of units.
