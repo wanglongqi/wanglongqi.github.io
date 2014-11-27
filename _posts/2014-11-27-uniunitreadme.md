@@ -91,7 +91,7 @@ myunit3.to_unit(9.8 * m/s**2)
 Before, you start you may want to know some silly problems in the package like:
 
 - `1 [T]` is not `1000 [kg]`, but `1 Tesla` instead.
-
+- `in` is a reserved word for Python, and cannot be a unit.
 
 Pre-request
 ============
