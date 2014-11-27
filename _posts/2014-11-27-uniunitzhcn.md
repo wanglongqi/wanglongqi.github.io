@@ -95,6 +95,16 @@ myunit3.to_unit(9.8 * m/s**2)
 
 库的依赖关系
 ============
-[unum](https://pypi.python.org/pypi/Unum) - 你可以用 `easy_install unum`按照它
+[unum](https://pypi.python.org/pypi/Unum) - 你可以用 `easy_install unum`安装它
 
 
+开发计划？
+==========
+这里列出了几个可能的扩展:
+
+- 图形界面: 个人偏好Qt的界面.
+- Numpy和list的支持: 可能有用，不很确定.
+- 单位化简: 可能有意思，有一些想法，不过还不很清晰。
+- 添加更多的预定义单位: 应该是有用的，应该会在后续添加。
+- 添加测试模块: 开发过程已经用了一个简单的测试脚本，可能nose的测试系统不大好。不过， 测试模块肯定是需要的。
+- 文档: 应该不用了，这么简单的模块还用文档吗？我觉得这个介绍和[网站上的文章](https://wanglongqi.github.io/uniUnit/)应该够了。

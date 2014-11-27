@@ -96,3 +96,15 @@ Before, you start you may want to know some silly problems in the package like:
 Pre-request
 ============
 [unum](https://pypi.python.org/pypi/Unum) - You can install it by `easy_install unum`
+
+To-Do?
+========
+Here I list some possible extensions for this package:
+
+- Graphic interface: Personally, prefer Qt based GUI.
+- Numpy and list support: May be a necessary extension, not so sure.
+- Units simplification: May be interesting, have some thoughts on it but not that clear.
+- Add more predefined units: I think it is useful, may be will be added into the package later.
+- Add tests to the package: some simple tests are used in development, but nose may be not a good idea. Test system is definitely needed in the package.
+- Documentation: may be not, simple packages like this one need documentation? I think readme page and [site posts](https://wanglongqi.github.io/uniUnit/) is enough.
+
