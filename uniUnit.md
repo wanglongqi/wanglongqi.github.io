@@ -1,11 +1,12 @@
 ---
 layout: page
-title: uniUnit
+title: Posts related to uniUnit
 slug: uniUnit
 ---
-### Posts about uniUnit in this site.
+[uniUnit](https://github.com/wanglongqi/uniUnit) is a python package providing consistent units for calculation. Here is the support page for the package. The posts related to uniUnit is listed here.
+
 <ul>
-{% for category in site.categories.uniUnit %}
+{% for category in site.categories[uniUnit] %}
   <li class="arcat"><a name="{{ category | first }}">{{ category | first }}</a>
     <ul class="arpost">
     {% for posts in category %}
