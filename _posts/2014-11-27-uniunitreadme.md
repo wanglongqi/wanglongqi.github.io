@@ -6,7 +6,7 @@ layout: post
 slug: uniUnitReadMe
 title: uniUnit - unify system of units
 published: True
-categories: [uniUnit]
+categories: [uniunit]
 tags:
 - uniUnit
 ---
