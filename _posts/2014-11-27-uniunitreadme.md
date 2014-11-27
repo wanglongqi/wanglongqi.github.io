@@ -27,7 +27,7 @@ myunit.to_unit(100 * kg)
 # 100000.0 [g]
 {% endhighlight %}
 
-Oh, why would some need something like this. Fine, how about following example?
+Oh, why would someone need something like this. Fine, how about following example?
 
 {% highlight python %}
 myunit.to_unit(J)
