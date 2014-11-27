@@ -3,7 +3,7 @@ author: Longqi
 comments: true
 date: 2014-11-27 11:59:00
 layout: post
-slug: uniUnit
+slug: uniUnitReadMe
 title: uniUnit - unify system of units
 published: True
 categories: [uniUnit]
