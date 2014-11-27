@@ -69,7 +69,6 @@ Following is the units table currently available in uniUnit.
 |    **fcd**     |           1e-15 [cd]            |       femtocandela       |
 |     **fg**     |           1e-18 [kg]            |        femtogram         |
 |     **fK**     |            1e-15 [K]            |       femtokelvin        |
-|   **Flash**    |             1 [ms]              |             ''             |
 |     **fm**     |            1e-15 [m]            |        femtometer        |
 |    **fmol**    |           1e-15 [mol]           |        femtomole         |
 |     **fs**     |            1e-15 [s]            |       femtosecond        |
@@ -108,7 +107,6 @@ Following is the units table currently available in uniUnit.
 |     **ks**     |            1000 [s]             |        kilosecond        |
 |     **L**      |           0.001 [m3]            |          liter           |
 |     **lm**     |            1 [cd.sr]            |          lumen           |
-|    **Long**    |            1000 [km]            |             ''             |
 |     **lx**     |            1 [lm/m2]            |           lux            |
 |     **m**      |              None               |          meter           |
 |     **mA**     |            0.001 [A]            |       milliampere        |
