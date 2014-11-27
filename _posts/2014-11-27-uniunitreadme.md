@@ -90,7 +90,7 @@ myunit3.to_unit(9.8 * m/s**2)
 
 Before, you start you may want to know some silly problems in the package like:
 
-- `1 [T]` is not `1000 [kg]`, but `1 Tesla` instead.
+- `1 [T]` is not `1000 [kg]`, but `1 Tesla` instead. Tone in the system is `t`.
 - `in` is a reserved word for Python, and cannot be a unit.
 
 Pre-request
@@ -106,5 +106,5 @@ Here I list some possible extensions for this package:
 - Units simplification: May be interesting, have some thoughts on it but not that clear.
 - Add more predefined units: I think it is useful, may be will be added into the package later.
 - Add tests to the package: some simple tests are used in development, but nose may be not a good idea. Test system is definitely needed in the package.
-- Documentation: may be not, simple packages like this one need documentation? I think readme page and [site posts](https://wanglongqi.github.io/uniUnit/) is enough.
+- Documentation: may be not, simple packages like this one need documentation? I think readme page and [site posts](https://wanglongqi.github.io/uniUnit/) are enough.
 
