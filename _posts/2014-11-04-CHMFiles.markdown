@@ -25,15 +25,21 @@ tags:
 1. [pandas.chm](https://wanglongqi.github.io/public/chms/pandas.chm)
 1. [PySpectrum.chm](https://wanglongqi.github.io/public/chms/Spectrum.chm)
 
+2014-12-02 更新：
+- 添加了epub版本的文件， [一些常用Python库的epub帮助文件]({% post_url 2014-12-02-epubs %})
+
 2014-11-22 更新：
-更新Sympy文档到0.7.6
-添加[PySpectrum.chm](https://wanglongqi.github.io/public/chms/Spectrum.chm)的文档
+
+- 更新Sympy文档到0.7.6
+- 添加[PySpectrum.chm](https://wanglongqi.github.io/public/chms/Spectrum.chm)的文档
 
 2014-11-21 更新：
-最近更新了大部分的文档，删除了文档中的在线资源。
-添加了[pandas.chm](https://wanglongqi.github.io/public/chms/pandas.chm)，这个比较麻烦，官方没有使用默认文档系统。而且里面还有TOC在所有页，实在是很讨厌。折腾了一把，终于去掉了。
+
+- 最近更新了大部分的文档，删除了文档中的在线资源。
+- 添加了[pandas.chm](https://wanglongqi.github.io/public/chms/pandas.chm)，这个比较麻烦，官方没有使用默认文档系统。而且里面还有TOC在所有页，实在是很讨厌。折腾了一把，终于去掉了。
 
 2014-11-20 更新：
-Numpy的文档更新到1.9，上一次编译没成功。
-添加了[statsmodels.chm](https://wanglongqi.github.io/public/chms/statsmodelsdoc.chm)
-更新了 [Cython.chm](https://wanglongqi.github.io/public/chms/Cythondoc.chm)，这个比较推荐大家更新。
+
+- Numpy的文档更新到1.9，上一次编译没成功。
+- 添加了[statsmodels.chm](https://wanglongqi.github.io/public/chms/statsmodelsdoc.chm)
+- 更新了 [Cython.chm](https://wanglongqi.github.io/public/chms/Cythondoc.chm)，这个比较推荐大家更新。
