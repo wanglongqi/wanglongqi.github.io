@@ -1,5 +1,5 @@
 ---
-layout: nil
+layout: page
 title: 分类目录
 slug: Archive
 ---
