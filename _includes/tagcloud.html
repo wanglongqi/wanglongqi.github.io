@@ -27,13 +27,13 @@
 {% for tag in site.categories %}
   {% assign temp = tag[1].size | minus: min | times: 36 | divided_by: diff %}{% assign base = temp | divided_by: 4 %}{% assign remain = temp | modulo: 4 %}{% if remain == 0 %}{% assign size = base | plus: 9 %}{% elsif remain == 1 or remain == 2 %}{% assign size = base | plus: 9 | append: '.5' %}{% else %}{% assign size = base | plus: 10 %}{% endif %}
   {% if remain == 0 or remain == 1 %}
-	  {% assign colorr = base | times: 8 | plus: 106 %}
-	  {% assign colorg = base | times: 8 | plus: 159 %}
-	  {% assign colorb = base | times: 8 | plus: 181 %}
+	  {% assign colorr = base | times: 6 | plus: 126 %}
+	  {% assign colorg = base | times: 6 | plus: 179 %}
+	  {% assign colorb = base | times: 6 | plus: 197 %}
   {% else %}
-	  {% assign colorr = base | times: 8 | plus: 106 %}
-	  {% assign colorg = base | times: 8 | plus: 159 %}
-	  {% assign colorb = base | times: 8 | plus: 181 %}
+	  {% assign colorr = base | times: 6 | plus: 126 %}
+	  {% assign colorg = base | times: 6 | plus: 179 %}
+	  {% assign colorb = base | times: 6 | plus: 197 %}
   {% endif %}
   <a href="/Archive/#{{ tag[0] }}" style="font-size: {{ size }}pt; color: rgb({{ colorr }},{{ colorg }},{{ colorb }});">{{ tag[0] }}</a>
 {% endfor %}
