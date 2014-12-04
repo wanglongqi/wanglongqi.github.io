@@ -6,10 +6,9 @@ layout: nil
 {% include head.html %}
 
   <body class="theme-base-0d">
-    {% include sidebar.html %}
-    {% include tagcloud.html %}
+    {% include sidebar.html %}    
     <div class="content container">
-      {{ content }}
+      {% include tagcloud.html %}
     </div>
     {% include analytic.html %}
     <a title="Google Analytics Alternative" href="http://clicky.com/100788619"><img alt="Google Analytics Alternative" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
