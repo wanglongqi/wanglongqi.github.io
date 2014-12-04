@@ -34,6 +34,6 @@
 	  {% assign colorr = base | times: 8 | plus: 106 %}
 	  {% assign colorg = base | times: 8 | plus: 159 %}
 	  {% assign colorb = base | times: 8 | plus: 181 %}
-  <a href="/Archive/#{{ tag[0] }}" style="font-size: {{ size }}pt; color: rgb({{ color }},{{ color }},{{ color }});">{{ tag[0] }}</a>
+  <a href="/Archive/#{{ tag[0] }}" style="font-size: {{ size }}pt; color: rgb({{ colorr }},{{ colorg }},{{ colorb }});">{{ tag[0] }}</a>
 {% endfor %}
 </div>
