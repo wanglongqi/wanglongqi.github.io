@@ -4,7 +4,9 @@
 MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 });
-var theme = 1;
+if (typeof theme === 'undefined') {
+  var theme = 6;
+}
 function changeTheme()
 {
   theme = theme%8
