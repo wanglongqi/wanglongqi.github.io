@@ -11,7 +11,9 @@ tags:
 - NTU
 ---
 
-<div style="background-color:black">
+<script type="text/javascript"> 
+document.body.style.backgroundColor = "#000000";
+</script>
 <img src="/public/images/morning1205.jpg" alt="Photo"/>
-</div>
+
 
