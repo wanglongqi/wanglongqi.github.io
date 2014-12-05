@@ -14,7 +14,9 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="backtotop.svg">
+   sodipodi:docname="backtotop.svg"
+   inkscape:export-xdpi="29.215406"
+   inkscape:export-ydpi="29.215406">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="-49.852325"
-     inkscape:cy="158.43452"
+     inkscape:cx="-128.64422"
+     inkscape:cy="154.14137"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -47,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,23 +58,20 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-188.57143,-466.64789)">
-    <rect
+    <path
        style="color:#000000;fill:#45484b;fill-opacity:0.5;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 13.15625 0 C 5.8617723 0 -6.0485765e-018 5.8617717 0 13.15625 L 0 183.96875 C 0 191.26323 5.8617723 197.15625 13.15625 197.15625 L 183.96875 197.15625 C 191.26323 197.15625 197.15625 191.26323 197.15625 183.96875 L 197.15625 13.15625 C 197.15625 5.8617717 191.26323 -6.0485769e-018 183.96875 0 L 13.15625 0 z M 58.375 42.84375 L 145.90625 42.84375 L 145.90625 51.78125 L 58.375 51.78125 L 58.375 42.84375 z M 98.5625 52.875 L 150 97.15625 L 121.4375 97.15625 L 121.4375 154.3125 L 81.4375 154.3125 L 81.4375 100.03125 L 54.28125 98.59375 L 98.5625 52.875 z "
        id="rect7323"
-       width="197.14285"
-       height="197.14285"
-       x="188.57143"
-       y="466.64789"
-       rx="13.166927"
-       ry="13.166928" />
+       transform="translate(188.57143,466.64789)" />
     <g
        id="g7346"
-       transform="translate(0,-12.835825)">
+       transform="translate(0,-12.835825)"
+       style="opacity:0.50000000000000000;fill:#e6f9bc">
       <path
          inkscape:connector-curvature="0"
          id="path7336"
          d="m 242.85715,578.07647 44.28571,-45.71428 51.42857,44.28571 -28.57143,0 0,57.14286 -40,0 0,-54.28572 z"
-         style="fill:#dcdd9f;stroke:none" />
+         style="fill:#e6f9bc;stroke:none" />
       <rect
          ry="0"
          rx="0"
@@ -81,7 +80,7 @@
          height="8.9424305"
          width="87.513863"
          id="rect7338"
-         style="color:#000000;fill:#dcdd9f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.62899846;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+         style="color:#000000;fill:#e6f9bc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.62899846000000004;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     </g>
     <text
        xml:space="preserve"
@@ -95,5 +94,9 @@
          x="286.76022"
          y="693.96674"
          style="font-size:29.02405357px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#45484b;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial Bold">Back to TOP</tspan></text>
+    <g
+       style="opacity:1;fill:#f0f0d8"
+       transform="translate(0,-12.835825)"
+       id="g8102" />
   </g>
 </svg>
