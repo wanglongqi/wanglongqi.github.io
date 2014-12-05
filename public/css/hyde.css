@@ -264,7 +264,7 @@ a.sidebar-nav-item:focus {
   height: 76px;
   display: block;
   background: url(/public/images/backtotop.png) no-repeat center center;
-  background-color: #aaa;
+  background-color: #fff;
   -webkit-transition: 1s;
   -moz-transition: 1s;
   transition: 1s;
