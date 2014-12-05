@@ -257,14 +257,16 @@ a.sidebar-nav-item:focus {
   position: fixed;
   bottom: 0.5rem;
   margin-right: 0.5rem;
-  margin-left: 95%;
+  margin-left: 90%;
 }
 #back-top a {
   width: 64px;
   height: 76px;
   display: block;
   background: url(/public/images/backtotop.png) no-repeat center center;
-  background-color: #fff;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
   -webkit-transition: 1s;
   -moz-transition: 1s;
   transition: 1s;
