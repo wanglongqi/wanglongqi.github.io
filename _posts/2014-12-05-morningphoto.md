@@ -4,7 +4,7 @@ comments: true
 date: 2014-12-05 08:58:41
 layout: post
 slug: morningphoto1205
-title: Photo in the morning
+title: 洒下一点光
 categories: [Photo]
 tags:
 - Photo
