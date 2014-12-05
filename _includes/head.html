@@ -4,6 +4,13 @@
 MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 });
+var theme = 1;
+function changeTheme()
+{
+  theme = theme%6
+  document.body.className = "theme-base-0"+(9+theme).toString(16)
+  theme = theme+1
+}
 </script>
   <link href="http://gmpg.org/xfn/11" rel="profile">
 
