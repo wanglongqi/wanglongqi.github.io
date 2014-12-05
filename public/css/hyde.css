@@ -252,3 +252,21 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+#back-top {
+  float: right;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+#back-top a {
+  width: 2rem;
+  display: block;
+  background: url(/public/images/backtotop.png) no-repeat center center;
+  background-color: #aaa;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+}
+#back-top a:hover {
+  background-color: #777;
+}
