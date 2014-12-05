@@ -254,12 +254,13 @@ a.sidebar-nav-item:focus {
 }
 
 #back-top {
-  float: right;
+  position: fixed;
   bottom: 0.5rem;
-  right: 0.5rem;
+  margin-right: 0.5rem;
 }
 #back-top a {
-  width: 2rem;
+  width: 64px;
+  height: 76px;
   display: block;
   background: url(/public/images/backtotop.png) no-repeat center center;
   background-color: #aaa;
