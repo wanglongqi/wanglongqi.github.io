@@ -1,9 +1,17 @@
 <head>
+<meta name="google-translate-customization" content="de2774fb4deb4854-554cc6162650447f-gaa2322ef77f95ae9-14"></meta>
 <script async type='text/javascript' src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 <script async type="text/x-mathjax-config">
 MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 });
+var theme = 1
+function changeTheme()
+{
+  theme = theme%8
+  document.body.className = "theme-base-0"+(7+theme).toString(16)
+  theme = theme+1
+}
 </script>
   <link href="http://gmpg.org/xfn/11" rel="profile">
 
@@ -39,8 +47,9 @@ MathJax.Hub.Config({
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-6527820-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
-
 </script>
 </head>
 

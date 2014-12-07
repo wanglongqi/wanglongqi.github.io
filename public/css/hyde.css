@@ -36,12 +36,12 @@ html {
 }
 @media (min-width: 48rem) {
   html {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media (min-width: 58rem) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -55,7 +55,7 @@ html {
 
 .sidebar {
   visiability:hidden;
-  height: 8.5rem;
+  /*height: 8.5rem;*/
   text-align: center;
   color: rgba(255,255,255,.5);
   background-color: #202020;
@@ -251,4 +251,26 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+#back-top {
+  position: fixed;
+  bottom: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 90%;
+}
+#back-top a {
+  width: 64px;
+  height: 76px;
+  display: block;
+  background: url(/public/images/backtotop.png) no-repeat center center;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+}
+#back-top a:hover {
+  background-color: #aaa;
 }
