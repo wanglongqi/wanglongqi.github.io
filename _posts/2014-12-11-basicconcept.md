@@ -15,7 +15,9 @@ tags:
 
 傅里叶变换可以看到拉普拉斯变换的特例。拉普拉斯变换的定义是
 
-$$ X(s) = \int_{-\infty}^{-\infty} x(t) \exp(-st) d t $$
+\begin{equation}
+X(s) = \int_{-\infty}^{-\infty} x(t) \exp(-st) d t
+\end{equation}
 其中，$s=\sigma+j\Omega$
 
 特殊地，傅里叶变换可以认为是虚轴上的拉普拉斯变换，也即 $\sigma =0 $，$s= j\Omega$，这种变换也被叫做`bilateral Laplace transform`。 一般的教材上的拉氏变换，也即积分域从 $0_-$到$\infty$的形式，被叫做`unilateral Laplace transform`。
