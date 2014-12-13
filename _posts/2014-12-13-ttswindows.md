@@ -33,15 +33,15 @@ cscript.exe ptts.vbs [options]
       </tr>
       <tr>
         <td>
-          `-w filename`
+          <code>-w filename</code>
         </td>
         <td>
-          创建一个wave文件，而不是直接输出到音频。输出文件将是CD音质的，44100Hz的16位立体声文件。可以使用`-s`或`-c`修改。
+          创建一个wave文件，而不是直接输出到音频。输出文件将是CD音质的，44100Hz的16位立体声文件。可以使用<code>-s</code>或<code>-c</code>修改。
         </td>
       </tr>
       <tr>
         <td>
-          `-m filename`
+          <code>-m filename</code>
         </td>
         <td>
           以空行为分隔符，生成多个wave文件。自动添加五位的数字到文件名。
@@ -49,7 +49,7 @@ cscript.exe ptts.vbs [options]
       </tr>
       <tr>
         <td>
-          `-r rate`
+          <code>-r rate</code>
         </td>
         <td>
           阅读速度 -10 到 +10. 默认是0.
@@ -57,7 +57,7 @@ cscript.exe ptts.vbs [options]
       </tr>
       <tr>
         <td>
-          `-v volume`
+          <code>-v volume</code>
         </td>
         <td>
           音量的百分比，默认是100.
@@ -65,7 +65,7 @@ cscript.exe ptts.vbs [options]
       </tr>
       <tr>
         <td>
-          `-s samples`
+          <code>-s samples</code>
         </td>
         <td>
           采样率，默认是44100.可选采样率为 8000, 16000, 22050, 44100, 48000.
@@ -73,7 +73,7 @@ cscript.exe ptts.vbs [options]
       </tr>
       <tr>
         <td>
-          `-c channels`
+          <code>-c channels</code>
         </td>
         <td>
           输出的声道数，默认为2。可设置为1或者2.
@@ -81,15 +81,15 @@ cscript.exe ptts.vbs [options]
       </tr>
       <tr>
         <td>
-          `-u filename`
+          <code>-u filename</code>
         </td>
         <td>
-          从文件而不是标准输入读入文件。文件可以是Unicode，ANSi或者默认编码的。可使用`-e`选项指定。
+          从文件而不是标准输入读入文件。文件可以是Unicode，ANSi或者默认编码的。可使用<code>-e</code>选项指定。
         </td>
       </tr>
       <tr>
         <td>
-          `-e encoding`
+          <code>-e encoding</code>
         </td>
         <td>
           指定输入文件的编码，可选项为ASCII,UTF-16LE. 默认为系统默认编码。
@@ -97,7 +97,7 @@ cscript.exe ptts.vbs [options]
       </tr>
       <tr>
         <td>
-          `-voice xxxx`
+          <code>-voice xxxx</code>
         </td>
         <td>
           使用的TTS语音。
@@ -105,7 +105,7 @@ cscript.exe ptts.vbs [options]
       </tr>
       <tr>
         <td>
-          `-vl`
+          <code>-vl</code>
         </td>
         <td>
           列出所有可用语音名称。
