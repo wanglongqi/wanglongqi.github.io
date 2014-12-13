@@ -119,6 +119,12 @@ cscript.exe ptts.vbs [options]
 C:\Windows\SysWOW64\cscript.exe ptts.vbs [options]
 {% endhighlight %}
 
+设置64bit系统的默认语音时，如果语音是32bit的，需要使用如下控制面板设置：
+
+{% highlight batch %}
+C:\Windows\sysWOW64\speech\SpeechUX\SAPI.cpl
+{% endhighlight %}
+
 当然，每次输入那么长的命令是很不科学的。可以建立一个叫`say.bat`的文件，内容为：
 
 {% highlight batch %}
