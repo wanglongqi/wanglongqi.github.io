@@ -151,3 +151,20 @@ for %%i in (*.txt) do (
 
 对了，最后共享一个[`ptts.vbs`](/public/other/ptts.vbs)，以防原项目不能访问了。
 
+
+2014-12-14 更新：
+
+对于中文，如果系统的默认编码为GBK，可以使用如下命令输出中文语音（其中的字符编码按照实际文件改变）：
+
+{% highlight batch %}
+iconv -f UTF-8 -t GBK "%%i"|say -w %%~ni.wav
+{% endhighlight %}
+
+但是，如果文件中有非GBK字符，`iconv`会自动退出。所以可以稍微修改命令行使`iconv`忽略GBK的非法字符。命令如下：
+
+{% highlight batch %}
+iconv -c -f UTF-8 -t GBK "%%i"|say -w %%~ni.wav
+{% endhighlight %}
+
+`iconv`还是比较有用的命令，等有时间单独介绍一下。
+
