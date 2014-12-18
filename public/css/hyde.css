@@ -274,7 +274,7 @@ a.sidebar-nav-item:focus {
 #back-top a:hover {
   background-color: #aaa;
 }
-#more {
+.more {
   text-align: right;
   font-size: 0.8rem;
 }
