@@ -11,7 +11,44 @@ tags:
 - Share
 - HTML
 ---
-
+<table class="reference">
+    <tr>
+      <th style="width:15%">Character</th>
+      <th style="width:25%">Entity Number</th>
+      <th style="width:25%">Entity Name</th>
+      <th style="width:35%">Description</th>
+    </tr>
+    <tr>
+      <td>&quot;</td>
+      <td>&amp;#34;</td>
+      <td>&amp;quot;</td>
+      <td>quotation mark</td>
+    </tr>
+    <tr>
+      <td>&apos;</td>
+      <td>&amp;#39;</td>
+      <td>&amp;apos;</td>
+      <td>apostrophe&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&amp;</td>
+      <td>&amp;#38;</td>
+      <td>&amp;amp;</td>
+      <td>ampersand</td>
+    </tr>
+    <tr>
+      <td>&lt;</td>
+      <td>&amp;#60;</td>
+      <td>&amp;lt;</td>
+      <td>less-than</td>
+    </tr>
+    <tr>
+      <td>&#62;</td>
+      <td>&amp;#62;</td>
+      <td>&amp;gt;</td>
+      <td>greater-than</td>
+    </tr>
+</table>
 写文章经常会遇到HTML的特殊字符，每次都去查好麻烦，所以干脆把表格直接迁移到网站上。这个网页出自[HTML Special Characters](http://www.html.am/reference/html-special-characters.cfm)。
 
 <p>This page contains a list of HTML special characters. In HTML, special characters are typically those that can't be easily typed into a keyboard or may cause display issues if typed or pasted into a web page. </p>
