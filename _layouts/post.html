@@ -4,8 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">Written by {{ page.author }}, Posted on {{ page.date | date_to_string }}</span>
-  <div class="more"> This is a post about {{page.tags}}, Please leave a <a href="{{ post.url }}#comments"> comment 评论 </a> </div>
+  <span class="post-date">Posted on {{ page.date | date_to_string }} &emsp; {{page.tags}} &emsp; <a href="{{ post.url }}#comments"> 添加评论 </a> </span>
   {{ content }}
 </div>
 
