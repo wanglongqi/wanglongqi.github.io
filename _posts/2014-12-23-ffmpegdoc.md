@@ -1,7 +1,7 @@
 ---
 author: Longqi
 comments: true
-date: 2014-11-07 12:25:01
+date: 2014-12-23 14:43:45
 layout: post
 slug: ffmpegdoc
 title: ffmpeg的中文文档
