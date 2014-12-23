@@ -10,6 +10,7 @@ tags:
 - ffmpeg
 - Documents
 ---
+
 网上找了半天除了找到一个完成了十分之一不到的ffmpeg的中文文档之外好像什么也没有找到，隐约记得之前好像看过一次ffmpeg的文档，现在又忘得差不多了，干脆翻译一个放到这里，以供以后查阅。（文档有点篇幅需要一点时间才能完成，而且基本没有考虑用词的准确和优美性，有想优化的同学可以基于这个翻译继续进行。）
 
 ffmpeg的文档
@@ -48,7 +49,7 @@ ffmpeg的文档
 
 1. 概要
 
-	ffmpeg [global_options] {[input_file_options] -i INPUT_FILE} ... {[output_file_options] OUTPUT_FILE} ...
+`ffmpeg [global_options] {[input_file_options] -i INPUT_FILE} ... {[output_file_options] OUTPUT_FILE} ...`
 
 2. 说明
 
@@ -94,4 +95,3 @@ ffmpeg的文档
 	|________|           |______________|
 
 `ffmpeg`调用libavformat库（含分流器）来读取输入文件并获得含有他们编码信息的数据包。当有多个输入文件， `ffmpeg`将通过跟踪最小的时间戳来试图在所有活跃的输入流间同步。
-	
