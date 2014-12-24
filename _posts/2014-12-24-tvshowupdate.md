@@ -46,10 +46,9 @@ tags:
 <td class="rn">10</td><td>78</td><td>4-10</td><td>3J5410</td><td>16/Dec/14</td><td>The Cold War  </td>
 </tr>
 <tr>
-<td class="rn">11</td><td>79</td><td>4-11</td><td>06/Jan/15</td><td>If-Then-Else</td><td>&nbsp;</td>
+<td class="rn">11</td><td>79</td><td>4-11</td><td>06/Jan/15</td><td></td><td>If-Then-Else</td>
 </tr>
 </tbody>
-
 </table>
 人人影视当了之后，去哪里看美剧的更新都不知道了。搜了半天，发现一个英国的网站提供更新的提醒服务，界面不是很人性化，不过信息倒是很完全。需要了解美剧更新的同学可以去看看。网址是：[http://www.pogdesign.co.uk/cat/](http://www.pogdesign.co.uk/cat/)【注册之后可以个性化订阅ical，如果不需要就不用注册了。】
 
