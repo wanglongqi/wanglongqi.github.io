@@ -12,7 +12,7 @@ tags:
 ---
 <table>
 <thead><tr>
-<td id="origin">&nbsp;</td><th>V1</th><th>V2</th><th>V3</th><th>V4</th><th>V5</th>
+<td id="origin">&nbsp;</td><th> 总集数</th><th>集数 </th><th>id</th><th>上映日期</th><th>名称</th>
 </tr></thead>
 <tbody>
 <tr>
