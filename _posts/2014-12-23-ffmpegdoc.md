@@ -229,3 +229,14 @@ ffmpeg的文档
 流类型是下列字母之一：`v`为视频，`a`为声音，`s`为字幕，`d`为数据，`t`为附件。如果`stream_index`给出，则它匹配该类型的索引为`stream_index`的流。否则，它匹配所有这种类型的流。
 
 `p:program_id[:stream_index]`
+如果给定`stream_index`，那其将与在与ID为 `program_id`的program的`stream_index`的流相匹配。否则，它将匹配在`program_id`中的所有流。
+
+`#stream_id` 或者 `i:stream_id`
+按流索引逐一匹配流（如在MPEG-TS容器中的PID）。
+
+`m:key[:value]`
+匹配流的元数据标签中具有指定`key`的流。如果`value` 没有给出，将匹配包含给定标签的所有流。
+
+请注意，在`ffmpeg`中，按元数据匹配仅能用于输入文件。
+
+## 5.2 通用选项
