@@ -371,3 +371,90 @@ ffmpeg的文档
 
 	`debug, 48`
 	显示一切信息，包括调试信息。
+
+	默认情况下，程序日志输出到标准错误流，如果终端支持着色，颜色用来标记错误和警告。日志着色可以被环境变量AV_LOG_FORCE_NOCOLOR或NO_COLOR ，或者可以被强制设置环境变量AV_LOG_FORCE_COLOR 禁用。使用环境变量NO_COLOR已被弃用，并在之后的FFmpeg的版本将被丢弃。
+
+`-report`
+
+转储完整的命令行和控制台输出到当前目录一个文件名 ​​为`program - YYYYMMDD - HHMMSS .log`的文件。此文件对于错误报告非常有用。这也意味着`-loglevel verbose`。
+
+将环境变量设置`FFREPORT`为任何值具有相同的效果。如果该值是一个'：' - 分隔键=值序列，这些选项会影响报表;如果包含特殊字符则需要使用转义字符，或者“：”分隔（参见的`ffmpeg-utils`的手册中的“引用与转义”一节）。
+
+下列选项也可使用：
+
+	`file`
+	设置报告使用的文件名​​; %p添加程序名， %t添加时间戳， %%添加一个普通的%
+
+	`level`
+	设置使用的数值（查看日志详细级别`-loglevel` ）。
+
+例如，要输出到名为`ffreport.log`使用的一个日志级别文件的报告32 （日志级别info的别称 ）：
+
+`FFREPORT=file=ffreport.log:level=32 ffmpeg -i input output`
+
+非致命的环境变量的解析错误不会出现在报告中。
+
+-hide_banner
+
+不打印横幅。
+
+所有FFmpeg的工具通常会显示一个版权声明，构建选项和库版本。此选项可以用来抑制打印此信息。
+
+-cpuflags flags (global)
+
+允许设置和清除CPU标志。此选项用于测试。不要使用它，除非你知道自己在做什么。
+
+	ffmpeg -cpuflags -sse+mmx ...
+	ffmpeg -cpuflags mmx ...
+	ffmpeg -cpuflags 0 ...
+
+可能选项有：
+
+	`x86`
+		‘mmx’
+		‘mmxext’
+		‘sse’
+		‘sse2’
+		‘sse2slow’
+		‘sse3’
+		“sse3slow”
+		‘ssse3’
+		‘atom’
+		‘sse4.1’
+		‘sse4.2’
+		‘avx’
+		‘xop’
+		‘fma4’
+		‘3dnow’
+		‘3dnowext’
+		‘cmov’
+	`ARM`
+		‘armv5te’
+		‘armv6’
+		‘armv6t2’
+		‘vfp’
+		‘vfpv3’
+		‘neon’
+		‘PowerPC’
+		‘altivec’
+	`Specific Processors`
+		‘pentium2’
+		‘pentium3’
+		‘pentium4’
+		‘k6’
+		‘k62’
+		‘athlon’
+		‘athlonxp’
+		‘k8’
+
+-opencl_bench
+
+测试所有可用的OpenCL设备并显示结果。此选项仅当FFmpeg含有--enable-opencl 编译时可用。
+
+-opencl_options options (global)
+
+设置的OpenCL环境选项。此选项仅当FFmpeg的已编译--enable-opencl 。
+
+options必须是冒号分隔的key = value选项对。参见ffmpeg-utils的手册中的“OpenCL的选项”部分的内容。
+
+### 5.3 AVOption选项
