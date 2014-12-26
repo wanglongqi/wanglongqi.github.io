@@ -245,3 +245,129 @@ ffmpeg的文档
 请注意，在`ffmpeg`中，按元数据匹配仅能用于输入文件。
 
 ### 5.2 通用选项
+这些选项当中的FF *工具共享。
+
+`-L`
+
+显示许可证。
+
+`-h, -?, -help, --help [arg]`
+
+显示帮助。一个可选参数可以被指定为打印与特定项目相关的帮助。如果没有指定参数，则只显示基本的（非高级）工具选项。
+
+`arg`的可能值是：
+
+	`long`
+	除了基本的工具选项外，打印高级的工具选项。
+
+	`full`
+	打印所有选项，包括编码器，解码器，分流器，混合器，滤镜等的共享和私有选项。
+
+	`decoder=decoder_name`
+	打印有关的解码器`decoder_name`的详细信息。使用`-decoders`选项来获得所有的解码器的列表。
+
+	`encoder=encoder_name`
+	打印有关指定编码器`encoder_name`的详细信息。使用`-encoders`选项来获得所有编码器的列表。
+
+	`demuxer=demuxer_name`
+	打印有关的分流器`demuxer_name`的详细信息。使用`-formats`选项来获取所有分流器和混合器的列表。
+
+	`muxer=muxer_name`
+	打印有关混合器`muxer_name`的详细信息。使用`-formats`选项来获取所有混合器和分流器的列表。
+
+	`filter=filter_name`
+	打印有关滤镜`filter_name`的详细信息。使用`-filters`选项来获得所有滤镜的列表。
+
+`-version`
+
+显示的版本。
+
+`-formats`
+
+显示可用的格式（包括设备）。
+
+`-devices`
+
+显示可用的设备。
+
+`-codecs`
+
+显示libavcodec已知的所有编解码器。
+
+注意，整个文档中术语“解码器”更正确地称呼是比特流媒体格式（media bitstream format）。
+
+`-decoders`
+
+显示可用的解码器。
+
+`-encoders`
+
+显示所有可用的编码器。
+
+`-bsfs`
+
+显示可用的流滤镜。
+
+`-protocols`
+
+显示可用的协议。
+
+`-filters`
+
+显示可用的libavfilter滤镜。
+
+`-pix_fmts`
+
+显示可用的像素格式。
+
+`-sample_fmts`
+
+显示可用的采样格式。
+
+`-layouts`
+
+显示频道名称和标准的渠道布局。
+
+`-colors`
+
+显示公认的颜色名称。
+
+`-sources device[,opt1=val1[,opt2=val2]...]`
+
+显示自动检测到的输入设备的源。某些设备可提供不能自动检测系统相关的源名称。返回的列表不能被假定为总是完整的。
+
+	`ffmpeg -sources pulse,server=192.168.0.4`
+
+`-sinks device[,opt1=val1[,opt2=val2]...]`
+
+自动检测显示输出设备的接收器。某些设备可提供不能自动检测系统相关的接收器名称。返回的列表不能被假定为总是完整的。
+
+	`ffmpeg -sinks pulse,server=192.168.0.4`
+
+`-loglevel [repeat+]loglevel | -v [repeat+]loglevel`
+
+设置库使用的日志记录级别。加入`repeat+`表示重复日志输出不应该被压缩到所述第一条日志和“最后的日志重复n次”线将被省略。 `repeat`，也可以单独使用。如果`repeat`可以单独使用，并没有预设的记录级别，默认记录级将被使用。如果给定多个日志级别参数，使用`repeat`不会改变日志级别。 `loglevel`是一个字符串或数字，可为以下值之一：
+
+	`quiet, -8`
+	保持沉默。
+
+	`panic, 0`
+	只显示可能导致程序崩溃的致命错误。目前没有此类错误。
+
+	`fatal, 8`
+	只显示致命错误。这些错误会导致进程绝对无法继续。
+
+	`error, 16`
+	显示所有的错误，包括那些可以修复的。
+
+	`warning, 24`
+	显示所有警告和错误。将显示任何有关可能不正确或不正常事件的信息。
+
+	`info, 32`
+	显示处理过程中的信息。不单单是警告和错误。这是默认值。
+
+	`verbose, 40`
+	与info类似 ，但更详细。
+
+	`debug, 48`
+	显示一切信息，包括调试信息。
