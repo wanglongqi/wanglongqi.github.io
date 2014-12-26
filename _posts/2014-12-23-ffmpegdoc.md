@@ -4,7 +4,7 @@ comments: true
 date: 2014-12-23 14:43:45
 layout: post
 slug: ffmpegdoc
-title: ffmpeg的中文文档
+title: ffmpeg的中文文档（一）
 categories: [Tools]
 tags:
 - ffmpeg
@@ -394,13 +394,13 @@ ffmpeg的文档
 
 非致命的环境变量的解析错误不会出现在报告中。
 
--hide_banner
+`-hide_banner`
 
 不打印横幅。
 
 所有FFmpeg的工具通常会显示一个版权声明，构建选项和库版本。此选项可以用来抑制打印此信息。
 
--cpuflags flags (global)
+`-cpuflags flags (global)`
 
 允许设置和清除CPU标志。此选项用于测试。不要使用它，除非你知道自己在做什么。
 
@@ -447,14 +447,16 @@ ffmpeg的文档
 		‘athlonxp’
 		‘k8’
 
--opencl_bench
+`-opencl_bench`
 
 测试所有可用的OpenCL设备并显示结果。此选项仅当FFmpeg含有--enable-opencl 编译时可用。
 
--opencl_options options (global)
+`-opencl_options options (global)`
 
 设置的OpenCL环境选项。此选项仅当FFmpeg的已编译--enable-opencl 。
 
 options必须是冒号分隔的key = value选项对。参见ffmpeg-utils的手册中的“OpenCL的选项”部分的内容。
 
 ### 5.3 AVOption选项
+
+**由于内容长度过长，之后的内容将新开文章，[点此查看第二部分]({% post_url 2014-12-26-ffmpegdoc2 %})。**
