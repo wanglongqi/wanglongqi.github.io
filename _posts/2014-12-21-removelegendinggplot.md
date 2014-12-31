@@ -1,7 +1,7 @@
 ---
 author: Longqi
 comments: true
-date: 2014-12-05 23:20:03
+date: 2014-12-31 10:13:31
 layout: post
 slug: RemoveLegendinggplot
 title: ggplot移除Legend
