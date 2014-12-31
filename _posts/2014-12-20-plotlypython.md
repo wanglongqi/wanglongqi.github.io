@@ -11,7 +11,7 @@ tags:
 - Matplotlib
 - Python
 ---
-<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~longqi/98.embed?width=640&height=480"></iframe>
+<iframe width="100%" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~longqi/98.embed"></iframe>
 [Plot.ly](https://plot.ly/) 可以将Matplotlib的图像转换成plot.ly的图片，用法在官网有[详细的讲解](https://plot.ly/matplotlib/)。不过，如果你想快速使用，那把这个文章看完也是个不错的选择哦！
 
 安装Plot.ly的Python支持直接使用`pip`命令即可
