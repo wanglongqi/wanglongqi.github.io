@@ -25,19 +25,19 @@ ggplot默认提供了适合正常情况的legend，但是有些时候legend有�
 
 {% highlight r %}
 p+guides(fill=FALSE)
-{% endhightlight %}
+{% endhighlight %}
 
 {% highlight r %}
 p+guides(color=FALSE)
-{% endhightlight %}
+{% endhighlight %}
 
 {% highlight r %}
 p+scale_color_brewer(guide=FALSE)
-{% endhightlight %}
+{% endhighlight %}
 
 {% highlight r %}
 p+theme(legend.position="none")
-{% endhightlight %}
+{% endhighlight %}
 
 {% highlight r %}
 p+theme(legend.position="top")
