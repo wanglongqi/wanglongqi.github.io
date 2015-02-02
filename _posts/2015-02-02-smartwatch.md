@@ -1,7 +1,7 @@
 ---
 author: Longqi
 comments: true
-date: 2015-01-31 13:12:11
+date: 2015-02-03 08:46:52
 layout: post
 slug: smartwatch
 title: xkcd——智能手表即将到来-_-
