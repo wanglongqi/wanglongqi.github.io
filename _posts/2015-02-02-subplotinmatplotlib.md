@@ -6,7 +6,7 @@ layout: post
 slug: subplotinmatplotlib
 title: 怎么画这个图？
 published: True
-categories: [Site]
+categories: [Python]
 tags:
 - Matplotlib
 - Python

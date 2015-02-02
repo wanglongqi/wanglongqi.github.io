@@ -6,7 +6,7 @@ layout: post
 slug: colorcycle
 title: 替换默认的Matplotlib的颜色循环
 published: True
-categories: [Site]
+categories: [Python]
 tags:
 - Matplotlib
 - Python
