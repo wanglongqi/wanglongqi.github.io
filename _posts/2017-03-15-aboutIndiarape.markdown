@@ -11,7 +11,7 @@ tags:
 -  Statistics
 -  Tutorial
 ---
-<script src="/public/js/jquery-1.12.4/jquery.min.js"></script>
+<script src="/public/js/jquery-3.7.1/jquery.min.js"></script>
 <script src="/public/js/navigation-1.1/tabsets.js"></script>
 <link href="/public/js/highlightjs-1.1/default.css" rel="stylesheet" />
 <script src="/public/js/highlightjs-1.1/highlight.js"></script>

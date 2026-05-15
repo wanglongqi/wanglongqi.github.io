@@ -39,7 +39,7 @@ tags:
 
 然后剩下的就是显示了，这个大家见多了，R里也有自己的实现，主要是基于base的`wordcloud`库，和基于htmlwidge的`wordcloud2`。既然我是在网站上展示，那我就默默的选用了`wordcloud2`，所以整体的实现就很简单了，下面是除了数据导入之外的所有代码（不要问我为啥不用循环，Rmarkdown捕获循环输出的问题还没解决）：
 
-<script src="/public/js/jquery-1.11.3/jquery.min.js"></script>
+<script src="/public/js/jquery-3.7.1/jquery.min.js"></script>
 <script src="/public/js/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="/public/js/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="/public/js/bootstrap-3.3.5/shim/respond.min.js"></script>
